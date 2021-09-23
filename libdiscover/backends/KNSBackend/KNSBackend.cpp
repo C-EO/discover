@@ -90,7 +90,6 @@ KNSBackend::KNSBackend(QObject *parent, const QString &iconName, const QString &
 
     const KConfigGroup group = conf.group("KNewStuff3");
     m_extends = group.readEntry("Extends", QStringList());
-    m_reviews->setProviderUrl(QUrl(group.readEntry("ProvidersUrl", QString())));
 
     setFetching(true);
 

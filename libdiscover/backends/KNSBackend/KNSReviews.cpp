@@ -8,6 +8,7 @@
 #include "KNSBackend.h"
 #include "KNSResource.h"
 #include <KLocalizedString>
+#include <KNSCore/Engine>
 #include <KPasswordDialog>
 #include <QDebug>
 #include <QDesktopServices>
@@ -16,21 +17,6 @@
 #include <attica/content.h>
 #include <attica/providermanager.h>
 #include <resources/AbstractResource.h>
-
-class SharedManager : public QObject
-{
-    Q_OBJECT
-public:
-    SharedManager()
-    {
-        atticaManager.loadDefaultProviders();
-    }
-
-public:
-    Attica::ProviderManager atticaManager;
-};
-
-Q_GLOBAL_STATIC(SharedManager, s_shared)
 
 KNSReviews::KNSReviews(KNSBackend *backend)
     : AbstractReviewsBackend(backend)
@@ -51,7 +37,7 @@ Rating *KNSReviews::ratingForApplication(AbstractResource *app) const
 
 void KNSReviews::fetchReviews(AbstractResource *app, int page)
 {
-    Attica::ListJob<Attica::Comment> *job = provider().requestComments(Attica::Comment::ContentComment, app->packageName(), QStringLiteral("0"), page - 1, 10);
+    Attica::ListJob<Attica::Comment> *job = provider()->requestComments(Attica::Comment::ContentComment, app->packageName(), QStringLiteral("0"), page - 1, 10);
     if (!job) {
         Q_EMIT reviewsReady(app, {}, false);
         return;
@@ -117,70 +103,60 @@ void KNSReviews::deleteReview(Review * /*r*/)
 
 void KNSReviews::submitReview(AbstractResource *app, const QString &summary, const QString &review_text, const QString &rating)
 {
-    provider().voteForContent(app->packageName(), rating.toUInt() * 20);
+    provider()->voteForContent(app->packageName(), rating.toUInt() * 20);
     if (!summary.isEmpty())
-        provider().addNewComment(Attica::Comment::ContentComment, app->packageName(), QString(), QString(), summary, review_text);
+        provider()->addNewComment(Attica::Comment::ContentComment, app->packageName(), QString(), QString(), summary, review_text);
 }
 
 void KNSReviews::submitUsefulness(Review *r, bool useful)
 {
-    provider().voteForComment(QString::number(r->id()), useful * 5);
+    provider()->voteForComment(QString::number(r->id()), useful * 5);
 }
 
 void KNSReviews::logout()
 {
-    bool b = provider().saveCredentials(QString(), QString());
+    bool b = provider()->saveCredentials(QString(), QString());
     if (!b)
         qWarning() << "couldn't log out";
 }
 
 void KNSReviews::registerAndLogin()
 {
-    QDesktopServices::openUrl(provider().baseUrl());
+    QDesktopServices::openUrl(provider()->baseUrl());
 }
 
 void KNSReviews::login()
 {
     KPasswordDialog *dialog = new KPasswordDialog;
-    dialog->setPrompt(i18n("Log in information for %1", provider().name()));
+    dialog->setPrompt(i18n("Log in information for %1", provider()->name()));
     connect(dialog, &KPasswordDialog::gotUsernameAndPassword, this, &KNSReviews::credentialsReceived);
 }
 
 void KNSReviews::credentialsReceived(const QString &user, const QString &password)
 {
-    bool b = provider().saveCredentials(user, password);
+    bool b = provider()->saveCredentials(user, password);
     if (!b)
-        qWarning() << "couldn't save" << user << "credentials for" << provider().name();
+        qWarning() << "couldn't save" << user << "credentials for" << provider()->name();
 }
 
 bool KNSReviews::hasCredentials() const
 {
-    return provider().hasCredentials();
+    return provider()->hasCredentials();
 }
 
 QString KNSReviews::userName() const
 {
     QString user, password;
-    provider().loadCredentials(user, password);
+    provider()->loadCredentials(user, password);
     return user;
 }
 
-void KNSReviews::setProviderUrl(const QUrl &url)
+Attica::Provider *KNSReviews::provider() const
 {
-    m_providerUrl = url;
-    if (!m_providerUrl.isEmpty() && !s_shared->atticaManager.providerFiles().contains(url)) {
-        s_shared->atticaManager.addProviderFile(url);
-    }
-}
-
-Attica::Provider KNSReviews::provider() const
-{
-    return s_shared->atticaManager.providerFor(m_providerUrl);
+    return m_backend->engine()->atticaProviders().constFirst();
 }
 
 bool KNSReviews::isResourceSupported(AbstractResource *res) const
 {
     return qobject_cast<KNSResource *>(res);
 }
-
-#include "KNSReviews.moc"

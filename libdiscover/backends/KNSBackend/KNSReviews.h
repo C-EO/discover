@@ -36,7 +36,6 @@ public:
     bool hasCredentials() const override;
     QString userName() const override;
 
-    void setProviderUrl(const QUrl &url);
     bool isResourceSupported(AbstractResource *res) const override;
 
 private Q_SLOTS:
@@ -44,9 +43,8 @@ private Q_SLOTS:
     void credentialsReceived(const QString &user, const QString &password);
 
 private:
-    Attica::Provider provider() const;
+    Attica::Provider *provider() const;
     KNSBackend *const m_backend;
-    QUrl m_providerUrl;
     int m_fetching = 0;
 };
 
