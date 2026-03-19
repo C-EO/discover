@@ -304,6 +304,24 @@ void OdrsReviewsBackend::parseRatings()
 
             state.ratings.insert(packageName, rating);
         }
+
+        // Filter out non-apps, to match behavior of lists backed by ResourcesProxyModel
+        AppStream::Pool appstreamData;
+        appstreamData.load();
+
+        QMutableListIterator<Rating> iterator(state.top);
+        while (iterator.hasNext()) {
+            const auto components = appstreamData.componentsById(iterator.next().packageName());
+
+            for (const auto &component : components) {
+                const bool isDesktopApp = component.kind() == AppStream::Component::KindDesktopApp;
+                const bool isLaunchable = component.launchable(AppStream::Launchable::KindDesktopId).entries().count() > 0;
+                if (!isDesktopApp || !isLaunchable) {
+                    iterator.remove();
+                }
+            }
+        }
+
         return state;
     }));
 }
