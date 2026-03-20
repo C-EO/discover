@@ -109,6 +109,28 @@ DiscoverPage {
             property int numberItemsOnLastRow: (count % apps.columns) || apps.columns
         }
 
+        QQC2.Button {
+            text: i18nc("@action:button", "See More")
+            icon.name: Qt.application.layoutDirection === Qt.LeftToRight ? "go-next-symbolic" : "go-next-rtl-symbolic"
+            Layout.columnSpan: apps.columns
+            // Nicer to have the arrow on the side it's pointing to
+            LayoutMirroring.enabled: Qt.application.layoutDirection === Qt.LeftToRight
+            onClicked: Navigation.openCategory(Discover.CategoryModel.findCategoryByName("All Applications"))
+            visible: popRep.count > 0 && !featuredModel.isFetching
+            Keys.onUpPressed: {
+                var target = this
+                for (var i = 0; i<popRep.numberItemsOnLastRow; i++) {
+                    target = target.nextItemInFocusChain(false)
+                }
+                target.forceActiveFocus(Qt.TabFocusReason)
+            }
+            onFocusChanged: {
+                if (focus) {
+                    page.ensureVisible(this)
+                }
+            }
+        }
+
         Kirigami.Heading {
             id: recentlyUpdatedHeading
             Layout.topMargin: page.padding

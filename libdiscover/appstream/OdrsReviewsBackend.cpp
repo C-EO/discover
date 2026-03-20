@@ -288,7 +288,7 @@ void OdrsReviewsBackend::parseRatings()
 
             const auto rating = Rating(packageName, ratingCount, ratingMap);
             const auto finder = [&rating](const Rating &review) {
-                return review.ratingPoints() < rating.ratingPoints();
+                return review.ratingCount() < rating.ratingCount();
             };
             const auto topIt = std::find_if(state.top.begin(), state.top.end(), finder);
             if (topIt == state.top.end()) {
