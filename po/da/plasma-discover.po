@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-03 00:48+0000\n"
+"POT-Creation-Date: 2026-03-21 00:46+0000\n"
 "PO-Revision-Date: 2025-08-20 23:07+0200\n"
 "Last-Translator: Rasmus Rosendahl-Kaa <Rasmus@Rosendahl-kaa.name>\n"
 "Language-Team: Danish <kde-i18n-doc@kde.org>\n"
@@ -629,7 +629,7 @@ msgstr[0] "Søg - %1 element"
 msgstr[1] "Søg - %1 elementer"
 
 #: discover/qml/ApplicationsListPage.qml:68
-#: discover/qml/ApplicationsListPage.qml:262
+#: discover/qml/ApplicationsListPage.qml:273
 #, kde-format
 msgid "Search"
 msgstr "Søg"
@@ -651,38 +651,46 @@ msgid "Name"
 msgstr "Navn"
 
 #: discover/qml/ApplicationsListPage.qml:126
-#, kde-format
-msgid "Popularity"
-msgstr "Popularitet"
+#, fuzzy, kde-format
+#| msgid "Submit review"
+msgid "Number of reviews"
+msgstr "Indsend anmeldelse"
 
 #: discover/qml/ApplicationsListPage.qml:137
+#, fuzzy, kde-format
+#| msgid "Rating"
+msgctxt "@item:inmenu sort by highest-rated apps"
+msgid "Rating"
+msgstr "Karakter"
+
+#: discover/qml/ApplicationsListPage.qml:148
 #, kde-format
 msgid "Size"
 msgstr "Størrelse"
 
-#: discover/qml/ApplicationsListPage.qml:148
+#: discover/qml/ApplicationsListPage.qml:159
 #, kde-format
 msgid "Release date"
 msgstr "Udgivelsesdato"
 
-#: discover/qml/ApplicationsListPage.qml:208
+#: discover/qml/ApplicationsListPage.qml:219
 #, kde-format
 msgid "Nothing found"
 msgstr "Intet fundet"
 
-#: discover/qml/ApplicationsListPage.qml:216
+#: discover/qml/ApplicationsListPage.qml:227
 #, kde-format
 msgctxt "@action:button"
 msgid "Search in All Categories"
 msgstr "Søg i Alle kategorier"
 
-#: discover/qml/ApplicationsListPage.qml:226
+#: discover/qml/ApplicationsListPage.qml:237
 #, kde-format
 msgctxt "@action:button %1 is the name of an application"
 msgid "Search the Web for \"%1\""
 msgstr "Søg på internettet efter \"%1\""
 
-#: discover/qml/ApplicationsListPage.qml:241
+#: discover/qml/ApplicationsListPage.qml:252
 #, kde-format
 msgctxt ""
 "@info:placeholder %1 is the name of an application; %2 is the name of a "
@@ -690,13 +698,13 @@ msgctxt ""
 msgid "\"%1\" was not found in the \"%2\" category"
 msgstr "\"%1\" blev ikke fundet i \"%2\"-kategorien"
 
-#: discover/qml/ApplicationsListPage.qml:243
+#: discover/qml/ApplicationsListPage.qml:254
 #, kde-format
 msgctxt "@info:placeholder %1 is the name of an application"
 msgid "\"%1\" was not found in the available sources"
 msgstr "\"%1\" blev ikke fundet i de tilgængelige kilder"
 
-#: discover/qml/ApplicationsListPage.qml:244
+#: discover/qml/ApplicationsListPage.qml:255
 #, kde-format
 msgctxt "@info:placeholder %1 is the name of an application"
 msgid ""
@@ -705,7 +713,7 @@ msgid ""
 "caution."
 msgstr ""
 
-#: discover/qml/ApplicationsListPage.qml:277
+#: discover/qml/ApplicationsListPage.qml:288
 #, kde-format
 msgid "Still looking…"
 msgstr "Søger stadig…"
@@ -727,31 +735,32 @@ msgctxt "@title:group"
 msgid "Most Popular"
 msgstr "Mest populære"
 
-#: discover/qml/BrowsingPage.qml:119
-#, kde-format
-msgctxt "@title:group"
-msgid "Newly Published & Recently Updated"
-msgstr "Nyudgivet & opdateret for nyligt"
-
-#: discover/qml/BrowsingPage.qml:169
-#, kde-format
-msgctxt "@title:group"
-msgid "Editor's Choice"
-msgstr "Redaktørenes valg"
-
-#: discover/qml/BrowsingPage.qml:194
-#, kde-format
-msgctxt "@title:group"
-msgid "Highest-Rated Games"
-msgstr "Bedst anmeldte spil"
-
-#: discover/qml/BrowsingPage.qml:223 discover/qml/BrowsingPage.qml:280
+#: discover/qml/BrowsingPage.qml:113 discover/qml/BrowsingPage.qml:245
+#: discover/qml/BrowsingPage.qml:302
 #, kde-format
 msgctxt "@action:button"
 msgid "See More"
 msgstr "Se mere"
 
-#: discover/qml/BrowsingPage.qml:249
+#: discover/qml/BrowsingPage.qml:141
+#, kde-format
+msgctxt "@title:group"
+msgid "Newly Published & Recently Updated"
+msgstr "Nyudgivet & opdateret for nyligt"
+
+#: discover/qml/BrowsingPage.qml:191
+#, kde-format
+msgctxt "@title:group"
+msgid "Editor's Choice"
+msgstr "Redaktørenes valg"
+
+#: discover/qml/BrowsingPage.qml:216
+#, kde-format
+msgctxt "@title:group"
+msgid "Highest-Rated Games"
+msgstr "Bedst anmeldte spil"
+
+#: discover/qml/BrowsingPage.qml:271
 #, kde-format
 msgctxt "@title:group"
 msgid "Highest-Rated Developer Tools"
@@ -1525,6 +1534,9 @@ msgstr "Skal søge efter opdateringer"
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "Tidspunkt for sidste opdatering ukendt"
+
+#~ msgid "Popularity"
+#~ msgstr "Popularitet"
 
 #~ msgid "Update from:"
 #~ msgstr "Opdatér fra:"

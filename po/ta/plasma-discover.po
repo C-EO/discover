@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-03 00:48+0000\n"
+"POT-Creation-Date: 2026-03-21 00:46+0000\n"
 "PO-Revision-Date: 2026-02-01 18:59+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-l10n-ta@kde.org>\n"
@@ -657,7 +657,7 @@ msgstr[0] "தேடல்: %1 உருப்படி"
 msgstr[1] "தேடல்: %1 உருப்படிகள்"
 
 #: discover/qml/ApplicationsListPage.qml:68
-#: discover/qml/ApplicationsListPage.qml:262
+#: discover/qml/ApplicationsListPage.qml:273
 #, kde-format
 msgid "Search"
 msgstr "தேடல்"
@@ -680,39 +680,45 @@ msgstr "பெயர்"
 
 #: discover/qml/ApplicationsListPage.qml:126
 #, fuzzy, kde-format
-#| msgctxt "@title:group"
-#| msgid "Most Popular"
-msgid "Popularity"
-msgstr "மக்கள் விரும்புபவை"
+#| msgid "Submit review"
+msgid "Number of reviews"
+msgstr "விமர்சனத்தை சமர்ப்பி"
 
 #: discover/qml/ApplicationsListPage.qml:137
+#, fuzzy, kde-format
+#| msgid "Rating"
+msgctxt "@item:inmenu sort by highest-rated apps"
+msgid "Rating"
+msgstr "மதிப்பீடு"
+
+#: discover/qml/ApplicationsListPage.qml:148
 #, kde-format
 msgid "Size"
 msgstr "அளவு"
 
-#: discover/qml/ApplicationsListPage.qml:148
+#: discover/qml/ApplicationsListPage.qml:159
 #, kde-format
 msgid "Release date"
 msgstr "வெளியிட்ட தேதி"
 
-#: discover/qml/ApplicationsListPage.qml:208
+#: discover/qml/ApplicationsListPage.qml:219
 #, kde-format
 msgid "Nothing found"
 msgstr "எதுவும் கண்டுபிடிக்கப்படவில்லை"
 
-#: discover/qml/ApplicationsListPage.qml:216
+#: discover/qml/ApplicationsListPage.qml:227
 #, kde-format
 msgctxt "@action:button"
 msgid "Search in All Categories"
 msgstr "அனைத்து பகுப்புகளிலும் தேடு"
 
-#: discover/qml/ApplicationsListPage.qml:226
+#: discover/qml/ApplicationsListPage.qml:237
 #, kde-format
 msgctxt "@action:button %1 is the name of an application"
 msgid "Search the Web for \"%1\""
 msgstr "\"%1\" என்பதை இணையத்தில் தேடு"
 
-#: discover/qml/ApplicationsListPage.qml:241
+#: discover/qml/ApplicationsListPage.qml:252
 #, kde-format
 msgctxt ""
 "@info:placeholder %1 is the name of an application; %2 is the name of a "
@@ -720,13 +726,13 @@ msgctxt ""
 msgid "\"%1\" was not found in the \"%2\" category"
 msgstr "\"%2\" பகுப்பில் \"%1\" என்பதை கண்டுபிடிக்க முடியவில்லை"
 
-#: discover/qml/ApplicationsListPage.qml:243
+#: discover/qml/ApplicationsListPage.qml:254
 #, kde-format
 msgctxt "@info:placeholder %1 is the name of an application"
 msgid "\"%1\" was not found in the available sources"
 msgstr "இயக்கப்பட்டிருக்கும் மூலங்களில் \"%1\" என்பதை கண்டுபிடிக்க முடியவில்லை"
 
-#: discover/qml/ApplicationsListPage.qml:244
+#: discover/qml/ApplicationsListPage.qml:255
 #, kde-format
 msgctxt "@info:placeholder %1 is the name of an application"
 msgid ""
@@ -738,7 +744,7 @@ msgstr ""
 "சரியாக வேலை செய்யுமா என்பதை உங்கள் இயங்குதள பராமரிப்பாளர்கள் சரிபார்த்திருக்க மாட்டார்கள். "
 "அப்படிப்பட்ட செயலிகளை கவனமாக பயன்படுத்துங்கள்."
 
-#: discover/qml/ApplicationsListPage.qml:277
+#: discover/qml/ApplicationsListPage.qml:288
 #, kde-format
 msgid "Still looking…"
 msgstr "இன்னும் தேடுகிறது…"
@@ -760,31 +766,32 @@ msgctxt "@title:group"
 msgid "Most Popular"
 msgstr "மக்கள் விரும்புபவை"
 
-#: discover/qml/BrowsingPage.qml:119
-#, kde-format
-msgctxt "@title:group"
-msgid "Newly Published & Recently Updated"
-msgstr "சமீபத்தில் வெளியிட்டவையும் புதுப்பித்தவையும்"
-
-#: discover/qml/BrowsingPage.qml:169
-#, kde-format
-msgctxt "@title:group"
-msgid "Editor's Choice"
-msgstr "தொகுப்பாளரின் விருப்பம்"
-
-#: discover/qml/BrowsingPage.qml:194
-#, kde-format
-msgctxt "@title:group"
-msgid "Highest-Rated Games"
-msgstr "அதிகமாக மதிப்பிடப்பட்டுள்ள ஆட்டங்கள்"
-
-#: discover/qml/BrowsingPage.qml:223 discover/qml/BrowsingPage.qml:280
+#: discover/qml/BrowsingPage.qml:113 discover/qml/BrowsingPage.qml:245
+#: discover/qml/BrowsingPage.qml:302
 #, kde-format
 msgctxt "@action:button"
 msgid "See More"
 msgstr "மேலும் காட்டு"
 
-#: discover/qml/BrowsingPage.qml:249
+#: discover/qml/BrowsingPage.qml:141
+#, kde-format
+msgctxt "@title:group"
+msgid "Newly Published & Recently Updated"
+msgstr "சமீபத்தில் வெளியிட்டவையும் புதுப்பித்தவையும்"
+
+#: discover/qml/BrowsingPage.qml:191
+#, kde-format
+msgctxt "@title:group"
+msgid "Editor's Choice"
+msgstr "தொகுப்பாளரின் விருப்பம்"
+
+#: discover/qml/BrowsingPage.qml:216
+#, kde-format
+msgctxt "@title:group"
+msgid "Highest-Rated Games"
+msgstr "அதிகமாக மதிப்பிடப்பட்டுள்ள ஆட்டங்கள்"
+
+#: discover/qml/BrowsingPage.qml:271
 #, kde-format
 msgctxt "@title:group"
 msgid "Highest-Rated Developer Tools"
@@ -1569,6 +1576,12 @@ msgstr "புதுப்பிப்புகள் உள்ளனவா எ�
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "கடைசியாக புதுப்பித்த நேரம் தெரியாத‍து"
+
+#, fuzzy
+#~| msgctxt "@title:group"
+#~| msgid "Most Popular"
+#~ msgid "Popularity"
+#~ msgstr "மக்கள் விரும்புபவை"
 
 #~ msgid "Update from:"
 #~ msgstr "இங்கிருந்து புதுப்பி:"

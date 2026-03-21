@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extragear-sysadmin-kde4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-03 00:48+0000\n"
+"POT-Creation-Date: 2026-03-21 00:46+0000\n"
 "PO-Revision-Date: 2026-02-03 19:28+0300\n"
 "Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -685,7 +685,7 @@ msgstr[0] "Ara — %1 Öge"
 msgstr[1] "Ara — %1 Öge"
 
 #: discover/qml/ApplicationsListPage.qml:68
-#: discover/qml/ApplicationsListPage.qml:262
+#: discover/qml/ApplicationsListPage.qml:273
 #, kde-format
 msgid "Search"
 msgstr "Ara"
@@ -707,38 +707,46 @@ msgid "Name"
 msgstr "Ad"
 
 #: discover/qml/ApplicationsListPage.qml:126
-#, kde-format
-msgid "Popularity"
-msgstr "Popülerlik"
+#, fuzzy, kde-format
+#| msgid "Submit review"
+msgid "Number of reviews"
+msgstr "İnceleme gönder"
 
 #: discover/qml/ApplicationsListPage.qml:137
+#, fuzzy, kde-format
+#| msgid "Rating"
+msgctxt "@item:inmenu sort by highest-rated apps"
+msgid "Rating"
+msgstr "Derecelendirme"
+
+#: discover/qml/ApplicationsListPage.qml:148
 #, kde-format
 msgid "Size"
 msgstr "Boyut"
 
-#: discover/qml/ApplicationsListPage.qml:148
+#: discover/qml/ApplicationsListPage.qml:159
 #, kde-format
 msgid "Release date"
 msgstr "Yayım tarihi"
 
-#: discover/qml/ApplicationsListPage.qml:208
+#: discover/qml/ApplicationsListPage.qml:219
 #, kde-format
 msgid "Nothing found"
 msgstr "Hiçbir şey bulunamadı"
 
-#: discover/qml/ApplicationsListPage.qml:216
+#: discover/qml/ApplicationsListPage.qml:227
 #, kde-format
 msgctxt "@action:button"
 msgid "Search in All Categories"
 msgstr "Tüm Kategorilerde Ara"
 
-#: discover/qml/ApplicationsListPage.qml:226
+#: discover/qml/ApplicationsListPage.qml:237
 #, kde-format
 msgctxt "@action:button %1 is the name of an application"
 msgid "Search the Web for \"%1\""
 msgstr "%1 için Web’i Ara"
 
-#: discover/qml/ApplicationsListPage.qml:241
+#: discover/qml/ApplicationsListPage.qml:252
 #, kde-format
 msgctxt ""
 "@info:placeholder %1 is the name of an application; %2 is the name of a "
@@ -746,13 +754,13 @@ msgctxt ""
 msgid "\"%1\" was not found in the \"%2\" category"
 msgstr "“%1”, “%2” kategorisinde bulunamadı"
 
-#: discover/qml/ApplicationsListPage.qml:243
+#: discover/qml/ApplicationsListPage.qml:254
 #, kde-format
 msgctxt "@info:placeholder %1 is the name of an application"
 msgid "\"%1\" was not found in the available sources"
 msgstr "“%1”, kullanılabilir kaynaklarda bulunamadı"
 
-#: discover/qml/ApplicationsListPage.qml:244
+#: discover/qml/ApplicationsListPage.qml:255
 #, kde-format
 msgctxt "@info:placeholder %1 is the name of an application"
 msgid ""
@@ -764,7 +772,7 @@ msgstr ""
 "dağıtıcınız tarafından işlevsellik veya kararlılık bakımından "
 "incelenmemiştir. Dikkatli kullanın."
 
-#: discover/qml/ApplicationsListPage.qml:277
+#: discover/qml/ApplicationsListPage.qml:288
 #, kde-format
 msgid "Still looking…"
 msgstr "Aranıyor…"
@@ -786,31 +794,32 @@ msgctxt "@title:group"
 msgid "Most Popular"
 msgstr "En Popüler"
 
-#: discover/qml/BrowsingPage.qml:119
-#, kde-format
-msgctxt "@title:group"
-msgid "Newly Published & Recently Updated"
-msgstr "Yeni Yayımlar ve Güncellemeler"
-
-#: discover/qml/BrowsingPage.qml:169
-#, kde-format
-msgctxt "@title:group"
-msgid "Editor's Choice"
-msgstr "Editörün Seçimi"
-
-#: discover/qml/BrowsingPage.qml:194
-#, kde-format
-msgctxt "@title:group"
-msgid "Highest-Rated Games"
-msgstr "En Çok Beğenilen Oyunlar"
-
-#: discover/qml/BrowsingPage.qml:223 discover/qml/BrowsingPage.qml:280
+#: discover/qml/BrowsingPage.qml:113 discover/qml/BrowsingPage.qml:245
+#: discover/qml/BrowsingPage.qml:302
 #, kde-format
 msgctxt "@action:button"
 msgid "See More"
 msgstr "Daha Fazlasını Gör"
 
-#: discover/qml/BrowsingPage.qml:249
+#: discover/qml/BrowsingPage.qml:141
+#, kde-format
+msgctxt "@title:group"
+msgid "Newly Published & Recently Updated"
+msgstr "Yeni Yayımlar ve Güncellemeler"
+
+#: discover/qml/BrowsingPage.qml:191
+#, kde-format
+msgctxt "@title:group"
+msgid "Editor's Choice"
+msgstr "Editörün Seçimi"
+
+#: discover/qml/BrowsingPage.qml:216
+#, kde-format
+msgctxt "@title:group"
+msgid "Highest-Rated Games"
+msgstr "En Çok Beğenilen Oyunlar"
+
+#: discover/qml/BrowsingPage.qml:271
 #, kde-format
 msgctxt "@title:group"
 msgid "Highest-Rated Developer Tools"
@@ -1591,3 +1600,6 @@ msgstr "Güncellemeler denetlenmeli"
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "Son güncelleme zamanı bilinmiyor"
+
+#~ msgid "Popularity"
+#~ msgstr "Popülerlik"
