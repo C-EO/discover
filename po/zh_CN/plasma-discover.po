@@ -669,17 +669,15 @@ msgid "Name"
 msgstr "名称"
 
 #: discover/qml/ApplicationsListPage.qml:126
-#, fuzzy, kde-format
-#| msgid "Submit review"
+#, kde-format
 msgid "Number of reviews"
-msgstr "提交评价"
+msgstr ""
 
 #: discover/qml/ApplicationsListPage.qml:137
-#, fuzzy, kde-format
-#| msgid "Rating"
+#, kde-format
 msgctxt "@item:inmenu sort by highest-rated apps"
 msgid "Rating"
-msgstr "评分"
+msgstr ""
 
 #: discover/qml/ApplicationsListPage.qml:148
 #, kde-format
@@ -1547,6 +1545,3 @@ msgstr "建议检查更新"
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "上次更新时间未知"
-
-#~ msgid "Popularity"
-#~ msgstr "人气"

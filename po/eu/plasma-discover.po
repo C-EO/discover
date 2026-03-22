@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-03 00:48+0000\n"
+"POT-Creation-Date: 2026-03-21 00:46+0000\n"
 "PO-Revision-Date: 2026-02-19 21:40+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -682,7 +682,7 @@ msgstr[0] "Bilatu - elementu %1"
 msgstr[1] "Bilatu - %1 elementu"
 
 #: discover/qml/ApplicationsListPage.qml:68
-#: discover/qml/ApplicationsListPage.qml:262
+#: discover/qml/ApplicationsListPage.qml:273
 #, kde-format
 msgid "Search"
 msgstr "Bilatu"
@@ -704,38 +704,46 @@ msgid "Name"
 msgstr "Izena"
 
 #: discover/qml/ApplicationsListPage.qml:126
-#, kde-format
-msgid "Popularity"
-msgstr "Ospea"
+#, fuzzy, kde-format
+#| msgid "Submit review"
+msgid "Number of reviews"
+msgstr "Bidali iruzkina"
 
 #: discover/qml/ApplicationsListPage.qml:137
+#, fuzzy, kde-format
+#| msgid "Rating"
+msgctxt "@item:inmenu sort by highest-rated apps"
+msgid "Rating"
+msgstr "Balorazioa"
+
+#: discover/qml/ApplicationsListPage.qml:148
 #, kde-format
 msgid "Size"
 msgstr "Neurria"
 
-#: discover/qml/ApplicationsListPage.qml:148
+#: discover/qml/ApplicationsListPage.qml:159
 #, kde-format
 msgid "Release date"
 msgstr "Kaleratze data"
 
-#: discover/qml/ApplicationsListPage.qml:208
+#: discover/qml/ApplicationsListPage.qml:219
 #, kde-format
 msgid "Nothing found"
 msgstr "Ez da ezer aurkitu"
 
-#: discover/qml/ApplicationsListPage.qml:216
+#: discover/qml/ApplicationsListPage.qml:227
 #, kde-format
 msgctxt "@action:button"
 msgid "Search in All Categories"
 msgstr "Bilatu kategoria guztietan"
 
-#: discover/qml/ApplicationsListPage.qml:226
+#: discover/qml/ApplicationsListPage.qml:237
 #, kde-format
 msgctxt "@action:button %1 is the name of an application"
 msgid "Search the Web for \"%1\""
 msgstr "Bilatu Webean \"%1\""
 
-#: discover/qml/ApplicationsListPage.qml:241
+#: discover/qml/ApplicationsListPage.qml:252
 #, kde-format
 msgctxt ""
 "@info:placeholder %1 is the name of an application; %2 is the name of a "
@@ -743,13 +751,13 @@ msgctxt ""
 msgid "\"%1\" was not found in the \"%2\" category"
 msgstr "\"%1\" ez da \"%2\" kategorian aurkitu"
 
-#: discover/qml/ApplicationsListPage.qml:243
+#: discover/qml/ApplicationsListPage.qml:254
 #, kde-format
 msgctxt "@info:placeholder %1 is the name of an application"
 msgid "\"%1\" was not found in the available sources"
 msgstr "\"%1\" ez da sorburu erabilgarrietan aurkitu"
 
-#: discover/qml/ApplicationsListPage.qml:244
+#: discover/qml/ApplicationsListPage.qml:255
 #, kde-format
 msgctxt "@info:placeholder %1 is the name of an application"
 msgid ""
@@ -761,7 +769,7 @@ msgstr ""
 "eskuratutako softwarearen funtzionaltasun edo egonkortasun berrikuspenik "
 "egin. Kontuz erabili."
 
-#: discover/qml/ApplicationsListPage.qml:277
+#: discover/qml/ApplicationsListPage.qml:288
 #, kde-format
 msgid "Still looking…"
 msgstr "Oraindik bilatzen…"
@@ -783,31 +791,32 @@ msgctxt "@title:group"
 msgid "Most Popular"
 msgstr "Ezagunena"
 
-#: discover/qml/BrowsingPage.qml:119
-#, kde-format
-msgctxt "@title:group"
-msgid "Newly Published & Recently Updated"
-msgstr "Berriki argitaratua eta berriki eguneratua"
-
-#: discover/qml/BrowsingPage.qml:169
-#, kde-format
-msgctxt "@title:group"
-msgid "Editor's Choice"
-msgstr "Argitaratzaileak aukeratua"
-
-#: discover/qml/BrowsingPage.qml:194
-#, kde-format
-msgctxt "@title:group"
-msgid "Highest-Rated Games"
-msgstr "Hobekien sailkatutako jokoak"
-
-#: discover/qml/BrowsingPage.qml:223 discover/qml/BrowsingPage.qml:280
+#: discover/qml/BrowsingPage.qml:113 discover/qml/BrowsingPage.qml:245
+#: discover/qml/BrowsingPage.qml:302
 #, kde-format
 msgctxt "@action:button"
 msgid "See More"
 msgstr "Ikusi gehiago"
 
-#: discover/qml/BrowsingPage.qml:249
+#: discover/qml/BrowsingPage.qml:141
+#, kde-format
+msgctxt "@title:group"
+msgid "Newly Published & Recently Updated"
+msgstr "Berriki argitaratua eta berriki eguneratua"
+
+#: discover/qml/BrowsingPage.qml:191
+#, kde-format
+msgctxt "@title:group"
+msgid "Editor's Choice"
+msgstr "Argitaratzaileak aukeratua"
+
+#: discover/qml/BrowsingPage.qml:216
+#, kde-format
+msgctxt "@title:group"
+msgid "Highest-Rated Games"
+msgstr "Hobekien sailkatutako jokoak"
+
+#: discover/qml/BrowsingPage.qml:271
 #, kde-format
 msgctxt "@title:group"
 msgid "Highest-Rated Developer Tools"
@@ -1590,6 +1599,9 @@ msgstr "Eguneratzeak dauden egiaztatu beharko litzateke"
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "Azken eguneratze ordua ezezaguna"
+
+#~ msgid "Popularity"
+#~ msgstr "Ospea"
 
 #~ msgid "Update from:"
 #~ msgstr "Eguneratu hemendik:"
