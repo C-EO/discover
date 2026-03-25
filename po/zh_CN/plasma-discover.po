@@ -671,13 +671,13 @@ msgstr "名称"
 #: discover/qml/ApplicationsListPage.qml:126
 #, kde-format
 msgid "Number of reviews"
-msgstr ""
+msgstr "评价数"
 
 #: discover/qml/ApplicationsListPage.qml:137
 #, kde-format
 msgctxt "@item:inmenu sort by highest-rated apps"
 msgid "Rating"
-msgstr ""
+msgstr "评分"
 
 #: discover/qml/ApplicationsListPage.qml:148
 #, kde-format
