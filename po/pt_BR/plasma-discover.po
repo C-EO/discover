@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-21 00:46+0000\n"
+"POT-Creation-Date: 2026-03-29 00:45+0000\n"
 "PO-Revision-Date: 2026-03-21 10:00-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -1500,14 +1500,14 @@ msgstr "Selecionar nenhum"
 msgctxt ""
 "@info on the completion of updates, the action that automatically happens "
 "after (e.g shut down)"
-msgid "On completion, automatically:"
-msgstr "Após a conclusão, automaticamente:"
+msgid "After completing:"
+msgstr ""
 
 #: discover/qml/UpdatesPage.qml:284
 #, kde-format
-msgctxt "@item:inlistbox placeholder for when no action is selected"
-msgid "Select an action"
-msgstr "Selecionar uma ação"
+msgctxt "@item:inlistbox"
+msgid "Do nothing"
+msgstr ""
 
 #: discover/qml/UpdatesPage.qml:284
 #, kde-format
@@ -1600,6 +1600,16 @@ msgstr "Deve verificar por atualizações"
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "Hora da última atualização desconhecida"
+
+#~ msgctxt ""
+#~ "@info on the completion of updates, the action that automatically happens "
+#~ "after (e.g shut down)"
+#~ msgid "On completion, automatically:"
+#~ msgstr "Após a conclusão, automaticamente:"
+
+#~ msgctxt "@item:inlistbox placeholder for when no action is selected"
+#~ msgid "Select an action"
+#~ msgstr "Selecionar uma ação"
 
 #~ msgid "Popularity"
 #~ msgstr "Popularidade"

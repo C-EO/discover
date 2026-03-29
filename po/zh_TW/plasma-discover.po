@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-21 00:46+0000\n"
+"POT-Creation-Date: 2026-03-29 00:45+0000\n"
 "PO-Revision-Date: 2026-02-12 15:53+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -1449,14 +1449,14 @@ msgstr "全部不選"
 msgctxt ""
 "@info on the completion of updates, the action that automatically happens "
 "after (e.g shut down)"
-msgid "On completion, automatically:"
-msgstr "完成時自動進行："
+msgid "After completing:"
+msgstr ""
 
 #: discover/qml/UpdatesPage.qml:284
 #, kde-format
-msgctxt "@item:inlistbox placeholder for when no action is selected"
-msgid "Select an action"
-msgstr "選擇動作"
+msgctxt "@item:inlistbox"
+msgid "Do nothing"
+msgstr ""
 
 #: discover/qml/UpdatesPage.qml:284
 #, kde-format
@@ -1548,6 +1548,16 @@ msgstr "應該檢查更新"
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "無法得知最近的一次更新時間"
+
+#~ msgctxt ""
+#~ "@info on the completion of updates, the action that automatically happens "
+#~ "after (e.g shut down)"
+#~ msgid "On completion, automatically:"
+#~ msgstr "完成時自動進行："
+
+#~ msgctxt "@item:inlistbox placeholder for when no action is selected"
+#~ msgid "Select an action"
+#~ msgstr "選擇動作"
 
 #~ msgid "Popularity"
 #~ msgstr "人氣"

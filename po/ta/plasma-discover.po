@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-21 00:46+0000\n"
+"POT-Creation-Date: 2026-03-29 00:45+0000\n"
 "PO-Revision-Date: 2026-02-01 18:59+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-l10n-ta@kde.org>\n"
@@ -1472,14 +1472,14 @@ msgstr "ஒன்றையும் தேர்ந்தெடுக்க வ�
 msgctxt ""
 "@info on the completion of updates, the action that automatically happens "
 "after (e.g shut down)"
-msgid "On completion, automatically:"
-msgstr "முடிந்தபின் தானாக:"
+msgid "After completing:"
+msgstr ""
 
 #: discover/qml/UpdatesPage.qml:284
 #, kde-format
-msgctxt "@item:inlistbox placeholder for when no action is selected"
-msgid "Select an action"
-msgstr "செயலைத் தேர்ந்தெடுக்கவும்"
+msgctxt "@item:inlistbox"
+msgid "Do nothing"
+msgstr ""
 
 #: discover/qml/UpdatesPage.qml:284
 #, kde-format
@@ -1576,6 +1576,16 @@ msgstr "புதுப்பிப்புகள் உள்ளனவா எ�
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "கடைசியாக புதுப்பித்த நேரம் தெரியாத‍து"
+
+#~ msgctxt ""
+#~ "@info on the completion of updates, the action that automatically happens "
+#~ "after (e.g shut down)"
+#~ msgid "On completion, automatically:"
+#~ msgstr "முடிந்தபின் தானாக:"
+
+#~ msgctxt "@item:inlistbox placeholder for when no action is selected"
+#~ msgid "Select an action"
+#~ msgstr "செயலைத் தேர்ந்தெடுக்கவும்"
 
 #, fuzzy
 #~| msgctxt "@title:group"

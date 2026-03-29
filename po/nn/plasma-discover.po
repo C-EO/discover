@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-21 00:46+0000\n"
+"POT-Creation-Date: 2026-03-29 00:45+0000\n"
 "PO-Revision-Date: 2026-03-05 20:28+0100\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -1466,14 +1466,14 @@ msgstr "Fjern merking"
 msgctxt ""
 "@info on the completion of updates, the action that automatically happens "
 "after (e.g shut down)"
-msgid "On completion, automatically:"
-msgstr "Gjer automatisk etter fullføring:"
+msgid "After completing:"
+msgstr ""
 
 #: discover/qml/UpdatesPage.qml:284
 #, kde-format
-msgctxt "@item:inlistbox placeholder for when no action is selected"
-msgid "Select an action"
-msgstr "Vel handling"
+msgctxt "@item:inlistbox"
+msgid "Do nothing"
+msgstr ""
 
 #: discover/qml/UpdatesPage.qml:284
 #, kde-format
@@ -1573,5 +1573,12 @@ msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "Tid for siste oppdatering er ukjend"
 
-#~ msgid "Popularity"
-#~ msgstr "Popularitet"
+#~ msgctxt ""
+#~ "@info on the completion of updates, the action that automatically happens "
+#~ "after (e.g shut down)"
+#~ msgid "On completion, automatically:"
+#~ msgstr "Gjer automatisk etter fullføring:"
+
+#~ msgctxt "@item:inlistbox placeholder for when no action is selected"
+#~ msgid "Select an action"
+#~ msgstr "Vel handling"

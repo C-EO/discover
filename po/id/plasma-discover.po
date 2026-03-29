@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KDE Frameworks 5 Applications\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-21 00:46+0000\n"
+"POT-Creation-Date: 2026-03-29 00:45+0000\n"
 "PO-Revision-Date: 2024-11-25 21:34+0700\n"
 "Last-Translator: Wantoyo <wantoyek@gmail.com>\n"
 "Language-Team: https://t.me/Localizations_KDE_Indonesia\n"
@@ -1519,14 +1519,14 @@ msgstr "Pilih Nihil"
 msgctxt ""
 "@info on the completion of updates, the action that automatically happens "
 "after (e.g shut down)"
-msgid "On completion, automatically:"
-msgstr "Yang kelar secara otomatis:"
+msgid "After completing:"
+msgstr ""
 
 #: discover/qml/UpdatesPage.qml:284
 #, kde-format
-msgctxt "@item:inlistbox placeholder for when no action is selected"
-msgid "Select an action"
-msgstr "Pilih aksi"
+msgctxt "@item:inlistbox"
+msgid "Do nothing"
+msgstr ""
 
 #: discover/qml/UpdatesPage.qml:284
 #, kde-format
@@ -1625,6 +1625,16 @@ msgstr "Seharusnya periksa pembaruan"
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "Waktu pembaruan yang terakhir tidak diketahui"
+
+#~ msgctxt ""
+#~ "@info on the completion of updates, the action that automatically happens "
+#~ "after (e.g shut down)"
+#~ msgid "On completion, automatically:"
+#~ msgstr "Yang kelar secara otomatis:"
+
+#~ msgctxt "@item:inlistbox placeholder for when no action is selected"
+#~ msgid "Select an action"
+#~ msgstr "Pilih aksi"
 
 #, fuzzy
 #~| msgctxt "@title:group"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: muon-discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-21 00:46+0000\n"
+"POT-Creation-Date: 2026-03-29 00:45+0000\n"
 "PO-Revision-Date: 2023-12-05 17:21+0100\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -1520,15 +1520,14 @@ msgstr "Vybrať žiadne"
 msgctxt ""
 "@info on the completion of updates, the action that automatically happens "
 "after (e.g shut down)"
-msgid "On completion, automatically:"
+msgid "After completing:"
 msgstr ""
 
 #: discover/qml/UpdatesPage.qml:284
-#, fuzzy, kde-format
-#| msgid "Select None"
-msgctxt "@item:inlistbox placeholder for when no action is selected"
-msgid "Select an action"
-msgstr "Vybrať žiadne"
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Do nothing"
+msgstr ""
 
 #: discover/qml/UpdatesPage.qml:284
 #, fuzzy, kde-format
@@ -1628,6 +1627,12 @@ msgstr "Mali by sa skontrolovať aktualizácie"
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "Čas poslednej aktualizácie je neznámy"
+
+#, fuzzy
+#~| msgid "Select None"
+#~ msgctxt "@item:inlistbox placeholder for when no action is selected"
+#~ msgid "Select an action"
+#~ msgstr "Vybrať žiadne"
 
 #~ msgid "Popularity"
 #~ msgstr "Obľúbenosť"

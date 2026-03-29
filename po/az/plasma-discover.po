@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-21 00:46+0000\n"
+"POT-Creation-Date: 2026-03-29 00:45+0000\n"
 "PO-Revision-Date: 2024-06-10 12:05+0400\n"
 "Last-Translator: Kheyyam Godjayev <xxmn77@gmail.com>\n"
 "Language-Team: Azerbaijani <kde-i18n-doc@kde.org>\n"
@@ -1537,15 +1537,14 @@ msgstr "Heç birini seçməyin"
 msgctxt ""
 "@info on the completion of updates, the action that automatically happens "
 "after (e.g shut down)"
-msgid "On completion, automatically:"
+msgid "After completing:"
 msgstr ""
 
 #: discover/qml/UpdatesPage.qml:284
-#, fuzzy, kde-format
-#| msgid "Select None"
-msgctxt "@item:inlistbox placeholder for when no action is selected"
-msgid "Select an action"
-msgstr "Heç birini seçməyin"
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Do nothing"
+msgstr ""
 
 #: discover/qml/UpdatesPage.qml:284
 #, fuzzy, kde-format
@@ -1645,6 +1644,12 @@ msgstr "Yenilənmə olub olmadığını yoxlanılmalıdır"
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "Sonuncu yenilənmə vaxtı bilinmir"
+
+#, fuzzy
+#~| msgid "Select None"
+#~ msgctxt "@item:inlistbox placeholder for when no action is selected"
+#~ msgid "Select an action"
+#~ msgstr "Heç birini seçməyin"
 
 #, fuzzy
 #~| msgctxt "@title:group"
