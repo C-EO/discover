@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-29 00:45+0000\n"
-"PO-Revision-Date: 2026-03-21 10:47+0100\n"
+"PO-Revision-Date: 2026-03-29 08:43+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -473,7 +473,7 @@ msgstr "Des de %1"
 #: discover/qml/ApplicationPage.qml:182
 #, kde-format
 msgid "%1 - %2"
-msgstr "%1 - %2"
+msgstr "%1 – %2"
 
 # NdT: Exports the application's URL to an external service
 #: discover/qml/ApplicationPage.qml:221
@@ -668,8 +668,8 @@ msgstr "Informació de la llicència"
 #, kde-format
 msgid "Search: %2 - %3 item"
 msgid_plural "Search: %2 - %3 items"
-msgstr[0] "Busca: %2 - %3 element"
-msgstr[1] "Busca: %2 - %3 elements"
+msgstr[0] "Busca: %2 – %3 element"
+msgstr[1] "Busca: %2 – %3 elements"
 
 #: discover/qml/ApplicationsListPage.qml:56
 #, kde-format
@@ -680,15 +680,15 @@ msgstr "Busca: %1"
 #, kde-format
 msgid "%2 - %1 item"
 msgid_plural "%2 - %1 items"
-msgstr[0] "%2 - %1 element"
-msgstr[1] "%2 - %1 elements"
+msgstr[0] "%2 – %1 element"
+msgstr[1] "%2 – %1 elements"
 
 #: discover/qml/ApplicationsListPage.qml:66
 #, kde-format
 msgid "Search - %1 item"
 msgid_plural "Search - %1 items"
-msgstr[0] "Busca - %1 element"
-msgstr[1] "Busca - %1 elements"
+msgstr[0] "Busca – %1 element"
+msgstr[1] "Busca – %1 elements"
 
 #: discover/qml/ApplicationsListPage.qml:68
 #: discover/qml/ApplicationsListPage.qml:273
@@ -1090,19 +1090,19 @@ msgstr "Tasques"
 #, kde-format
 msgctxt "TransactioName - TransactionStatus: speed, remaining time"
 msgid "%1 - %2: %3, %4 remaining"
-msgstr "%1 - %2: %3, falta %4"
+msgstr "%1 – %2: %3, falta %4"
 
 #: discover/qml/ProgressView.qml:135
 #, kde-format
 msgctxt "TransactioName - TransactionStatus: speed"
 msgid "%1 - %2: %3"
-msgstr "%1 - %2: %3"
+msgstr "%1 – %2: %3"
 
 #: discover/qml/ProgressView.qml:142
 #, kde-format
 msgctxt "TransactioName - TransactionStatus"
 msgid "%1 - %2"
-msgstr "%1 - %2"
+msgstr "%1 – %2"
 
 #: discover/qml/Rating.qml:119
 #, kde-format
@@ -1503,13 +1503,13 @@ msgctxt ""
 "@info on the completion of updates, the action that automatically happens "
 "after (e.g shut down)"
 msgid "After completing:"
-msgstr ""
+msgstr "Després de completar:"
 
 #: discover/qml/UpdatesPage.qml:284
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Do nothing"
-msgstr ""
+msgstr "No faces res"
 
 #: discover/qml/UpdatesPage.qml:284
 #, kde-format
@@ -1603,13 +1603,3 @@ msgstr "Cal comprovar si hi ha actualitzacions"
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "Es desconeix l'hora de l'última actualització"
-
-#~ msgctxt ""
-#~ "@info on the completion of updates, the action that automatically happens "
-#~ "after (e.g shut down)"
-#~ msgid "On completion, automatically:"
-#~ msgstr "En finalitzar, automàticament:"
-
-#~ msgctxt "@item:inlistbox placeholder for when no action is selected"
-#~ msgid "Select an action"
-#~ msgstr "Trieu una acció"
