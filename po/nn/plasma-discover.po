@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-29 00:45+0000\n"
+"POT-Creation-Date: 2026-03-31 00:46+0000\n"
 "PO-Revision-Date: 2026-03-05 20:28+0100\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -1198,7 +1198,7 @@ msgstr "Namn:"
 msgid "Title:"
 msgstr "Tittel:"
 
-#: discover/qml/ReviewDialog.qml:148
+#: discover/qml/ReviewDialog.qml:157
 #, kde-format
 msgctxt ""
 "Words the user might use in an unhelpful sentence saying an app is not "
@@ -1208,7 +1208,7 @@ msgctxt ""
 msgid "launch,run,start"
 msgstr "køyra,starta"
 
-#: discover/qml/ReviewDialog.qml:155
+#: discover/qml/ReviewDialog.qml:164
 #, kde-format
 msgctxt ""
 "Words the user might use in an unhelpful sentence saying an app crashes. "
@@ -1218,7 +1218,7 @@ msgctxt ""
 msgid "crash,segfault"
 msgstr "krasj,segfault"
 
-#: discover/qml/ReviewDialog.qml:162
+#: discover/qml/ReviewDialog.qml:171
 #, kde-format
 msgctxt ""
 "Word the user might use in an unhelpful sentence saying an app isn't very "
@@ -1230,32 +1230,32 @@ msgstr ""
 "verkar ikkje,fungerer ikkje,dumt,dårleg,teit,elendig,ubrukeleg,suger,syg,"
 "forferdeleg,grusom,hatar"
 
-#: discover/qml/ReviewDialog.qml:183
+#: discover/qml/ReviewDialog.qml:193
 #, kde-format
 msgid "Enter a rating"
 msgstr "Skriv inn vurdering"
 
-#: discover/qml/ReviewDialog.qml:186
+#: discover/qml/ReviewDialog.qml:196
 #, kde-format
 msgid "Write the title"
 msgstr "Skriv tittel"
 
-#: discover/qml/ReviewDialog.qml:189
+#: discover/qml/ReviewDialog.qml:199
 #, kde-format
 msgid "Write the review"
 msgstr "Skriv vurdering"
 
-#: discover/qml/ReviewDialog.qml:192
+#: discover/qml/ReviewDialog.qml:202
 #, kde-format
 msgid "Keep writing…"
 msgstr "Skriv vidare …"
 
-#: discover/qml/ReviewDialog.qml:195
+#: discover/qml/ReviewDialog.qml:205
 #, kde-format
 msgid "Too long!"
 msgstr "For langt!"
 
-#: discover/qml/ReviewDialog.qml:198
+#: discover/qml/ReviewDialog.qml:208
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Insert a name"
@@ -1572,13 +1572,3 @@ msgstr "Skal sjå etter oppdateringar"
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "Tid for siste oppdatering er ukjend"
-
-#~ msgctxt ""
-#~ "@info on the completion of updates, the action that automatically happens "
-#~ "after (e.g shut down)"
-#~ msgid "On completion, automatically:"
-#~ msgstr "Gjer automatisk etter fullføring:"
-
-#~ msgctxt "@item:inlistbox placeholder for when no action is selected"
-#~ msgid "Select an action"
-#~ msgstr "Vel handling"

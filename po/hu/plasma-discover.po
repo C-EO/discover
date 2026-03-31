@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-29 00:45+0000\n"
+"POT-Creation-Date: 2026-03-31 00:46+0000\n"
 "PO-Revision-Date: 2025-10-15 20:38+0200\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -1235,7 +1235,7 @@ msgstr "Név:"
 msgid "Title:"
 msgstr "Cím:"
 
-#: discover/qml/ReviewDialog.qml:148
+#: discover/qml/ReviewDialog.qml:157
 #, kde-format
 msgctxt ""
 "Words the user might use in an unhelpful sentence saying an app is not "
@@ -1245,7 +1245,7 @@ msgctxt ""
 msgid "launch,run,start"
 msgstr "indítás,futtatás,indulás"
 
-#: discover/qml/ReviewDialog.qml:155
+#: discover/qml/ReviewDialog.qml:164
 #, kde-format
 msgctxt ""
 "Words the user might use in an unhelpful sentence saying an app crashes. "
@@ -1255,7 +1255,7 @@ msgctxt ""
 msgid "crash,segfault"
 msgstr "összeomlás,szegmentációs hiba"
 
-#: discover/qml/ReviewDialog.qml:162
+#: discover/qml/ReviewDialog.qml:171
 #, kde-format
 msgctxt ""
 "Word the user might use in an unhelpful sentence saying an app isn't very "
@@ -1265,32 +1265,32 @@ msgctxt ""
 msgid "doesn't work,dumb,stupid,crap,junk,suck,terrible,hate"
 msgstr "nem működik,buta,hülye,szar,szemét,szívás,szörnyű,utálatos"
 
-#: discover/qml/ReviewDialog.qml:183
+#: discover/qml/ReviewDialog.qml:193
 #, kde-format
 msgid "Enter a rating"
 msgstr "Adjon értékelést"
 
-#: discover/qml/ReviewDialog.qml:186
+#: discover/qml/ReviewDialog.qml:196
 #, kde-format
 msgid "Write the title"
 msgstr "Írja be a címet"
 
-#: discover/qml/ReviewDialog.qml:189
+#: discover/qml/ReviewDialog.qml:199
 #, kde-format
 msgid "Write the review"
 msgstr "Írjon értékelést"
 
-#: discover/qml/ReviewDialog.qml:192
+#: discover/qml/ReviewDialog.qml:202
 #, kde-format
 msgid "Keep writing…"
 msgstr "Írja tovább…"
 
-#: discover/qml/ReviewDialog.qml:195
+#: discover/qml/ReviewDialog.qml:205
 #, kde-format
 msgid "Too long!"
 msgstr "Túl hosszú!"
 
-#: discover/qml/ReviewDialog.qml:198
+#: discover/qml/ReviewDialog.qml:208
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Insert a name"

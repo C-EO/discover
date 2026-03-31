@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: l 10n\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-29 00:45+0000\n"
-"PO-Revision-Date: 2026-02-22 01:58+0200\n"
+"POT-Creation-Date: 2026-03-31 00:46+0000\n"
+"PO-Revision-Date: 2026-03-30 11:56+0300\n"
 "Last-Translator: Moo\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
 "Language: lt\n"
@@ -721,14 +721,12 @@ msgid "Name"
 msgstr "Pavadinimas"
 
 #: discover/qml/ApplicationsListPage.qml:126
-#, fuzzy, kde-format
-#| msgid "Submit review"
+#, kde-format
 msgid "Number of reviews"
-msgstr "Pateikti apžvalgą"
+msgstr "Apžvalgų skaičius"
 
 #: discover/qml/ApplicationsListPage.qml:137
-#, fuzzy, kde-format
-#| msgid "Rating"
+#, kde-format
 msgctxt "@item:inmenu sort by highest-rated apps"
 msgid "Rating"
 msgstr "Įvertinimas"
@@ -1251,7 +1249,7 @@ msgstr "Pavadinimas:"
 msgid "Title:"
 msgstr "Antraštė:"
 
-#: discover/qml/ReviewDialog.qml:148
+#: discover/qml/ReviewDialog.qml:157
 #, kde-format
 msgctxt ""
 "Words the user might use in an unhelpful sentence saying an app is not "
@@ -1261,7 +1259,7 @@ msgctxt ""
 msgid "launch,run,start"
 msgstr "paleisti,vykdyti,paleisti,įjungti"
 
-#: discover/qml/ReviewDialog.qml:155
+#: discover/qml/ReviewDialog.qml:164
 #, kde-format
 msgctxt ""
 "Words the user might use in an unhelpful sentence saying an app crashes. "
@@ -1271,7 +1269,7 @@ msgctxt ""
 msgid "crash,segfault"
 msgstr "strigtis,užstrigo,uzstrigo,segfault"
 
-#: discover/qml/ReviewDialog.qml:162
+#: discover/qml/ReviewDialog.qml:171
 #, kde-format
 msgctxt ""
 "Word the user might use in an unhelpful sentence saying an app isn't very "
@@ -1283,32 +1281,32 @@ msgstr ""
 "neveikia,durna,kvaila,neveikianti,šlamštas,slamstas,šūdas,sudas,buka,"
 "siaubinga,baisi,niekam tikusi,niekinga,nekenčiu,nekenciu"
 
-#: discover/qml/ReviewDialog.qml:183
+#: discover/qml/ReviewDialog.qml:193
 #, kde-format
 msgid "Enter a rating"
 msgstr "Įveskite įvertinimą"
 
-#: discover/qml/ReviewDialog.qml:186
+#: discover/qml/ReviewDialog.qml:196
 #, kde-format
 msgid "Write the title"
 msgstr "Parašykite antraštę"
 
-#: discover/qml/ReviewDialog.qml:189
+#: discover/qml/ReviewDialog.qml:199
 #, kde-format
 msgid "Write the review"
 msgstr "Parašykite apžvalgą"
 
-#: discover/qml/ReviewDialog.qml:192
+#: discover/qml/ReviewDialog.qml:202
 #, kde-format
 msgid "Keep writing…"
 msgstr "Rašykite toliau…"
 
-#: discover/qml/ReviewDialog.qml:195
+#: discover/qml/ReviewDialog.qml:205
 #, kde-format
 msgid "Too long!"
 msgstr "Pernelyg ilgas!"
 
-#: discover/qml/ReviewDialog.qml:198
+#: discover/qml/ReviewDialog.qml:208
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Insert a name"
@@ -1517,13 +1515,13 @@ msgctxt ""
 "@info on the completion of updates, the action that automatically happens "
 "after (e.g shut down)"
 msgid "After completing:"
-msgstr ""
+msgstr "Užbaigus:"
 
 #: discover/qml/UpdatesPage.qml:284
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Do nothing"
-msgstr ""
+msgstr "Nieko nedaryti"
 
 #: discover/qml/UpdatesPage.qml:284
 #, kde-format
