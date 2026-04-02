@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-28 00:45+0000\n"
+"POT-Creation-Date: 2026-04-02 00:45+0000\n"
 "PO-Revision-Date: 2024-04-23 19:24\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -2544,10 +2544,13 @@ msgid "Starred Publisher on snapcraft.io"
 msgstr "snapcraft.io 的星标发布者"
 
 #: libdiscover/backends/SnapBackend/SnapTransaction.cpp:57
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "This Snap application is not compatible with security sandboxing and will "
+#| "have full access to this computer. Install it anyway?"
 msgid ""
 "This Snap application is not compatible with security sandboxing and will "
-"have full access to this computer. Install it anyway?"
+"have full access to this system. Install it anyway?"
 msgstr ""
 "此 Snap 应用程序不兼容安全沙箱，它将获取本机的完整访问权限。仍然要安装它吗？"
 

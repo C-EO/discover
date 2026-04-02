@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:53+0000\n"
+"POT-Creation-Date: 2026-04-02 00:45+0000\n"
 "PO-Revision-Date: 2025-12-12 11:32+0000\n"
 "Last-Translator: Sergiu Bivol <sergiu@cip.md>\n"
 "Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
@@ -39,9 +39,10 @@ msgid "System up to date"
 msgstr "Sistem la zi"
 
 #: notifier/DiscoverNotifier.cpp:371
-#, kde-format
-msgid "Computer needs to restart"
-msgstr "Calculatorul trebuie repornit"
+#, fuzzy, kde-format
+#| msgid "Install Updates and Restart…"
+msgid "System will install updates when restarted"
+msgstr "Instalează actualizări și repornește…"
 
 #: notifier/DiscoverNotifier.cpp:373
 #, kde-format
@@ -172,9 +173,13 @@ msgid "Restart to apply installed updates"
 msgstr "Reporniți pentru a aplica actualizările instalate"
 
 #: notifier/NotifierItem.cpp:65
-#, kde-format
-msgid "Click to restart the device"
+#, fuzzy, kde-format
+#| msgid "Click to restart the device"
+msgid "Click to restart the system"
 msgstr "Apăsați pentru a reporni dispozitivul"
+
+#~ msgid "Computer needs to restart"
+#~ msgstr "Calculatorul trebuie repornit"
 
 #~ msgid "See Updates…"
 #~ msgstr "Vezi actualizările…"

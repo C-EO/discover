@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-31 00:46+0000\n"
-"PO-Revision-Date: 2026-03-23 22:24+0400\n"
+"PO-Revision-Date: 2026-04-01 17:45+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -1490,13 +1490,13 @@ msgctxt ""
 "@info on the completion of updates, the action that automatically happens "
 "after (e.g shut down)"
 msgid "After completing:"
-msgstr ""
+msgstr "بعد الإكمال:"
 
 #: discover/qml/UpdatesPage.qml:284
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Do nothing"
-msgstr ""
+msgstr "لا تفعل شيئًا"
 
 #: discover/qml/UpdatesPage.qml:284
 #, kde-format

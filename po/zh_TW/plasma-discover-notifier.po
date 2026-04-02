@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:53+0000\n"
+"POT-Creation-Date: 2026-04-02 00:45+0000\n"
 "PO-Revision-Date: 2025-06-17 09:42+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -42,9 +42,10 @@ msgid "System up to date"
 msgstr "系統已更新至最新"
 
 #: notifier/DiscoverNotifier.cpp:371
-#, kde-format
-msgid "Computer needs to restart"
-msgstr "電腦需要重新開機"
+#, fuzzy, kde-format
+#| msgid "Install Updates and Restart…"
+msgid "System will install updates when restarted"
+msgstr "安裝更新後重新啟動…"
 
 #: notifier/DiscoverNotifier.cpp:373
 #, kde-format
@@ -175,9 +176,13 @@ msgid "Restart to apply installed updates"
 msgstr "重新啟動電腦以套用已安裝的更新"
 
 #: notifier/NotifierItem.cpp:65
-#, kde-format
-msgid "Click to restart the device"
+#, fuzzy, kde-format
+#| msgid "Click to restart the device"
+msgid "Click to restart the system"
 msgstr "按我以重新啟動電腦"
+
+#~ msgid "Computer needs to restart"
+#~ msgstr "電腦需要重新開機"
 
 #~ msgid "See Updates…"
 #~ msgstr "檢視更新…"

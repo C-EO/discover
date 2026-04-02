@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-28 00:45+0000\n"
+"POT-Creation-Date: 2026-04-02 00:45+0000\n"
 "PO-Revision-Date: 2024-02-10 10:00-0600\n"
 "Last-Translator: A S Alam <aalam@punlinux.org>\n"
 "Language-Team: Punjabi <kde-i18n-doc@kde.org>\n"
@@ -2590,7 +2590,7 @@ msgstr ""
 #, kde-format
 msgid ""
 "This Snap application is not compatible with security sandboxing and will "
-"have full access to this computer. Install it anyway?"
+"have full access to this system. Install it anyway?"
 msgstr ""
 
 #: libdiscover/backends/SystemdSysupdateBackend/SystemdSysupdateBackend.cpp:149

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-discover-notifier\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:53+0000\n"
+"POT-Creation-Date: 2026-04-02 00:45+0000\n"
 "PO-Revision-Date: 2025-05-07 18:26+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -40,9 +40,10 @@ msgid "System up to date"
 msgstr "Sistema actualizado"
 
 #: notifier/DiscoverNotifier.cpp:371
-#, kde-format
-msgid "Computer needs to restart"
-msgstr "Necesita reiniciar el equipo"
+#, fuzzy, kde-format
+#| msgid "Install Updates and Restart…"
+msgid "System will install updates when restarted"
+msgstr "Instalar actualizaciones y reiniciar…"
 
 #: notifier/DiscoverNotifier.cpp:373
 #, kde-format
@@ -174,6 +175,10 @@ msgid "Restart to apply installed updates"
 msgstr "Reiniciar para aplicar las actualizaciones instaladas"
 
 #: notifier/NotifierItem.cpp:65
-#, kde-format
-msgid "Click to restart the device"
+#, fuzzy, kde-format
+#| msgid "Click to restart the device"
+msgid "Click to restart the system"
 msgstr "Pulse para reiniciar el dispositivo"
+
+#~ msgid "Computer needs to restart"
+#~ msgstr "Necesita reiniciar el equipo"

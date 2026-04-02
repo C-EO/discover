@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:53+0000\n"
+"POT-Creation-Date: 2026-04-02 00:45+0000\n"
 "PO-Revision-Date: 2025-04-13 18:00+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
@@ -38,9 +38,10 @@ msgid "System up to date"
 msgstr "கணினி புதுப்பித்த நிலையில் உள்ளது"
 
 #: notifier/DiscoverNotifier.cpp:371
-#, kde-format
-msgid "Computer needs to restart"
-msgstr "கணினியை மீள்துவக்க வேண்டும்"
+#, fuzzy, kde-format
+#| msgid "Install Updates and Restart…"
+msgid "System will install updates when restarted"
+msgstr "புதுப்பிப்புகளை நிறுவி மீள்துவக்கு…"
 
 #: notifier/DiscoverNotifier.cpp:373
 #, kde-format
@@ -171,9 +172,13 @@ msgid "Restart to apply installed updates"
 msgstr "நிறுவியுள்ள புதுப்பிப்புகள் செயல்பட மீள்துவக்கவும்"
 
 #: notifier/NotifierItem.cpp:65
-#, kde-format
-msgid "Click to restart the device"
+#, fuzzy, kde-format
+#| msgid "Click to restart the device"
+msgid "Click to restart the system"
 msgstr "சாதனத்தை மீள்துவக்க அழுத்துங்கள்"
+
+#~ msgid "Computer needs to restart"
+#~ msgstr "கணினியை மீள்துவக்க வேண்டும்"
 
 #~ msgid "See Updates…"
 #~ msgstr "புதுப்பிப்புகளை காட்டு…"

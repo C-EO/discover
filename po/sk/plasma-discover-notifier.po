@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: muon-notifier\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:53+0000\n"
+"POT-Creation-Date: 2026-04-02 00:45+0000\n"
 "PO-Revision-Date: 2023-11-11 16:01+0100\n"
 "Last-Translator: Matej Mrenica <matejm98mthw@gmail.com>\n"
 "Language-Team: Slovak <kde-i18n-doc@kde.org>\n"
@@ -40,8 +40,8 @@ msgstr "Systém je aktuálny"
 
 #: notifier/DiscoverNotifier.cpp:371
 #, kde-format
-msgid "Computer needs to restart"
-msgstr "Je potrebné reštartovať počítač"
+msgid "System will install updates when restarted"
+msgstr ""
 
 #: notifier/DiscoverNotifier.cpp:373
 #, kde-format
@@ -176,9 +176,13 @@ msgid "Restart to apply installed updates"
 msgstr "Ak chcete použiť nainštalované aktualizácie, reštartujte počítač"
 
 #: notifier/NotifierItem.cpp:65
-#, kde-format
-msgid "Click to restart the device"
+#, fuzzy, kde-format
+#| msgid "Click to restart the device"
+msgid "Click to restart the system"
 msgstr "Kliknutím reštartujte toto zariadenie"
+
+#~ msgid "Computer needs to restart"
+#~ msgstr "Je potrebné reštartovať počítač"
 
 #~ msgid "See Updates…"
 #~ msgstr "Zobraziť aktualizácie..."

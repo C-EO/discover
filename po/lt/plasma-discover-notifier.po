@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: trunk-kf 5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:53+0000\n"
+"POT-Creation-Date: 2026-04-02 00:45+0000\n"
 "PO-Revision-Date: 2025-09-06 13:53+0300\n"
 "Last-Translator: Moo\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
@@ -42,9 +42,10 @@ msgid "System up to date"
 msgstr "Sistema pilnai atnaujinta"
 
 #: notifier/DiscoverNotifier.cpp:371
-#, kde-format
-msgid "Computer needs to restart"
-msgstr "Reikia paleisti kompiuterį iš naujo"
+#, fuzzy, kde-format
+#| msgid "Install Updates and Restart…"
+msgid "System will install updates when restarted"
+msgstr "Įdiegti atnaujinimus ir paleisti iš naujo…"
 
 #: notifier/DiscoverNotifier.cpp:373
 #, kde-format
@@ -175,9 +176,13 @@ msgid "Restart to apply installed updates"
 msgstr "Paleiskite iš naujo, kad pritaikytumėte įdiegtus atnaujinimus"
 
 #: notifier/NotifierItem.cpp:65
-#, kde-format
-msgid "Click to restart the device"
+#, fuzzy, kde-format
+#| msgid "Click to restart the device"
+msgid "Click to restart the system"
 msgstr "Spustelėkite, norėdami įrenginį iš naujo"
+
+#~ msgid "Computer needs to restart"
+#~ msgstr "Reikia paleisti kompiuterį iš naujo"
 
 #~ msgid "See Updates…"
 #~ msgstr "Rodyti atnaujinimus…"

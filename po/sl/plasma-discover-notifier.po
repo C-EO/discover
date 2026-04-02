@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:53+0000\n"
+"POT-Creation-Date: 2026-04-02 00:45+0000\n"
 "PO-Revision-Date: 2025-04-07 07:10+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -41,9 +41,10 @@ msgid "System up to date"
 msgstr "Sistem je posodobljen"
 
 #: notifier/DiscoverNotifier.cpp:371
-#, kde-format
-msgid "Computer needs to restart"
-msgstr "Računalnik je potrebno ponovno zagnati"
+#, fuzzy, kde-format
+#| msgid "Install Updates and Restart…"
+msgid "System will install updates when restarted"
+msgstr "Namesti posodobitve in ponovno zaženi…"
 
 #: notifier/DiscoverNotifier.cpp:373
 #, kde-format
@@ -174,9 +175,13 @@ msgid "Restart to apply installed updates"
 msgstr "Ponovni zagon za uveljavitev nameščenih posodobitev"
 
 #: notifier/NotifierItem.cpp:65
-#, kde-format
-msgid "Click to restart the device"
+#, fuzzy, kde-format
+#| msgid "Click to restart the device"
+msgid "Click to restart the system"
 msgstr "Kliknite za ponovni zagon računalnika"
+
+#~ msgid "Computer needs to restart"
+#~ msgstr "Računalnik je potrebno ponovno zagnati"
 
 #~ msgid "See Updates…"
 #~ msgstr "Poglej posodobitve…"

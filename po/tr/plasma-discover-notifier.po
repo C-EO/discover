@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:53+0000\n"
+"POT-Creation-Date: 2026-04-02 00:45+0000\n"
 "PO-Revision-Date: 2026-03-09 22:02+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -39,9 +39,10 @@ msgid "System up to date"
 msgstr "Sistem güncel"
 
 #: notifier/DiscoverNotifier.cpp:371
-#, kde-format
-msgid "Computer needs to restart"
-msgstr "Bilgisayarın yeniden başlatılması gerekiyor"
+#, fuzzy, kde-format
+#| msgid "Install Updates and Restart…"
+msgid "System will install updates when restarted"
+msgstr "Kur ve Yeniden Başlat…"
 
 #: notifier/DiscoverNotifier.cpp:373
 #, kde-format
@@ -173,9 +174,13 @@ msgid "Restart to apply installed updates"
 msgstr "Kurulu güncellemeleri uygulamak için yeniden başlat"
 
 #: notifier/NotifierItem.cpp:65
-#, kde-format
-msgid "Click to restart the device"
+#, fuzzy, kde-format
+#| msgid "Click to restart the device"
+msgid "Click to restart the system"
 msgstr "Aygıtı yeniden başlatmak için tıkla"
+
+#~ msgid "Computer needs to restart"
+#~ msgstr "Bilgisayarın yeniden başlatılması gerekiyor"
 
 #~ msgid "See Updates…"
 #~ msgstr "Güncellemeleri Gör…"
