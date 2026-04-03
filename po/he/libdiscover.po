@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: libdiscover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-02 00:45+0000\n"
-"PO-Revision-Date: 2026-03-20 08:13+0200\n"
+"PO-Revision-Date: 2026-04-02 08:47+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -2588,15 +2588,12 @@ msgid "Starred Publisher on snapcraft.io"
 msgstr "מפיץ מוביל ב־snapcraft.io"
 
 #: libdiscover/backends/SnapBackend/SnapTransaction.cpp:57
-#, fuzzy, kde-format
-#| msgid ""
-#| "This Snap application is not compatible with security sandboxing and will "
-#| "have full access to this computer. Install it anyway?"
+#, kde-format
 msgid ""
 "This Snap application is not compatible with security sandboxing and will "
 "have full access to this system. Install it anyway?"
 msgstr ""
-"יישום Snap זה לא תואם לדגם בידוד האבטחה ותהיה לו גישה מלאה למחשב. להתקין "
+"יישום Snap זה לא תואם לדגם בידוד האבטחה ותהיה לו גישה מלאה למערכת. להתקין "
 "אותו בכל זאת?"
 
 #: libdiscover/backends/SystemdSysupdateBackend/SystemdSysupdateBackend.cpp:149

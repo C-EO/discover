@@ -33,20 +33,13 @@ msgid "Automatically"
 msgstr "自动"
 
 #: kcm/ui/main.qml:58
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info"
-#| msgid ""
-#| "Software updates will be downloaded automatically when they become "
-#| "available. Updates for applications will be installed immediately, while "
-#| "system updates will be installed the next time the computer is restarted."
+#, kde-kuit-format
 msgctxt "@info"
 msgid ""
 "Software updates will be downloaded automatically when they become "
 "available. Updates for applications will be installed immediately, while "
 "updates for the system will be installed the next time it’s restarted."
 msgstr ""
-"软件更新将在可用时自动下载。应用程序的更新将被立即安装，系统软件更新则会在下"
-"次重启计算机时进行安装。"
 
 #: kcm/ui/main.qml:69
 #, kde-format

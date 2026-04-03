@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-02 00:45+0000\n"
-"PO-Revision-Date: 2026-03-18 11:59+0100\n"
+"PO-Revision-Date: 2026-04-02 16:31+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -39,10 +39,9 @@ msgid "System up to date"
 msgstr "Systema actualisate"
 
 #: notifier/DiscoverNotifier.cpp:371
-#, fuzzy, kde-format
-#| msgid "Install Updates and Restart…"
+#, kde-format
 msgid "System will install updates when restarted"
-msgstr "Installa actualisationes e Restarta ..."
+msgstr "Le systema installara le actualisationes quando es restartate"
 
 #: notifier/DiscoverNotifier.cpp:373
 #, kde-format
@@ -174,10 +173,9 @@ msgid "Restart to apply installed updates"
 msgstr "Re-starta per applicar le actualisationes installate"
 
 #: notifier/NotifierItem.cpp:65
-#, fuzzy, kde-format
-#| msgid "Click to restart the device"
+#, kde-format
 msgid "Click to restart the system"
-msgstr "Pulsa pro re-startar le dispositivo"
+msgstr "Pulsa pro re-startar le systema"
 
 #~ msgid "Computer needs to restart"
 #~ msgstr "Computator necessita restartar"

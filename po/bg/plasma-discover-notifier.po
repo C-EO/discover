@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the discover package.
 #
 # Automatically generated, 2022.
-# SPDX-FileCopyrightText: 2023, 2024, 2025 Mincho Kondarev <mkondarev@yahoo.de>
+# SPDX-FileCopyrightText: 2023, 2024, 2025, 2026 Mincho Kondarev <mkondarev@yahoo.de>
 msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-02 00:45+0000\n"
-"PO-Revision-Date: 2025-12-16 21:49+0100\n"
+"PO-Revision-Date: 2026-04-03 01:26+0200\n"
 "Last-Translator: Mincho Kondarev <mkondarev@yahoo.de>\n"
 "Language-Team: Bulgarian <kde-i18n-doc@kde.org>\n"
 "Language: bg\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 25.07.70\n"
+"X-Generator: Lokalize 26.03.70\n"
 
 #: notifier/DiscoverNotifier.cpp:218
 #, kde-format
@@ -40,10 +40,9 @@ msgid "System up to date"
 msgstr "Системата е актуална"
 
 #: notifier/DiscoverNotifier.cpp:371
-#, fuzzy, kde-format
-#| msgid "Install Updates and Restart…"
+#, kde-format
 msgid "System will install updates when restarted"
-msgstr "Инсталиране на актуализации и рестартиране..."
+msgstr "Системата ще инсталира актуализации при рестартиране"
 
 #: notifier/DiscoverNotifier.cpp:373
 #, kde-format
@@ -175,10 +174,9 @@ msgid "Restart to apply installed updates"
 msgstr "Рестартирайте, за да приложите инсталирани актуализации"
 
 #: notifier/NotifierItem.cpp:65
-#, fuzzy, kde-format
-#| msgid "Click to restart the device"
+#, kde-format
 msgid "Click to restart the system"
-msgstr "Кликнете, за да рестартирате устройството"
+msgstr "Кликнете, за да рестартирате системата"
 
 #~ msgid "Computer needs to restart"
 #~ msgstr "Компютърът трябва да се рестартира"

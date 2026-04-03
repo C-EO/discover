@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-31 00:46+0000\n"
-"PO-Revision-Date: 2026-02-11 22:30+0100\n"
+"PO-Revision-Date: 2026-04-03 01:25+0200\n"
 "Last-Translator: Mincho Kondarev <mkondarev@yahoo.de>\n"
 "Language-Team: Bulgarian <kde-i18n-doc@kde.org>\n"
 "Language: bg\n"
@@ -703,14 +703,12 @@ msgid "Name"
 msgstr "Име"
 
 #: discover/qml/ApplicationsListPage.qml:126
-#, fuzzy, kde-format
-#| msgid "Submit review"
+#, kde-format
 msgid "Number of reviews"
-msgstr "Изпращане на рецензия"
+msgstr "Брой на отзивите"
 
 #: discover/qml/ApplicationsListPage.qml:137
-#, fuzzy, kde-format
-#| msgid "Rating"
+#, kde-format
 msgctxt "@item:inmenu sort by highest-rated apps"
 msgid "Rating"
 msgstr "Оценка"
@@ -1496,13 +1494,13 @@ msgctxt ""
 "@info on the completion of updates, the action that automatically happens "
 "after (e.g shut down)"
 msgid "After completing:"
-msgstr ""
+msgstr "След завършване на актуализацията:"
 
 #: discover/qml/UpdatesPage.qml:284
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Do nothing"
-msgstr ""
+msgstr "Без действие"
 
 #: discover/qml/UpdatesPage.qml:284
 #, kde-format

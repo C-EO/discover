@@ -38,10 +38,9 @@ msgid "System up to date"
 msgstr "系统已为最新"
 
 #: notifier/DiscoverNotifier.cpp:371
-#, fuzzy, kde-format
-#| msgid "Install Updates and Restart…"
+#, kde-format
 msgid "System will install updates when restarted"
-msgstr "安装更新并重启…"
+msgstr ""
 
 #: notifier/DiscoverNotifier.cpp:373
 #, kde-format
@@ -173,10 +172,6 @@ msgid "Restart to apply installed updates"
 msgstr "重新启动以使已安装的更新生效"
 
 #: notifier/NotifierItem.cpp:65
-#, fuzzy, kde-format
-#| msgid "Click to restart the device"
+#, kde-format
 msgid "Click to restart the system"
-msgstr "点击重新启动设备"
-
-#~ msgid "Computer needs to restart"
-#~ msgstr "计算机需要重新启动"
+msgstr ""
