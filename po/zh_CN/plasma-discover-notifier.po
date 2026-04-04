@@ -40,7 +40,7 @@ msgstr "系统已为最新"
 #: notifier/DiscoverNotifier.cpp:371
 #, kde-format
 msgid "System will install updates when restarted"
-msgstr ""
+msgstr "系统将在重启后安装更新"
 
 #: notifier/DiscoverNotifier.cpp:373
 #, kde-format
@@ -174,4 +174,4 @@ msgstr "重新启动以使已安装的更新生效"
 #: notifier/NotifierItem.cpp:65
 #, kde-format
 msgid "Click to restart the system"
-msgstr ""
+msgstr "点击以重启系统"

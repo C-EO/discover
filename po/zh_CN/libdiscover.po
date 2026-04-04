@@ -2549,6 +2549,8 @@ msgid ""
 "This Snap application is not compatible with security sandboxing and will "
 "have full access to this system. Install it anyway?"
 msgstr ""
+"此 Snap 应用程序不兼容安全沙箱，它将获取此系统的完整访问权限。仍然要安装它"
+"吗？"
 
 #: libdiscover/backends/SystemdSysupdateBackend/SystemdSysupdateBackend.cpp:149
 #, kde-kuit-format

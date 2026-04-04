@@ -1,21 +1,22 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 # SPDX-FileCopyrightText: 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2023, 2024, 2025 Vit Pelcak <vit@pelcak.org>
+# SPDX-FileCopyrightText: 2026 Libor Filípek <filipek.libor@protonmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-31 00:46+0000\n"
-"PO-Revision-Date: 2025-11-10 11:49+0100\n"
-"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
-"Language-Team: Czech <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2026-04-03 16:00+0200\n"
+"Last-Translator: Libor Filípek <filipek.libor@protonmail.com>\n"
+"Language-Team: \n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 25.08.2\n"
+"X-Generator: Lokalize 25.12.3\n"
 
 #: discover/DiscoverObject.cpp:197
 #, kde-format
@@ -203,10 +204,9 @@ msgid "An application explorer"
 msgstr "Prohlížeč aplikací"
 
 #: discover/main.cpp:124
-#, fuzzy, kde-format
-#| msgid "© 2010-2025 Plasma Development Team"
+#, kde-format
 msgid "© 2010-2026 Plasma Development Team"
-msgstr "© 2010–2025 Vývojový tým Plasma"
+msgstr "© 2010–2026 Vývojový tým Plasma"
 
 #: discover/main.cpp:125
 #, kde-format
@@ -708,14 +708,12 @@ msgid "Name"
 msgstr "Název"
 
 #: discover/qml/ApplicationsListPage.qml:126
-#, fuzzy, kde-format
-#| msgid "Submit review"
+#, kde-format
 msgid "Number of reviews"
-msgstr "Odeslat recenzi"
+msgstr "Počet recenzí"
 
 #: discover/qml/ApplicationsListPage.qml:137
-#, fuzzy, kde-format
-#| msgid "Rating"
+#, kde-format
 msgctxt "@item:inmenu sort by highest-rated apps"
 msgid "Rating"
 msgstr "Hodnocení"
@@ -1500,13 +1498,13 @@ msgctxt ""
 "@info on the completion of updates, the action that automatically happens "
 "after (e.g shut down)"
 msgid "After completing:"
-msgstr ""
+msgstr "Po dokončení:"
 
 #: discover/qml/UpdatesPage.qml:284
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Do nothing"
-msgstr ""
+msgstr "Nedělat nic"
 
 #: discover/qml/UpdatesPage.qml:284
 #, kde-format
@@ -1537,14 +1535,10 @@ msgid "Installing"
 msgstr "Instaluje se"
 
 #: discover/qml/UpdatesPage.qml:530
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "@item:inlistbox %1 is the name of an app source e.g. \"Flathub\" or "
-#| "\"Ubuntu\""
-#| msgid "From %1"
+#, kde-format
 msgctxt "@info This update is from the following source"
 msgid "From:"
-msgstr "Z %1"
+msgstr "Od:"
 
 #: discover/qml/UpdatesPage.qml:547
 #, kde-format
@@ -1555,8 +1549,7 @@ msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
 #: discover/qml/UpdatesPage.qml:559
-#, fuzzy, kde-format
-#| msgid "More Information…"
+#, kde-format
 msgctxt "@action:button minimize the length of this label"
 msgid "More Info…"
 msgstr "Více informací…"
