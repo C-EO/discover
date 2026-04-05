@@ -197,7 +197,6 @@ DiscoverPage {
         }
 
         delegate: ApplicationDelegate {
-            compact: !applicationWindow().wideScreen
             showRating: page.showRating
             showSize: page.showSize
         }
