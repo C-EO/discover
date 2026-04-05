@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-31 00:46+0000\n"
+"POT-Creation-Date: 2026-04-05 00:46+0000\n"
 "PO-Revision-Date: 2026-02-01 18:59+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-l10n-ta@kde.org>\n"
@@ -273,7 +273,7 @@ msgstr "சேர்"
 #: discover/qml/AddSourceDialog.qml:50 discover/qml/DiscoverWindow.qml:281
 #: discover/qml/InstallApplicationButton.qml:51
 #: discover/qml/ProgressView.qml:153 discover/qml/SourcesPage.qml:201
-#: discover/qml/UpdatesPage.qml:303 discover/qml/WebflowDialog.qml:41
+#: discover/qml/UpdatesPage.qml:307 discover/qml/WebflowDialog.qml:41
 #, kde-format
 msgid "Cancel"
 msgstr "ரத்து செய்"
@@ -840,12 +840,12 @@ msgctxt "@action:button"
 msgid "Next Screenshot"
 msgstr "அடுத்த திரைப்பிடிப்பு"
 
-#: discover/qml/DiscoverDrawer.qml:166
+#: discover/qml/DiscoverDrawer.qml:161
 #, kde-format
 msgid "Security updates available"
 msgstr "பாதுகாப்பு புதுப்பிப்புகள் உள்ளன"
 
-#: discover/qml/DiscoverDrawer.qml:167
+#: discover/qml/DiscoverDrawer.qml:162
 #, kde-format
 msgid "Updates available"
 msgstr "புதுப்பிப்புகள் உள்ளன"
@@ -1469,47 +1469,49 @@ msgstr "ஒன்றையும் தேர்ந்தெடுக்க வ�
 
 #: discover/qml/UpdatesPage.qml:279
 #, kde-format
-msgctxt ""
-"@info on the completion of updates, the action that automatically happens "
-"after (e.g shut down)"
-msgid "After completing:"
+msgctxt "@info After updates complete, shut down/restart/quit"
+msgid "After updates complete:"
 msgstr ""
 
-#: discover/qml/UpdatesPage.qml:284
+#: discover/qml/UpdatesPage.qml:285
 #, kde-format
-msgctxt "@item:inlistbox"
+msgctxt "@item:inlistbox after updates complete, do nothing"
 msgid "Do nothing"
 msgstr ""
 
-#: discover/qml/UpdatesPage.qml:284
-#, kde-format
-msgctxt "@item:inlistbox"
+#: discover/qml/UpdatesPage.qml:286
+#, fuzzy, kde-format
+#| msgctxt "@item:inlistbox"
+#| msgid "Restart"
+msgctxt "@item:inlistbox after updates complete, restart"
 msgid "Restart"
 msgstr "மீள்துவக்கு"
 
-#: discover/qml/UpdatesPage.qml:284
-#, kde-format
-msgctxt "@item:inlistbox"
+#: discover/qml/UpdatesPage.qml:287
+#, fuzzy, kde-format
+#| msgctxt "@item:inlistbox"
+#| msgid "Shut down"
+msgctxt "@item:inlistbox after updates complete, shut down"
 msgid "Shut down"
 msgstr "கணினியை நிறுத்து"
 
-#: discover/qml/UpdatesPage.qml:293
+#: discover/qml/UpdatesPage.qml:297
 #, kde-format
 msgid "Total size: %1"
 msgstr "மொத்த அளவு: %1"
 
-#: discover/qml/UpdatesPage.qml:323
+#: discover/qml/UpdatesPage.qml:327
 #, kde-format
 msgctxt "@action:button"
 msgid "Restart and Install Updates"
 msgstr "மீள்துவக்கி புதுப்பிப்புகளை நிறுவு"
 
-#: discover/qml/UpdatesPage.qml:514
+#: discover/qml/UpdatesPage.qml:518
 #, kde-format
 msgid "Installing"
 msgstr "நிறுவப்படுகிறது"
 
-#: discover/qml/UpdatesPage.qml:530
+#: discover/qml/UpdatesPage.qml:534
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "@item:inlistbox %1 is the name of an app source e.g. \"Flathub\" or "
@@ -1519,7 +1521,7 @@ msgctxt "@info This update is from the following source"
 msgid "From:"
 msgstr "வழங்குபவர் %1"
 
-#: discover/qml/UpdatesPage.qml:547
+#: discover/qml/UpdatesPage.qml:551
 #, kde-format
 msgctxt ""
 "%1 is the backend that provides this app, %2 is the specific repository or "
@@ -1527,51 +1529,51 @@ msgctxt ""
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: discover/qml/UpdatesPage.qml:559
+#: discover/qml/UpdatesPage.qml:563
 #, fuzzy, kde-format
 #| msgid "More Information…"
 msgctxt "@action:button minimize the length of this label"
 msgid "More Info…"
 msgstr "மேலும் விவரங்கள்…"
 
-#: discover/qml/UpdatesPage.qml:607
+#: discover/qml/UpdatesPage.qml:611
 #, kde-format
 msgctxt "@info"
 msgid "Fetching updates…"
 msgstr "புதுப்பிப்புகளின் பட்டியல் பதிவிறக்கப்படுகிறது…"
 
-#: discover/qml/UpdatesPage.qml:622
+#: discover/qml/UpdatesPage.qml:626
 #, kde-format
 msgctxt "@info"
 msgid "Updates"
 msgstr "புதுப்பிப்புகள்"
 
-#: discover/qml/UpdatesPage.qml:632
+#: discover/qml/UpdatesPage.qml:636
 #, kde-format
 msgctxt "@info"
 msgid "Updates will be installed after the system is restarted"
 msgstr "கணினி மீள்துவக்கப்படும்போது இப்புதுப்பிப்புகள் நிறுவப்படும்"
 
-#: discover/qml/UpdatesPage.qml:634
+#: discover/qml/UpdatesPage.qml:638
 #, kde-format
 msgctxt "@info"
 msgid "You can keep using the system if you're not ready to restart yet."
 msgstr "உடனே மீள்துவக்க வேண்டுமென்று அவசியமில்லை."
 
-#: discover/qml/UpdatesPage.qml:648 discover/qml/UpdatesPage.qml:655
-#: discover/qml/UpdatesPage.qml:662
+#: discover/qml/UpdatesPage.qml:652 discover/qml/UpdatesPage.qml:659
+#: discover/qml/UpdatesPage.qml:666
 #, kde-format
 msgctxt "@info"
 msgid "Up to date"
 msgstr "புதுப்பிப்புகள் இல்லை"
 
-#: discover/qml/UpdatesPage.qml:669
+#: discover/qml/UpdatesPage.qml:673
 #, kde-format
 msgctxt "@info"
 msgid "Should check for updates"
 msgstr "புதுப்பிப்புகள் உள்ளனவா என்று பார்க்க வேண்டும்"
 
-#: discover/qml/UpdatesPage.qml:676
+#: discover/qml/UpdatesPage.qml:680
 #, kde-format
 msgctxt "@info"
 msgid "Time of last update unknown"

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: l 10n\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-31 00:46+0000\n"
+"POT-Creation-Date: 2026-04-05 00:46+0000\n"
 "PO-Revision-Date: 2026-03-30 11:56+0300\n"
 "Last-Translator: Moo\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
@@ -291,7 +291,7 @@ msgstr "Pridėti"
 #: discover/qml/AddSourceDialog.qml:50 discover/qml/DiscoverWindow.qml:281
 #: discover/qml/InstallApplicationButton.qml:51
 #: discover/qml/ProgressView.qml:153 discover/qml/SourcesPage.qml:201
-#: discover/qml/UpdatesPage.qml:303 discover/qml/WebflowDialog.qml:41
+#: discover/qml/UpdatesPage.qml:307 discover/qml/WebflowDialog.qml:41
 #, kde-format
 msgid "Cancel"
 msgstr "Atsisakyti"
@@ -880,12 +880,12 @@ msgctxt "@action:button"
 msgid "Next Screenshot"
 msgstr "Kita ekrano kopija"
 
-#: discover/qml/DiscoverDrawer.qml:166
+#: discover/qml/DiscoverDrawer.qml:161
 #, kde-format
 msgid "Security updates available"
 msgstr "Yra prieinami saugumo atnaujinimai"
 
-#: discover/qml/DiscoverDrawer.qml:167
+#: discover/qml/DiscoverDrawer.qml:162
 #, kde-format
 msgid "Updates available"
 msgstr "Yra prieinami atnaujinimai"
@@ -1510,54 +1510,62 @@ msgid "Select None"
 msgstr "Nuimti žymėjimą nuo visų"
 
 #: discover/qml/UpdatesPage.qml:279
-#, kde-format
-msgctxt ""
-"@info on the completion of updates, the action that automatically happens "
-"after (e.g shut down)"
-msgid "After completing:"
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "@info on the completion of updates, the action that automatically happens "
+#| "after (e.g shut down)"
+#| msgid "After completing:"
+msgctxt "@info After updates complete, shut down/restart/quit"
+msgid "After updates complete:"
 msgstr "Užbaigus:"
 
-#: discover/qml/UpdatesPage.qml:284
-#, kde-format
-msgctxt "@item:inlistbox"
+#: discover/qml/UpdatesPage.qml:285
+#, fuzzy, kde-format
+#| msgctxt "@item:inlistbox"
+#| msgid "Do nothing"
+msgctxt "@item:inlistbox after updates complete, do nothing"
 msgid "Do nothing"
 msgstr "Nieko nedaryti"
 
-#: discover/qml/UpdatesPage.qml:284
-#, kde-format
-msgctxt "@item:inlistbox"
+#: discover/qml/UpdatesPage.qml:286
+#, fuzzy, kde-format
+#| msgctxt "@item:inlistbox"
+#| msgid "Restart"
+msgctxt "@item:inlistbox after updates complete, restart"
 msgid "Restart"
 msgstr "Paleisti iš naujo"
 
-#: discover/qml/UpdatesPage.qml:284
-#, kde-format
-msgctxt "@item:inlistbox"
+#: discover/qml/UpdatesPage.qml:287
+#, fuzzy, kde-format
+#| msgctxt "@item:inlistbox"
+#| msgid "Shut down"
+msgctxt "@item:inlistbox after updates complete, shut down"
 msgid "Shut down"
 msgstr "Išjungti"
 
-#: discover/qml/UpdatesPage.qml:293
+#: discover/qml/UpdatesPage.qml:297
 #, kde-format
 msgid "Total size: %1"
 msgstr "Bendras dydis: %1"
 
-#: discover/qml/UpdatesPage.qml:323
+#: discover/qml/UpdatesPage.qml:327
 #, kde-format
 msgctxt "@action:button"
 msgid "Restart and Install Updates"
 msgstr "Paleisti iš naujo ir įdiegti atnaujinimus"
 
-#: discover/qml/UpdatesPage.qml:514
+#: discover/qml/UpdatesPage.qml:518
 #, kde-format
 msgid "Installing"
 msgstr "Įdiegiama"
 
-#: discover/qml/UpdatesPage.qml:530
+#: discover/qml/UpdatesPage.qml:534
 #, kde-format
 msgctxt "@info This update is from the following source"
 msgid "From:"
 msgstr "Iš:"
 
-#: discover/qml/UpdatesPage.qml:547
+#: discover/qml/UpdatesPage.qml:551
 #, kde-format
 msgctxt ""
 "%1 is the backend that provides this app, %2 is the specific repository or "
@@ -1565,31 +1573,31 @@ msgctxt ""
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: discover/qml/UpdatesPage.qml:559
+#: discover/qml/UpdatesPage.qml:563
 #, kde-format
 msgctxt "@action:button minimize the length of this label"
 msgid "More Info…"
 msgstr "Daugiau informacijos…"
 
-#: discover/qml/UpdatesPage.qml:607
+#: discover/qml/UpdatesPage.qml:611
 #, kde-format
 msgctxt "@info"
 msgid "Fetching updates…"
 msgstr "Gaunami atnaujinimai…"
 
-#: discover/qml/UpdatesPage.qml:622
+#: discover/qml/UpdatesPage.qml:626
 #, kde-format
 msgctxt "@info"
 msgid "Updates"
 msgstr "Atnaujinimai"
 
-#: discover/qml/UpdatesPage.qml:632
+#: discover/qml/UpdatesPage.qml:636
 #, kde-format
 msgctxt "@info"
 msgid "Updates will be installed after the system is restarted"
 msgstr "Atnaujinimai bus įdiegti po to, kai sistema bus paleista iš naujo"
 
-#: discover/qml/UpdatesPage.qml:634
+#: discover/qml/UpdatesPage.qml:638
 #, kde-format
 msgctxt "@info"
 msgid "You can keep using the system if you're not ready to restart yet."
@@ -1597,20 +1605,20 @@ msgstr ""
 "Galite ir toliau naudotis sistema, jei dar nesate pasiruošę paleisti iš "
 "naujo."
 
-#: discover/qml/UpdatesPage.qml:648 discover/qml/UpdatesPage.qml:655
-#: discover/qml/UpdatesPage.qml:662
+#: discover/qml/UpdatesPage.qml:652 discover/qml/UpdatesPage.qml:659
+#: discover/qml/UpdatesPage.qml:666
 #, kde-format
 msgctxt "@info"
 msgid "Up to date"
 msgstr "Atnaujinta"
 
-#: discover/qml/UpdatesPage.qml:669
+#: discover/qml/UpdatesPage.qml:673
 #, kde-format
 msgctxt "@info"
 msgid "Should check for updates"
 msgstr "Turėtų būti tikrinama ar yra atnaujinimų"
 
-#: discover/qml/UpdatesPage.qml:676
+#: discover/qml/UpdatesPage.qml:680
 #, kde-format
 msgctxt "@info"
 msgid "Time of last update unknown"
