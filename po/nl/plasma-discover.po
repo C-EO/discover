@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-05 00:46+0000\n"
-"PO-Revision-Date: 2026-03-29 14:45+0200\n"
+"PO-Revision-Date: 2026-04-05 17:37+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -1495,35 +1495,25 @@ msgid "Select None"
 msgstr "Niets selecteren"
 
 #: discover/qml/UpdatesPage.qml:279
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "@info on the completion of updates, the action that automatically happens "
-#| "after (e.g shut down)"
-#| msgid "After completing:"
+#, kde-format
 msgctxt "@info After updates complete, shut down/restart/quit"
 msgid "After updates complete:"
-msgstr "Na voltooiing:"
+msgstr "Na voltooiing van bijwerken:"
 
 #: discover/qml/UpdatesPage.qml:285
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox"
-#| msgid "Do nothing"
+#, kde-format
 msgctxt "@item:inlistbox after updates complete, do nothing"
 msgid "Do nothing"
 msgstr "Niets doen"
 
 #: discover/qml/UpdatesPage.qml:286
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox"
-#| msgid "Restart"
+#, kde-format
 msgctxt "@item:inlistbox after updates complete, restart"
 msgid "Restart"
 msgstr "Herstarten"
 
 #: discover/qml/UpdatesPage.qml:287
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox"
-#| msgid "Shut down"
+#, kde-format
 msgctxt "@item:inlistbox after updates complete, shut down"
 msgid "Shut down"
 msgstr "Afsluiten"
