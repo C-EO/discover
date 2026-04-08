@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libmuon\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-02 00:45+0000\n"
+"POT-Creation-Date: 2026-04-08 00:47+0000\n"
 "PO-Revision-Date: 2023-11-27 18:34+0100\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
 "Language-Team: Slovak <opensuse-translation@opensuse.org>\n"
@@ -637,6 +637,7 @@ msgid "Retrieving size information"
 msgstr "Získavajú sa informácie o veľkosti"
 
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:472
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:419
 #, kde-format
 msgctxt "@label app size"
 msgid "Unknown"
@@ -2492,6 +2493,21 @@ msgstr "Nahradené balíky:"
 #, kde-format
 msgid "Removed packages:"
 msgstr "Odstránené balíky:"
+
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:346
+#, kde-format
+msgctxt "@label OS updater message"
+msgid ""
+"<br/>This version is pinned and won't be automatically removed on updates."
+msgstr ""
+
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:360
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:373
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:391
+#, kde-format
+msgctxt "@label OS vendor"
+msgid "Fedora Project"
+msgstr ""
 
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:400
 #, kde-format

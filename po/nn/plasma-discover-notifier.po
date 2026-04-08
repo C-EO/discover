@@ -179,6 +179,3 @@ msgstr "Start på nytt for å ta i bruk oppdateringane"
 #| msgid "Click to restart the device"
 msgid "Click to restart the system"
 msgstr "Trykk for å starta eininga på nytt"
-
-#~ msgid "Computer needs to restart"
-#~ msgstr "Maskina må startast på nytt"

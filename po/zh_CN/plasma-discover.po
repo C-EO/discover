@@ -1445,25 +1445,25 @@ msgstr "全部不选"
 #, kde-format
 msgctxt "@info After updates complete, shut down/restart/quit"
 msgid "After updates complete:"
-msgstr ""
+msgstr "更新完成后："
 
 #: discover/qml/UpdatesPage.qml:285
 #, kde-format
 msgctxt "@item:inlistbox after updates complete, do nothing"
 msgid "Do nothing"
-msgstr ""
+msgstr "无操作"
 
 #: discover/qml/UpdatesPage.qml:286
 #, kde-format
 msgctxt "@item:inlistbox after updates complete, restart"
 msgid "Restart"
-msgstr ""
+msgstr "重新启动"
 
 #: discover/qml/UpdatesPage.qml:287
 #, kde-format
 msgctxt "@item:inlistbox after updates complete, shut down"
 msgid "Shut down"
-msgstr ""
+msgstr "关机"
 
 #: discover/qml/UpdatesPage.qml:297
 #, kde-format

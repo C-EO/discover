@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-02 00:45+0000\n"
+"POT-Creation-Date: 2026-04-08 00:47+0000\n"
 "PO-Revision-Date: 2023-02-17 08:42+0100\n"
 "Last-Translator: John Ivar Eriksen <jieriksen@runbox.com>\n"
 "Language-Team: Norwegian Bokmål <l10n-no@lister.huftis.org>\n"
@@ -619,6 +619,7 @@ msgid "Retrieving size information"
 msgstr "Henter størrelsesinformasjon"
 
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:472
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:419
 #, fuzzy, kde-format
 msgctxt "@label app size"
 msgid "Unknown"
@@ -2464,6 +2465,21 @@ msgstr "Erstattede pakker:"
 #, kde-format
 msgid "Removed packages:"
 msgstr "Fjernete pakker:"
+
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:346
+#, kde-format
+msgctxt "@label OS updater message"
+msgid ""
+"<br/>This version is pinned and won't be automatically removed on updates."
+msgstr ""
+
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:360
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:373
+#: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:391
+#, kde-format
+msgctxt "@label OS vendor"
+msgid "Fedora Project"
+msgstr ""
 
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:400
 #, kde-format

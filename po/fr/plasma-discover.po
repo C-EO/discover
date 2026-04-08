@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: muon-discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-05 00:46+0000\n"
-"PO-Revision-Date: 2026-03-31 07:18+0200\n"
+"PO-Revision-Date: 2026-04-06 09:08+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: fr\n"
 "Language: fr\n"
@@ -1529,35 +1529,25 @@ msgid "Select None"
 msgstr "Ne rien sélectionner"
 
 #: discover/qml/UpdatesPage.qml:279
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "@info on the completion of updates, the action that automatically happens "
-#| "after (e.g shut down)"
-#| msgid "After completing:"
+#, kde-format
 msgctxt "@info After updates complete, shut down/restart/quit"
 msgid "After updates complete:"
-msgstr "Après avoir terminé :"
+msgstr "Après avoir terminé les mises à jour :"
 
 #: discover/qml/UpdatesPage.qml:285
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox"
-#| msgid "Do nothing"
+#, kde-format
 msgctxt "@item:inlistbox after updates complete, do nothing"
 msgid "Do nothing"
 msgstr "Ne rien faire"
 
 #: discover/qml/UpdatesPage.qml:286
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox"
-#| msgid "Restart"
+#, kde-format
 msgctxt "@item:inlistbox after updates complete, restart"
 msgid "Restart"
-msgstr "Re-démarrer"
+msgstr "Redémarrer"
 
 #: discover/qml/UpdatesPage.qml:287
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox"
-#| msgid "Shut down"
+#, kde-format
 msgctxt "@item:inlistbox after updates complete, shut down"
 msgid "Shut down"
 msgstr "Éteindre"
