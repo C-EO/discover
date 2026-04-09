@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: muon-discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-05 00:46+0000\n"
+"POT-Creation-Date: 2026-04-09 00:46+0000\n"
 "PO-Revision-Date: 2023-12-05 17:21+0100\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -17,14 +17,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 23.08.3\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Lokalize 23.08.3\n"
 
 #: discover/DiscoverObject.cpp:197
-#, fuzzy, kde-format
-#| msgctxt "@title %1 is the distro name"
-#| msgid ""
-#| "%1 is not configured for installing apps through Discover—only app add-ons"
+#, kde-format
 msgctxt "@title %1 is the name"
 msgid ""
 "%1 is not configured for installing apps through Discover—only app add-ons"
@@ -33,35 +30,19 @@ msgstr ""
 "iba doplnky aplikácií"
 
 #: discover/DiscoverObject.cpp:199
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip %1 is the distro name"
-#| msgid ""
-#| "To use Discover for apps, install your preferred module on the "
-#| "<interface>Settings</interface> page, under <interface>Missing Backends</"
-#| "interface>."
+#, kde-kuit-format
 msgctxt "@info:usagetip %2 is the name of the operating system"
 msgid ""
 "To use Discover for apps, install your preferred module on the "
 "<interface>Settings</interface> page, under <interface>Missing Backends</"
 "interface>.<nl/><nl/>Please <link url='%1'>report this issue to %2.</link>"
 msgstr ""
-"Ak chcete používať Discover pre aplikácie, nainštalujte preferovaný modul na "
-"stránke <interface>Nastavenia</interface> pod <interface>Chýbajúce podporné "
-"programy</interface>."
+"To use Discover for apps, install your preferred module on the "
+"<interface>Settings</interface> page, under <interface>Missing Backends</"
+"interface>.<nl/><nl/>Please <link url='%1'>report toto jesue to %2.</link>"
 
 #: discover/DiscoverObject.cpp:206
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:usagetip %1 is the distro name; in this case it always contains "
-#| "'Arch Linux'"
-#| msgid ""
-#| "To use Discover for apps, install <link url='https://wiki.archlinux.org/"
-#| "title/Flatpak#Installation'>Flatpak</link> or <link url='https://wiki."
-#| "archlinux.org/title/"
-#| "KDE#Discover_does_not_show_any_applications'>PackageKit</link> using the "
-#| "<command>pacman</command> package manager.<nl/><nl/> Review <link "
-#| "url='https://archlinux.org/packages/extra/x86_64/discover/'>%1's "
-#| "packaging for Discover</link>"
+#, kde-kuit-format
 msgctxt ""
 "@info:usagetip %1 is the distro name; in this case it always contains 'Arch "
 "Linux'"
@@ -90,6 +71,12 @@ msgid ""
 "instead using the <command>pacman</command> command-line tool to manage "
 "packages.</para>"
 msgstr ""
+"Support for managing packages from %1 is incomplete; môžete experience any "
+"počet problems. Do not report bugs to KDE. It is highly recommended to "
+"uninstall the <resource>packagekit-qt6</resource> package and use Discover "
+"only to manage Flatpaks, Snaps, and Add-Ons.<para>%1 maintainers recommended "
+"instead using the <command>pacman</command> command-line tool to manage "
+"packages.</para>"
 
 #: discover/DiscoverObject.cpp:305
 #, kde-format
@@ -121,16 +108,13 @@ msgid "Please make sure Snap support is installed"
 msgstr "Uistite sa prosím, že je nainštalovaná podpora pre Snap"
 
 #: discover/DiscoverObject.cpp:421
-#, fuzzy, kde-format
-#| msgid ""
-#| "Could not open %1 because it was not found in any available software "
-#| "repositories."
+#, kde-format
 msgid ""
 "The requested application could not be found in any available software "
 "repositories"
 msgstr ""
-"Nepodarilo sa otvoriť %1, pretože sa nenašiel v žiadnych dostupných "
-"softvérových repozitároch."
+"The requested application could not be found in any available software "
+"repositories"
 
 #: discover/DiscoverObject.cpp:424
 #, kde-kuit-format
@@ -141,6 +125,8 @@ msgid ""
 "(No entry for %1)<nl/><nl/>Please <link url='%2'>report this issue to %3.</"
 "link>"
 msgstr ""
+"(No entry for %1)<nl/><nl/>Please <link url='%2'>report toto jesue to %3.</"
+"link>"
 
 #: discover/DiscoverObject.cpp:508 discover/DiscoverObject.cpp:510
 #: discover/main.cpp:120
@@ -206,7 +192,7 @@ msgstr "Vypíše všetky možné voľby pre spätnú väzbu od používateľa"
 #: discover/main.cpp:43
 #, kde-format
 msgid "Starts an update automatically, headless"
-msgstr ""
+msgstr "Starts an update automatically, headless"
 
 #: discover/main.cpp:45
 #, kde-format
@@ -219,8 +205,7 @@ msgid "An application explorer"
 msgstr "Prieskumník aplikácií"
 
 #: discover/main.cpp:124
-#, fuzzy, kde-format
-#| msgid "© 2010-2022 Plasma Development Team"
+#, kde-format
 msgid "© 2010-2026 Plasma Development Team"
 msgstr "© 2010-2022 Vývojový tím Plasma"
 
@@ -325,19 +310,7 @@ msgid "No ratings yet"
 msgstr "Zatiaľ bez hodnotení"
 
 #: discover/qml/ApplicationPage.qml:69
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This application's source code is partially or entirely closed to public "
-#| "inspection and improvement. That means third parties and users like you "
-#| "cannot verify its operation, security, and trustworthiness, or modify and "
-#| "redistribute it without the authors' express permission.<nl/><nl/>The "
-#| "application may be perfectly safe to use, or it may be acting against you "
-#| "in various ways—such as harvesting your personal information, tracking "
-#| "your location, or transmitting the contents of your files to someone "
-#| "else. There is no easy way to be sure, so you should only install this "
-#| "application if you fully trust its authors (%1).<nl/><nl/>You can learn "
-#| "more at <link url='%2'>%2</link>."
+#, kde-kuit-format
 msgctxt "@info"
 msgid ""
 "Only install %1 if you fully trust its authors because it is <emphasis "
@@ -353,31 +326,21 @@ msgid ""
 "url='%2'>the application's website</link>.<nl/><nl/>Learn more at <link "
 "url='%3'>%3</link>."
 msgstr ""
-"Zdrojový kód tejto aplikácie je čiastočne alebo úplne uzavretý pre verejnú "
-"kontrolu a vylepšovanie. To znamená, že tretie strany a používatelia ako vy "
-"nemôžu overovať jeho fungovanie, bezpečnosť a dôveryhodnosť, ani ho "
-"upravovať a šíriť bez výslovného súhlasu autorov.<nl/><nl/>Používanie "
-"aplikácie môže byť úplne bezpečné, alebo môže rôznymi spôsobmi pôsobiť proti "
-"vám—napríklad zbierať vaše osobné údaje, sledovať vašu polohu alebo prenášať "
-"obsah vašich súborov niekomu inému. Neexistuje jednoduchý spôsob, ako si byť "
-"istý, preto by ste si túto aplikáciu mali nainštalovať len vtedy, ak plne "
-"dôverujete jej autorom (%1).<nl/><nl/>Viac informácií nájdete na <link "
-"url='%2'>%2</link>."
+"Only install %1 ak fully trust its authors because it is <emphasis "
+"strong='true'>proprietary</emphasis>: Your freedom to use, modify, and "
+"redistribute this application is restricted, and its source code is "
+"partially or entirely closed to public inspection and improvement. This "
+"means third parties and users like môžetenot verify its operation, security, "
+"and trustworthiness.<nl/><nl/>The application may be perfectly safe to use, "
+"or it may be acting against you in various ways — ako napríklad harvesting "
+"your personal information, tracking your location, or transmitting the "
+"contents of your data to someone else. Only use it ak fully trust its "
+"authors. More information may be available on <link url='%2'>the "
+"application's website</link>.<nl/><nl/>Learn more at <link url='%3'>%3</"
+"link>."
 
 #: discover/qml/ApplicationPage.qml:74
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info"
-#| msgid ""
-#| "This application's source code is partially or entirely closed to public "
-#| "inspection and improvement. That means third parties and users like you "
-#| "cannot verify its operation, security, and trustworthiness, or modify and "
-#| "redistribute it without the authors' express permission.<nl/><nl/>The "
-#| "application may be perfectly safe to use, or it may be acting against you "
-#| "in various ways—such as harvesting your personal information, tracking "
-#| "your location, or transmitting the contents of your files to someone "
-#| "else. There is no easy way to be sure, so you should only install this "
-#| "application if you fully trust its authors (%1).<nl/><nl/>You can learn "
-#| "more at <link url='%2'>%2</link>."
+#, kde-kuit-format
 msgctxt "@info"
 msgid ""
 "Only install %1 if you fully trust its authors because it is <emphasis "
@@ -418,6 +381,17 @@ msgid ""
 "url='%4'>the application's website</link>.<nl/><nl/>Learn more at <link "
 "url='%5'>%5</link>."
 msgstr ""
+"%1 uses one or more licenses not certified as “Free Software” by either the "
+"<link url='%2'>Free Software Foundation</link> or the <link url='%3'>Open "
+"Source Initiative</link>. This means your freedom to use, study, modify, and "
+"share it may be restricted in some ways.<nl/><nl/>Uistite sa to read the "
+"license text and understand any restrictions before using the software.<nl/"
+"><nl/>If the license does not even grant access to read the source code, "
+"uistite sa you fully trust the authors, as no one else can verify the "
+"trustworthiness and security of its code to ensure that it is not acting "
+"against you in hidden ways. More information may be available on <link "
+"url='%4'>the application's website</link>.<nl/><nl/>Learn more at <link "
+"url='%5'>%5</link>."
 
 #: discover/qml/ApplicationPage.qml:88
 #, kde-kuit-format
@@ -433,6 +407,15 @@ msgid ""
 "trustworthiness and security of its code to ensure that it is not acting "
 "against you in hidden ways.<nl/><nl/>Learn more at <link url='%4'>%4</link>."
 msgstr ""
+"%1 uses one or more licenses not certified as “Free Software” by either the "
+"<link url='%2'>Free Software Foundation</link> or the <link url='%3'>Open "
+"Source Initiative</link>. This means your freedom to use, study, modify, and "
+"share it may be restricted in some ways.<nl/><nl/>Uistite sa to read the "
+"license text and understand any restrictions before using the software.<nl/"
+"><nl/>If the license does not even grant access to read the source code, "
+"uistite sa you fully trust the authors, as no one else can verify the "
+"trustworthiness and security of its code to ensure that it is not acting "
+"against you in hidden ways.<nl/><nl/>Learn more at <link url='%4'>%4</link>."
 
 #: discover/qml/ApplicationPage.qml:97
 #, kde-kuit-format
@@ -443,6 +426,10 @@ msgid ""
 "it there or contact the author if you want to use this application for "
 "anything other than private personal use."
 msgstr ""
+"%1 does not indicate under which license it is distributed. Môžete be "
+"schopný determine this on <link url='%2'>the application's website</link>. "
+"Find it there or contact the author ak want to use this application for "
+"anything other than private personal use."
 
 #: discover/qml/ApplicationPage.qml:101
 #, kde-format
@@ -452,11 +439,12 @@ msgid ""
 "application's author if you want to use it for anything other than private "
 "personal use."
 msgstr ""
+"%1 does not indicate under which license it is distributed. Contact the "
+"application's author ak want to use it for anything other than private "
+"personal use."
 
 #: discover/qml/ApplicationPage.qml:142
-#, fuzzy, kde-format
-#| msgctxt "Exports the application's URL to an external service"
-#| msgid "Share"
+#, kde-format
 msgctxt "@action:button share a link to this app"
 msgid "Share"
 msgstr "Zdieľať"
@@ -465,7 +453,7 @@ msgstr "Zdieľať"
 #, kde-format
 msgctxt "@action:button"
 msgid "Add-ons"
-msgstr ""
+msgstr "Add-ons"
 
 #: discover/qml/ApplicationPage.qml:166
 #, kde-format
@@ -481,8 +469,7 @@ msgid "%1 - %2"
 msgstr "%1 - %2"
 
 #: discover/qml/ApplicationPage.qml:221
-#, fuzzy, kde-format
-#| msgid "Send a link for this application"
+#, kde-format
 msgctxt "@title:window"
 msgid "Share Link to Application"
 msgstr "Odoslať odkaz na túto aplikáciu"
@@ -508,7 +495,7 @@ msgstr "Verzia:"
 msgid "Size:"
 msgstr "Veľkosť:"
 
-#: discover/qml/ApplicationPage.qml:421
+#: discover/qml/ApplicationPage.qml:430
 #, kde-format
 msgid "License:"
 msgid_plural "Licenses:"
@@ -516,167 +503,156 @@ msgstr[0] "Licencia:"
 msgstr[1] "Licencie:"
 msgstr[2] "Licencií:"
 
-#: discover/qml/ApplicationPage.qml:428
-#, fuzzy, kde-format
-#| msgid "What does this mean?"
+#: discover/qml/ApplicationPage.qml:437
+#, kde-format
 msgctxt "@info:tooltip for button opening license type description"
 msgid "What does this mean?"
 msgstr "Čo to znamená?"
 
-#: discover/qml/ApplicationPage.qml:432
+#: discover/qml/ApplicationPage.qml:441
 #, kde-format
 msgctxt "The app does not provide any licenses"
 msgid "Unknown"
 msgstr "Neznáma"
 
-#: discover/qml/ApplicationPage.qml:484
+#: discover/qml/ApplicationPage.qml:493
 #, kde-format
 msgctxt "Separator between license labels e.g. 'GPL-3.0, Proprietary'"
 msgid ","
-msgstr ""
+msgstr ","
 
-#: discover/qml/ApplicationPage.qml:509
-#, fuzzy, kde-format
-#| msgid "See more…"
-#| msgid_plural "See more…"
+#: discover/qml/ApplicationPage.qml:518
+#, kde-format
 msgctxt "Show all licenses of the package"
 msgid "See more…"
 msgstr "Zobraziť viac..."
 
-#: discover/qml/ApplicationPage.qml:521
+#: discover/qml/ApplicationPage.qml:530
 #, kde-format
 msgctxt "@label The app is suitable for people of the following ages or older"
 msgid "Ages:"
-msgstr ""
+msgstr "Ages:"
 
-#: discover/qml/ApplicationPage.qml:529
+#: discover/qml/ApplicationPage.qml:538
 #, kde-format
 msgctxt "@item As in, the app is suitable for everyone"
 msgid "Everyone"
-msgstr ""
+msgstr "Všetci"
 
-#: discover/qml/ApplicationPage.qml:531
-#, fuzzy, kde-format
-#| msgid "%1"
+#: discover/qml/ApplicationPage.qml:540
+#, kde-format
 msgctxt "@item %1 is a person's age in number of years"
 msgid "%1+"
-msgstr "%1"
+msgstr "%1+"
 
-#: discover/qml/ApplicationPage.qml:545
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "See details…"
+#: discover/qml/ApplicationPage.qml:554
+#, kde-format
 msgid "See details"
-msgstr "Zobraziť podrobnosti..."
+msgstr "Zobraziť podrobnosti"
 
-#: discover/qml/ApplicationPage.qml:569
+#: discover/qml/ApplicationPage.qml:578
 #, kde-format
 msgctxt "@info placeholder message"
 msgid "Screenshots not available for %1"
 msgstr "Nie sú k dispozícii snímky obrazovky pre %1"
 
-#: discover/qml/ApplicationPage.qml:713
+#: discover/qml/ApplicationPage.qml:722
 #, kde-format
 msgid "What's New"
 msgstr "Čo je nové"
 
-#: discover/qml/ApplicationPage.qml:746
+#: discover/qml/ApplicationPage.qml:755
 #, kde-format
 msgid "Reviews"
 msgstr "Recenzie"
 
-#: discover/qml/ApplicationPage.qml:757
+#: discover/qml/ApplicationPage.qml:766
 #, kde-format
 msgid "Loading reviews for %1"
 msgstr "Načítanie recenzií pre %1"
 
-#: discover/qml/ApplicationPage.qml:766
+#: discover/qml/ApplicationPage.qml:775
 #, kde-format
 msgctxt "@info placeholder message"
 msgid "Reviews for %1 are temporarily unavailable"
 msgstr "Recenzie pre %1 sú dočasne nedostupné"
 
-#: discover/qml/ApplicationPage.qml:773
+#: discover/qml/ApplicationPage.qml:782
 #, kde-format
 msgctxt "@Info placeholder message"
 msgid "No reviews posted yet"
-msgstr ""
+msgstr "No reviews posted yet"
 
-#: discover/qml/ApplicationPage.qml:774
-#, fuzzy, kde-format
-#| msgid "Install to Write a Review"
+#: discover/qml/ApplicationPage.qml:783
+#, kde-format
 msgctxt "@info placeholder explanation"
 msgid "Install to write a review"
 msgstr "Nainštalovať na napísanie recenzie"
 
-#: discover/qml/ApplicationPage.qml:778 discover/qml/ApplicationPage.qml:822
+#: discover/qml/ApplicationPage.qml:787 discover/qml/ApplicationPage.qml:831
 #, kde-format
 msgid "Write a Review"
 msgstr "Napísať recenziu..."
 
-#: discover/qml/ApplicationPage.qml:778 discover/qml/ApplicationPage.qml:822
+#: discover/qml/ApplicationPage.qml:787 discover/qml/ApplicationPage.qml:831
 #, kde-format
 msgid "Install to Write a Review"
 msgstr "Nainštalovať na napísanie recenzie"
 
-#: discover/qml/ApplicationPage.qml:806
+#: discover/qml/ApplicationPage.qml:815
 #, kde-format
 msgctxt "@action:button"
 msgid "Show All Reviews"
 msgstr "Zobraziť všetky recenzie"
 
-#: discover/qml/ApplicationPage.qml:844
+#: discover/qml/ApplicationPage.qml:853
 #, kde-format
 msgctxt "@title"
 msgid "External Links"
-msgstr ""
+msgstr "External Links"
 
-#: discover/qml/ApplicationPage.qml:862
-#, fuzzy, kde-format
-#| msgid "Read the project's official documentation"
+#: discover/qml/ApplicationPage.qml:871
+#, kde-format
 msgctxt "@info text of a web URL"
 msgid "Read the documentation"
 msgstr "Čítať oficiálnu dokumentáciu projektu"
 
-#: discover/qml/ApplicationPage.qml:873
-#, fuzzy, kde-format
-#| msgid "Visit the project's website"
+#: discover/qml/ApplicationPage.qml:882
+#, kde-format
 msgctxt "@info text of a web URL"
 msgid "Visit the project's website"
 msgstr "Navštívte webovú stránku projektu"
 
-#: discover/qml/ApplicationPage.qml:883
+#: discover/qml/ApplicationPage.qml:892
 #, kde-format
 msgctxt "@info text of a web URL"
 msgid "Donate to the project"
-msgstr ""
+msgstr "Donate to the project"
 
-#: discover/qml/ApplicationPage.qml:893
-#, fuzzy, kde-format
-#| msgid "Report Bug"
+#: discover/qml/ApplicationPage.qml:902
+#, kde-format
 msgctxt "@info text of a web URL"
 msgid "Report a bug"
 msgstr "Nahlásiť chybu"
 
-#: discover/qml/ApplicationPage.qml:903
+#: discover/qml/ApplicationPage.qml:912
 #, kde-format
 msgctxt "@info text of a web URL"
 msgid "Start contributing"
-msgstr ""
+msgstr "Start contributing"
 
-#: discover/qml/ApplicationPage.qml:932
+#: discover/qml/ApplicationPage.qml:941
 #, kde-format
 msgid "All Licenses"
 msgstr "Všetky licencie"
 
-#: discover/qml/ApplicationPage.qml:970
+#: discover/qml/ApplicationPage.qml:979
 #, kde-format
 msgid "Content Rating"
 msgstr "Hodnotenie spokojnosti"
 
-#: discover/qml/ApplicationPage.qml:993
-#, fuzzy, kde-format
-#| msgid "Submit usage information"
+#: discover/qml/ApplicationPage.qml:1002
+#, kde-format
 msgctxt "@title:window"
 msgid "License Information"
 msgstr "Odoslať informácie o používaní"
@@ -733,14 +709,12 @@ msgid "Name"
 msgstr "Názvu"
 
 #: discover/qml/ApplicationsListPage.qml:126
-#, fuzzy, kde-format
-#| msgid "Submit review"
+#, kde-format
 msgid "Number of reviews"
 msgstr "Odoslať recenziu"
 
 #: discover/qml/ApplicationsListPage.qml:137
-#, fuzzy, kde-format
-#| msgid "Rating"
+#, kde-format
 msgctxt "@item:inmenu sort by highest-rated apps"
 msgid "Rating"
 msgstr "Hodnotenia"
@@ -751,10 +725,9 @@ msgid "Size"
 msgstr "Veľkosti"
 
 #: discover/qml/ApplicationsListPage.qml:159
-#, fuzzy, kde-format
-#| msgid "Release Date"
+#, kde-format
 msgid "Release date"
-msgstr "Dátumu vydania"
+msgstr "Dátum vydania"
 
 #: discover/qml/ApplicationsListPage.qml:219
 #, kde-format
@@ -896,16 +869,14 @@ msgid "Next Screenshot"
 msgstr "Ďalšia snímka obrazovky"
 
 #: discover/qml/DiscoverDrawer.qml:161
-#, fuzzy, kde-format
-#| msgid "Updates are available"
+#, kde-format
 msgid "Security updates available"
-msgstr "Aktualizácie sú dostupné"
+msgstr "Sú dostupné bezpečnostné aktualizácie"
 
 #: discover/qml/DiscoverDrawer.qml:162
-#, fuzzy, kde-format
-#| msgid "Updates are available"
+#, kde-format
 msgid "Updates available"
-msgstr "Aktualizácie sú dostupné"
+msgstr "Sú dostupné aktualizácie"
 
 #: discover/qml/DiscoverWindow.qml:47
 #, kde-format
@@ -930,13 +901,12 @@ msgstr "Nainštalované"
 #: discover/qml/DiscoverWindow.qml:96
 #, kde-format
 msgid "&Updates (Fetching…)"
-msgstr ""
+msgstr "&Updates (Fetching…)"
 
 #: discover/qml/DiscoverWindow.qml:97
-#, fuzzy, kde-format
-#| msgid "Updates"
+#, kde-format
 msgid "&Updates"
-msgstr "Aktualizácie"
+msgstr "Updaty"
 
 #: discover/qml/DiscoverWindow.qml:105
 #, kde-format
@@ -965,9 +935,7 @@ msgid "Proceed"
 msgstr "Pokračovať"
 
 #: discover/qml/DiscoverWindow.qml:326
-#, fuzzy, kde-format
-#| msgctxt "@action:button %1 is the distro name"
-#| msgid "Report This Issue to %1"
+#, kde-format
 msgctxt "@info %1 is the name of the operating system"
 msgid "Report this issue to %1"
 msgstr "Nahlásiť tento problém do %1"
@@ -983,8 +951,7 @@ msgid "Update Issue"
 msgstr "Problém s aktualizáciou"
 
 #: discover/qml/DiscoverWindow.qml:359
-#, fuzzy, kde-format
-#| msgid "There was an issue installing this update. Please try again later."
+#, kde-format
 msgid ""
 "There was an issue during the update or installation process. Please try "
 "again later."
@@ -1014,8 +981,7 @@ msgid "Copy to Clipboard"
 msgstr "Skopírovať do schránky"
 
 #: discover/qml/Feedback.qml:14
-#, fuzzy, kde-format
-#| msgid "Submit usage information"
+#, kde-format
 msgid "Submit Usage Information"
 msgstr "Odoslať informácie o používaní"
 
@@ -1040,8 +1006,7 @@ msgid "Configure"
 msgstr "Nastaviť"
 
 #: discover/qml/Feedback.qml:23
-#, fuzzy, kde-format
-#| msgid "Configure feedback…"
+#, kde-format
 msgid "Configure Feedback…"
 msgstr "Nastaviť spätnú väzbu..."
 
@@ -1203,6 +1168,8 @@ msgid ""
 "If you love %1, tell people what's great about it! Focus on functionality, "
 "usability, and appearance. If the app didn't meet your needs, explain why."
 msgstr ""
+"Ak love %1, tell people what's great about it! Focus on functionality, "
+"usability, and appearance. If the app didn't meet your needs, explain why."
 
 #: discover/qml/ReviewDialog.qml:72
 #, kde-kuit-format
@@ -1212,6 +1179,9 @@ msgid ""
 "<link url='%3'>%3</link> instead, as it may be an easily fixable packaging "
 "issue rather than a flaw in the app itself."
 msgstr ""
+"If %1 isn't launching, consider reporting this to its packagers in %2 at "
+"<link url='%3'>%3</link> instead, as it may be an easily fixable packaging "
+"issue namiesto a flaw in the app itself."
 
 #: discover/qml/ReviewDialog.qml:77
 #, kde-kuit-format
@@ -1221,6 +1191,9 @@ msgid ""
 "url='%2'>%2</link> instead, as it may be an easily fixable packaging issue "
 "rather than a flaw in the app itself."
 msgstr ""
+"If %1 isn't launching, consider reporting this its developers at <link "
+"url='%2'>%2</link> instead, as it may be an easily fixable packaging issue "
+"namiesto a flaw in the app itself."
 
 #: discover/qml/ReviewDialog.qml:82
 #, kde-kuit-format
@@ -1229,6 +1202,8 @@ msgid ""
 "If the app is crashing a lot, consider reporting this to the developers at "
 "<link url='%1'>%1</link> instead."
 msgstr ""
+"If the app is crashing a lot, consider reporting this to the developers at "
+"<link url='%1'>%1</link> instead."
 
 #: discover/qml/ReviewDialog.qml:85
 #, kde-kuit-format
@@ -1238,6 +1213,9 @@ msgid ""
 "developers at <link url='%1'>%1</link> instead, or else describe the problem "
 "here in greater detail."
 msgstr ""
+"Ak're having a problem with the app, consider reporting it to the developers "
+"at <link url='%1'>%1</link> instead, or else describe the problem here in "
+"greater detail."
 
 #: discover/qml/ReviewDialog.qml:120
 #, kde-format
@@ -1262,7 +1240,7 @@ msgctxt ""
 "in your language and/or shorten to common stems contained by multiple forms "
 "of the words."
 msgid "launch,run,start"
-msgstr ""
+msgstr "launch,run,start"
 
 #: discover/qml/ReviewDialog.qml:164
 #, kde-format
@@ -1272,7 +1250,7 @@ msgctxt ""
 "language and/or shorten to common stems contained by multiple forms of the "
 "words"
 msgid "crash,segfault"
-msgstr ""
+msgstr "crash,segfault"
 
 #: discover/qml/ReviewDialog.qml:171
 #, kde-format
@@ -1282,7 +1260,7 @@ msgctxt ""
 "your language and/or shorten to common stems contained by multiple forms of "
 "the words,"
 msgid "doesn't work,dumb,stupid,crap,junk,suck,terrible,hate"
-msgstr ""
+msgstr "doesn't work,dumb,stupid,crap,junk,suck,terrible,hate"
 
 #: discover/qml/ReviewDialog.qml:193
 #, kde-format
@@ -1393,8 +1371,7 @@ msgid "Settings"
 msgstr "Nastavenia"
 
 #: discover/qml/SourcesPage.qml:110
-#, fuzzy, kde-format
-#| msgid "Default source"
+#, kde-format
 msgid "Default Source"
 msgstr "Predvolený zdroj"
 
@@ -1404,8 +1381,7 @@ msgid "Add Source…"
 msgstr "Pridať zdroj..."
 
 #: discover/qml/SourcesPage.qml:145
-#, fuzzy, kde-format
-#| msgid "Make default"
+#, kde-format
 msgid "Make Default"
 msgstr "Nastaviť ako predvolený"
 
@@ -1516,8 +1492,7 @@ msgid "Select None"
 msgstr "Vybrať žiadne"
 
 #: discover/qml/UpdatesPage.qml:279
-#, fuzzy, kde-format
-#| msgid "updates not selected"
+#, kde-format
 msgctxt "@info After updates complete, shut down/restart/quit"
 msgid "After updates complete:"
 msgstr "aktualizácie nevybraté"
@@ -1529,8 +1504,7 @@ msgid "Do nothing"
 msgstr ""
 
 #: discover/qml/UpdatesPage.qml:286
-#, fuzzy, kde-format
-#| msgid "Restart Now"
+#, kde-format
 msgctxt "@item:inlistbox after updates complete, restart"
 msgid "Restart"
 msgstr "Reštartovať teraz"
@@ -1539,7 +1513,7 @@ msgstr "Reštartovať teraz"
 #, kde-format
 msgctxt "@item:inlistbox after updates complete, shut down"
 msgid "Shut down"
-msgstr ""
+msgstr "Vypnúť"
 
 #: discover/qml/UpdatesPage.qml:297
 #, kde-format
@@ -1550,7 +1524,7 @@ msgstr "Celková veľkosť:  %1"
 #, kde-format
 msgctxt "@action:button"
 msgid "Restart and Install Updates"
-msgstr ""
+msgstr "Restart and Install Updates"
 
 #: discover/qml/UpdatesPage.qml:518
 #, kde-format
@@ -1558,14 +1532,10 @@ msgid "Installing"
 msgstr "Inštaluje sa"
 
 #: discover/qml/UpdatesPage.qml:534
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "@item:inlistbox %1 is the name of an app source e.g. \"Flathub\" or "
-#| "\"Ubuntu\""
-#| msgid "From %1"
+#, kde-format
 msgctxt "@info This update is from the following source"
 msgid "From:"
-msgstr "Od %1"
+msgstr ""
 
 #: discover/qml/UpdatesPage.qml:551
 #, kde-format
@@ -1576,8 +1546,7 @@ msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
 #: discover/qml/UpdatesPage.qml:563
-#, fuzzy, kde-format
-#| msgid "More Information…"
+#, kde-format
 msgctxt "@action:button minimize the length of this label"
 msgid "More Info…"
 msgstr "Viac informácií..."
@@ -1595,9 +1564,7 @@ msgid "Updates"
 msgstr "Aktualizácie"
 
 #: discover/qml/UpdatesPage.qml:636
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid "The updates will be installed the next time the system is restarted"
+#, kde-format
 msgctxt "@info"
 msgid "Updates will be installed after the system is restarted"
 msgstr "Aktualizácie sa nainštalujú pri ďalšom reštarte systému"
@@ -1606,7 +1573,7 @@ msgstr "Aktualizácie sa nainštalujú pri ďalšom reštarte systému"
 #, kde-format
 msgctxt "@info"
 msgid "You can keep using the system if you're not ready to restart yet."
-msgstr ""
+msgstr "Môžete keep using the system ak're not ready to restart yet."
 
 #: discover/qml/UpdatesPage.qml:652 discover/qml/UpdatesPage.qml:659
 #: discover/qml/UpdatesPage.qml:666
@@ -1628,7 +1595,6 @@ msgid "Time of last update unknown"
 msgstr "Čas poslednej aktualizácie je neznámy"
 
 #, fuzzy
-#~| msgid "Select None"
 #~ msgctxt "@item:inlistbox placeholder for when no action is selected"
 #~ msgid "Select an action"
 #~ msgstr "Vybrať žiadne"
@@ -1640,13 +1606,10 @@ msgstr "Čas poslednej aktualizácie je neznámy"
 #~ msgstr "Aktualizovať z:"
 
 #, fuzzy
-#~| msgid "&Update (%1)"
-#~| msgid_plural "&Updates (%1)"
 #~ msgid "&Updates (%1)"
 #~ msgstr "Akt&ualizácia (%1)"
 
 #, fuzzy
-#~| msgid "Please report this issue to the packagers of your distribution."
 #~ msgctxt "@info %1 is an additional error reference"
 #~ msgid ""
 #~ "Please report this issue to the packagers of your distribution.<nl/>(%1)"
@@ -1697,18 +1660,6 @@ msgstr "Čas poslednej aktualizácie je neznámy"
 #~ msgstr "Riziká proprietárneho softvéru"
 
 #, fuzzy
-#~| msgctxt "@info"
-#~| msgid ""
-#~| "This application's source code is partially or entirely closed to public "
-#~| "inspection and improvement. That means third parties and users like you "
-#~| "cannot verify its operation, security, and trustworthiness, or modify "
-#~| "and redistribute it without the authors' express permission.<nl/><nl/"
-#~| ">The application may be perfectly safe to use, or it may be acting "
-#~| "against you in various ways—such as harvesting your personal "
-#~| "information, tracking your location, or transmitting the contents of "
-#~| "your files to someone else. There is no easy way to be sure, so you "
-#~| "should only install this application if you fully trust its authors (%1)."
-#~| "<nl/><nl/>You can learn more at <link url='%2'>%2</link>."
 #~ msgctxt "@info"
 #~ msgid ""
 #~ "Only install this application if you fully trust its authors (<link "
@@ -1843,12 +1794,10 @@ msgstr "Čas poslednej aktualizácie je neznámy"
 #~ msgstr "Zobraziť"
 
 #, fuzzy
-#~| msgid "More..."
 #~ msgid "Show more..."
 #~ msgstr "Viac..."
 
 #, fuzzy
-#~| msgid "Could not close Discover, there are tasks that need to be done."
 #~ msgid "Could not close Discover because some tasks are still in progress."
 #~ msgstr ""
 #~ "Nepodarilo sa zavrieť aplikáciu Discover. je potrebné dokončiť úlohy."
@@ -2107,7 +2056,6 @@ msgstr "Čas poslednej aktualizácie je neznámy"
 #~ msgstr "Mám to"
 
 #, fuzzy
-#~| msgid "%1 (%2)"
 #~ msgid "Origin: %1 (%2)"
 #~ msgstr "%1 (%2)"
 
