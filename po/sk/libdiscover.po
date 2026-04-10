@@ -1133,7 +1133,7 @@ msgstr "Holo"
 #, kde-format
 msgctxt "%1 is the pretty name of the distro e.g. Holo or SteamOS"
 msgid "Holo: Unable to query atomupd for %1 Updates..."
-msgstr ""
+msgstr "Holo: Nedá sa dotazovať atomupd na aktualizácie %1..."
 
 #: libdiscover/backends/KNSBackend/KNSBackend.cpp:64
 #, kde-format

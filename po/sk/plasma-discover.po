@@ -1501,7 +1501,7 @@ msgstr "aktualizácie nevybraté"
 #, kde-format
 msgctxt "@item:inlistbox after updates complete, do nothing"
 msgid "Do nothing"
-msgstr ""
+msgstr "Nerobiť nič"
 
 #: discover/qml/UpdatesPage.qml:286
 #, kde-format
@@ -1535,7 +1535,7 @@ msgstr "Inštaluje sa"
 #, kde-format
 msgctxt "@info This update is from the following source"
 msgid "From:"
-msgstr ""
+msgstr "Od:"
 
 #: discover/qml/UpdatesPage.qml:551
 #, kde-format

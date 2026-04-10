@@ -41,7 +41,7 @@ msgstr "Systém je aktuálny"
 #: notifier/DiscoverNotifier.cpp:371
 #, kde-format
 msgid "System will install updates when restarted"
-msgstr ""
+msgstr "Systém nainštaluje aktualizácie po reštarte"
 
 #: notifier/DiscoverNotifier.cpp:373
 #, kde-format

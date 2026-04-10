@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-08 00:47+0000\n"
-"PO-Revision-Date: 2026-01-28 20:05+0400\n"
+"PO-Revision-Date: 2026-04-09 10:05+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -2473,7 +2473,7 @@ msgstr "الحزم المزالة:"
 msgctxt "@label OS updater message"
 msgid ""
 "<br/>This version is pinned and won't be automatically removed on updates."
-msgstr ""
+msgstr "<br/>هذه النسخة مثبتة ولن تزال آليًا عند إجراء التحديثات."
 
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:360
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:373
@@ -2481,7 +2481,7 @@ msgstr ""
 #, kde-format
 msgctxt "@label OS vendor"
 msgid "Fedora Project"
-msgstr ""
+msgstr "مشروع فيدورا"
 
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:400
 #, kde-format
@@ -2633,16 +2633,13 @@ msgid "Starred Publisher on snapcraft.io"
 msgstr "الناشر المميز على snapcraft.io"
 
 #: libdiscover/backends/SnapBackend/SnapTransaction.cpp:57
-#, fuzzy, kde-format
-#| msgid ""
-#| "This Snap application is not compatible with security sandboxing and will "
-#| "have full access to this computer. Install it anyway?"
+#, kde-format
 msgid ""
 "This Snap application is not compatible with security sandboxing and will "
 "have full access to this system. Install it anyway?"
 msgstr ""
 "تطبيق سناب هذا غير متوافق مع المعزل الآمن وسيكون له حق الوصول الكامل إلى هذا "
-"الحاسوب. أتثبته على أي حال؟"
+"النظام. أتثبته على أي حال؟"
 
 #: libdiscover/backends/SystemdSysupdateBackend/SystemdSysupdateBackend.cpp:149
 #, kde-kuit-format

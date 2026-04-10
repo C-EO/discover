@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-09 00:46+0000\n"
-"PO-Revision-Date: 2026-04-01 17:45+0400\n"
+"PO-Revision-Date: 2026-04-09 10:06+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -1485,38 +1485,28 @@ msgid "Select None"
 msgstr "لا تحدد شيء"
 
 #: discover/qml/UpdatesPage.qml:279
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "@info on the completion of updates, the action that automatically happens "
-#| "after (e.g shut down)"
-#| msgid "After completing:"
+#, kde-format
 msgctxt "@info After updates complete, shut down/restart/quit"
 msgid "After updates complete:"
-msgstr "بعد الإكمال:"
+msgstr "بعد اكتمال عمليات التحديث:"
 
 #: discover/qml/UpdatesPage.qml:285
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox"
-#| msgid "Do nothing"
+#, kde-format
 msgctxt "@item:inlistbox after updates complete, do nothing"
 msgid "Do nothing"
 msgstr "لا تفعل شيئًا"
 
 #: discover/qml/UpdatesPage.qml:286
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox"
-#| msgid "Restart"
+#, kde-format
 msgctxt "@item:inlistbox after updates complete, restart"
 msgid "Restart"
-msgstr "إعادة التّشغيل"
+msgstr "أعد التّشغيل"
 
 #: discover/qml/UpdatesPage.qml:287
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox"
-#| msgid "Shut down"
+#, kde-format
 msgctxt "@item:inlistbox after updates complete, shut down"
 msgid "Shut down"
-msgstr "إطفاء الجهاز"
+msgstr "أطفئ النظام"
 
 #: discover/qml/UpdatesPage.qml:297
 #, kde-format
