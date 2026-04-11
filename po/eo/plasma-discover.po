@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-09 00:46+0000\n"
+"POT-Creation-Date: 2026-04-11 00:48+0000\n"
 "PO-Revision-Date: 2025-03-15 10:38+0100\n"
 "Last-Translator: Oliver Kellogg <olivermkellogg@gmail.com>\n"
 "Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
@@ -293,7 +293,7 @@ msgstr "Aldoni"
 #: discover/qml/AddSourceDialog.qml:50 discover/qml/DiscoverWindow.qml:281
 #: discover/qml/InstallApplicationButton.qml:51
 #: discover/qml/ProgressView.qml:153 discover/qml/SourcesPage.qml:201
-#: discover/qml/UpdatesPage.qml:307 discover/qml/WebflowDialog.qml:41
+#: discover/qml/UpdatesPage.qml:308 discover/qml/WebflowDialog.qml:41
 #, kde-format
 msgid "Cancel"
 msgstr "Nuligi"
@@ -1485,12 +1485,18 @@ msgctxt "@item:inlistbox after updates complete, shut down"
 msgid "Shut down"
 msgstr "Sistemfermi"
 
-#: discover/qml/UpdatesPage.qml:297
+#: discover/qml/UpdatesPage.qml:288
+#, kde-format
+msgctxt "@item:inlistbox after updates complete, quit"
+msgid "Quit"
+msgstr ""
+
+#: discover/qml/UpdatesPage.qml:298
 #, kde-format
 msgid "Total size: %1"
 msgstr "Suma grandeco: %1"
 
-#: discover/qml/UpdatesPage.qml:327
+#: discover/qml/UpdatesPage.qml:328
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "Restart to Install Updates Now"
@@ -1498,12 +1504,12 @@ msgctxt "@action:button"
 msgid "Restart and Install Updates"
 msgstr "Rekomenci por Instali Ĝisdatigojn Nun"
 
-#: discover/qml/UpdatesPage.qml:518
+#: discover/qml/UpdatesPage.qml:519
 #, kde-format
 msgid "Installing"
 msgstr "Instalado"
 
-#: discover/qml/UpdatesPage.qml:534
+#: discover/qml/UpdatesPage.qml:535
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "@item:inlistbox %1 is the name of an app source e.g. \"Flathub\" or "
@@ -1513,7 +1519,7 @@ msgctxt "@info This update is from the following source"
 msgid "From:"
 msgstr "De %1"
 
-#: discover/qml/UpdatesPage.qml:551
+#: discover/qml/UpdatesPage.qml:552
 #, kde-format
 msgctxt ""
 "%1 is the backend that provides this app, %2 is the specific repository or "
@@ -1521,51 +1527,51 @@ msgctxt ""
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: discover/qml/UpdatesPage.qml:563
+#: discover/qml/UpdatesPage.qml:564
 #, fuzzy, kde-format
 #| msgid "More Information…"
 msgctxt "@action:button minimize the length of this label"
 msgid "More Info…"
 msgstr "Pliaj Informoj…"
 
-#: discover/qml/UpdatesPage.qml:611
+#: discover/qml/UpdatesPage.qml:638
 #, kde-format
 msgctxt "@info"
 msgid "Fetching updates…"
 msgstr "Akiro de ĝisdatigoj…"
 
-#: discover/qml/UpdatesPage.qml:626
+#: discover/qml/UpdatesPage.qml:653
 #, kde-format
 msgctxt "@info"
 msgid "Updates"
 msgstr "Ĝisdatigoj"
 
-#: discover/qml/UpdatesPage.qml:636
+#: discover/qml/UpdatesPage.qml:663
 #, kde-format
 msgctxt "@info"
 msgid "Updates will be installed after the system is restarted"
 msgstr ""
 
-#: discover/qml/UpdatesPage.qml:638
+#: discover/qml/UpdatesPage.qml:665
 #, kde-format
 msgctxt "@info"
 msgid "You can keep using the system if you're not ready to restart yet."
 msgstr ""
 
-#: discover/qml/UpdatesPage.qml:652 discover/qml/UpdatesPage.qml:659
-#: discover/qml/UpdatesPage.qml:666
+#: discover/qml/UpdatesPage.qml:670 discover/qml/UpdatesPage.qml:677
+#: discover/qml/UpdatesPage.qml:684
 #, kde-format
 msgctxt "@info"
 msgid "Up to date"
 msgstr "Ĝisdata"
 
-#: discover/qml/UpdatesPage.qml:673
+#: discover/qml/UpdatesPage.qml:691
 #, kde-format
 msgctxt "@info"
 msgid "Should check for updates"
 msgstr "Devus kontroli ĝisdatigojn"
 
-#: discover/qml/UpdatesPage.qml:680
+#: discover/qml/UpdatesPage.qml:698
 #, kde-format
 msgctxt "@info"
 msgid "Time of last update unknown"
