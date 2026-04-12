@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extragear-sysadmin-kde4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-11 00:48+0000\n"
-"PO-Revision-Date: 2026-04-05 13:54+0300\n"
+"POT-Creation-Date: 2026-04-12 00:45+0000\n"
+"PO-Revision-Date: 2026-04-11 21:05+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -291,18 +291,10 @@ msgstr "Ekle"
 msgid "Cancel"
 msgstr "İptal"
 
-#: discover/qml/ApplicationDelegate.qml:177
-#: discover/qml/ApplicationPage.qml:373
-#, kde-format
-msgid "%1 rating"
-msgid_plural "%1 ratings"
-msgstr[0] "%1 derecelendirme"
-msgstr[1] "%1 derecelendirme"
-
-#: discover/qml/ApplicationDelegate.qml:177
-#: discover/qml/ApplicationPage.qml:373
-#, kde-format
-msgid "No ratings yet"
+#: discover/qml/ApplicationDelegate.qml:160
+#, fuzzy, kde-format
+#| msgid "No ratings yet"
+msgid "No ratings"
 msgstr "Henüz derecelendirme yok"
 
 #: discover/qml/ApplicationPage.qml:69
@@ -486,6 +478,18 @@ msgstr "%1 uygulamasına bir bakın!"
 #, kde-format
 msgid "Unknown author"
 msgstr "Bilinmeyen yazar"
+
+#: discover/qml/ApplicationPage.qml:373
+#, kde-format
+msgid "%1 rating"
+msgid_plural "%1 ratings"
+msgstr[0] "%1 derecelendirme"
+msgstr[1] "%1 derecelendirme"
+
+#: discover/qml/ApplicationPage.qml:373
+#, kde-format
+msgid "No ratings yet"
+msgstr "Henüz derecelendirme yok"
 
 #: discover/qml/ApplicationPage.qml:397
 #, kde-format
@@ -685,7 +689,7 @@ msgstr[0] "Ara — %1 Öge"
 msgstr[1] "Ara — %1 Öge"
 
 #: discover/qml/ApplicationsListPage.qml:68
-#: discover/qml/ApplicationsListPage.qml:273
+#: discover/qml/ApplicationsListPage.qml:272
 #, kde-format
 msgid "Search"
 msgstr "Ara"
@@ -727,24 +731,24 @@ msgstr "Boyut"
 msgid "Release date"
 msgstr "Yayım tarihi"
 
-#: discover/qml/ApplicationsListPage.qml:219
+#: discover/qml/ApplicationsListPage.qml:218
 #, kde-format
 msgid "Nothing found"
 msgstr "Hiçbir şey bulunamadı"
 
-#: discover/qml/ApplicationsListPage.qml:227
+#: discover/qml/ApplicationsListPage.qml:226
 #, kde-format
 msgctxt "@action:button"
 msgid "Search in All Categories"
 msgstr "Tüm Kategorilerde Ara"
 
-#: discover/qml/ApplicationsListPage.qml:237
+#: discover/qml/ApplicationsListPage.qml:236
 #, kde-format
 msgctxt "@action:button %1 is the name of an application"
 msgid "Search the Web for \"%1\""
 msgstr "%1 için Web’i Ara"
 
-#: discover/qml/ApplicationsListPage.qml:252
+#: discover/qml/ApplicationsListPage.qml:251
 #, kde-format
 msgctxt ""
 "@info:placeholder %1 is the name of an application; %2 is the name of a "
@@ -752,13 +756,13 @@ msgctxt ""
 msgid "\"%1\" was not found in the \"%2\" category"
 msgstr "“%1”, “%2” kategorisinde bulunamadı"
 
-#: discover/qml/ApplicationsListPage.qml:254
+#: discover/qml/ApplicationsListPage.qml:253
 #, kde-format
 msgctxt "@info:placeholder %1 is the name of an application"
 msgid "\"%1\" was not found in the available sources"
 msgstr "“%1”, kullanılabilir kaynaklarda bulunamadı"
 
-#: discover/qml/ApplicationsListPage.qml:255
+#: discover/qml/ApplicationsListPage.qml:254
 #, kde-format
 msgctxt "@info:placeholder %1 is the name of an application"
 msgid ""
@@ -770,7 +774,7 @@ msgstr ""
 "dağıtıcınız tarafından işlevsellik veya kararlılık bakımından "
 "incelenmemiştir. Dikkatli kullanın."
 
-#: discover/qml/ApplicationsListPage.qml:288
+#: discover/qml/ApplicationsListPage.qml:287
 #, kde-format
 msgid "Still looking…"
 msgstr "Aranıyor…"
@@ -1520,7 +1524,7 @@ msgstr "Kapat"
 #, kde-format
 msgctxt "@item:inlistbox after updates complete, quit"
 msgid "Quit"
-msgstr ""
+msgstr "Çık"
 
 #: discover/qml/UpdatesPage.qml:298
 #, kde-format

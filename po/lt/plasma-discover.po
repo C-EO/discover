@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: l 10n\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-11 00:48+0000\n"
+"POT-Creation-Date: 2026-04-12 00:45+0000\n"
 "PO-Revision-Date: 2026-04-11 00:44+0300\n"
 "Last-Translator: Moo\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
@@ -296,20 +296,10 @@ msgstr "Pridėti"
 msgid "Cancel"
 msgstr "Atsisakyti"
 
-#: discover/qml/ApplicationDelegate.qml:177
-#: discover/qml/ApplicationPage.qml:373
-#, kde-format
-msgid "%1 rating"
-msgid_plural "%1 ratings"
-msgstr[0] "%1 įvertinimas"
-msgstr[1] "%1 įvertinimai"
-msgstr[2] "%1 įvertinimų"
-msgstr[3] "%1 įvertinimas"
-
-#: discover/qml/ApplicationDelegate.qml:177
-#: discover/qml/ApplicationPage.qml:373
-#, kde-format
-msgid "No ratings yet"
+#: discover/qml/ApplicationDelegate.qml:160
+#, fuzzy, kde-format
+#| msgid "No ratings yet"
+msgid "No ratings"
 msgstr "Kol kas įvertinimų nėra"
 
 #: discover/qml/ApplicationPage.qml:69
@@ -492,6 +482,20 @@ msgstr "Pasižiūrėk %1 programą!"
 #, kde-format
 msgid "Unknown author"
 msgstr "Nežinomas autorius"
+
+#: discover/qml/ApplicationPage.qml:373
+#, kde-format
+msgid "%1 rating"
+msgid_plural "%1 ratings"
+msgstr[0] "%1 įvertinimas"
+msgstr[1] "%1 įvertinimai"
+msgstr[2] "%1 įvertinimų"
+msgstr[3] "%1 įvertinimas"
+
+#: discover/qml/ApplicationPage.qml:373
+#, kde-format
+msgid "No ratings yet"
+msgstr "Kol kas įvertinimų nėra"
 
 #: discover/qml/ApplicationPage.qml:397
 #, kde-format
@@ -699,7 +703,7 @@ msgstr[2] "Paieška - %1 elementų"
 msgstr[3] "Paieška - %1 elementas"
 
 #: discover/qml/ApplicationsListPage.qml:68
-#: discover/qml/ApplicationsListPage.qml:273
+#: discover/qml/ApplicationsListPage.qml:272
 #, kde-format
 msgid "Search"
 msgstr "Ieškoti"
@@ -741,24 +745,24 @@ msgstr "Dydis"
 msgid "Release date"
 msgstr "Laidos data"
 
-#: discover/qml/ApplicationsListPage.qml:219
+#: discover/qml/ApplicationsListPage.qml:218
 #, kde-format
 msgid "Nothing found"
 msgstr "Nieko nerasta"
 
-#: discover/qml/ApplicationsListPage.qml:227
+#: discover/qml/ApplicationsListPage.qml:226
 #, kde-format
 msgctxt "@action:button"
 msgid "Search in All Categories"
 msgstr "Ieškoti visose kategorijose"
 
-#: discover/qml/ApplicationsListPage.qml:237
+#: discover/qml/ApplicationsListPage.qml:236
 #, kde-format
 msgctxt "@action:button %1 is the name of an application"
 msgid "Search the Web for \"%1\""
 msgstr "Ieškoti saityne „%1“"
 
-#: discover/qml/ApplicationsListPage.qml:252
+#: discover/qml/ApplicationsListPage.qml:251
 #, kde-format
 msgctxt ""
 "@info:placeholder %1 is the name of an application; %2 is the name of a "
@@ -766,13 +770,13 @@ msgctxt ""
 msgid "\"%1\" was not found in the \"%2\" category"
 msgstr "„%1“ nepavyko rasti kategorijoje „%2“"
 
-#: discover/qml/ApplicationsListPage.qml:254
+#: discover/qml/ApplicationsListPage.qml:253
 #, kde-format
 msgctxt "@info:placeholder %1 is the name of an application"
 msgid "\"%1\" was not found in the available sources"
 msgstr "„%1“ nerasta prieinamuose šaltiniuose"
 
-#: discover/qml/ApplicationsListPage.qml:255
+#: discover/qml/ApplicationsListPage.qml:254
 #, kde-format
 msgctxt "@info:placeholder %1 is the name of an application"
 msgid ""
@@ -784,7 +788,7 @@ msgstr ""
 "platintojas nepatikrino, kaip iš saityno gauta programinė įranga veikia "
 "funkcionalumo ar stabilumo atžvilgiu. Naudokite atsargiai."
 
-#: discover/qml/ApplicationsListPage.qml:288
+#: discover/qml/ApplicationsListPage.qml:287
 #, kde-format
 msgid "Still looking…"
 msgstr "Vis dar ieškoma…"

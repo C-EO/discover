@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: muon-discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-11 00:48+0000\n"
+"POT-Creation-Date: 2026-04-12 00:45+0000\n"
 "PO-Revision-Date: 2013-09-08 07:04+0900\n"
 "Last-Translator: Gheyret Kenji <gheyret@gmail.com>\n"
 "Language-Team: Uyghur <kde-i18n-doc@kde.org>\n"
@@ -266,19 +266,11 @@ msgstr "قىستۇرمىلار"
 msgid "Cancel"
 msgstr "ئەمەلدىن قالدۇر"
 
-#: discover/qml/ApplicationDelegate.qml:177
-#: discover/qml/ApplicationPage.qml:373
+#: discover/qml/ApplicationDelegate.qml:160
 #, fuzzy, kde-format
 #| msgid "Rating:"
-msgid "%1 rating"
-msgid_plural "%1 ratings"
-msgstr[0] "باھالاش:"
-
-#: discover/qml/ApplicationDelegate.qml:177
-#: discover/qml/ApplicationPage.qml:373
-#, kde-format
-msgid "No ratings yet"
-msgstr ""
+msgid "No ratings"
+msgstr "باھالاش:"
 
 #: discover/qml/ApplicationPage.qml:69
 #, kde-kuit-format
@@ -405,6 +397,18 @@ msgstr ""
 #: discover/qml/ApplicationPage.qml:337
 #, kde-format
 msgid "Unknown author"
+msgstr ""
+
+#: discover/qml/ApplicationPage.qml:373
+#, fuzzy, kde-format
+#| msgid "Rating:"
+msgid "%1 rating"
+msgid_plural "%1 ratings"
+msgstr[0] "باھالاش:"
+
+#: discover/qml/ApplicationPage.qml:373
+#, kde-format
+msgid "No ratings yet"
 msgstr ""
 
 #: discover/qml/ApplicationPage.qml:397
@@ -612,7 +616,7 @@ msgid_plural "Search - %1 items"
 msgstr[0] "ئىزدە…"
 
 #: discover/qml/ApplicationsListPage.qml:68
-#: discover/qml/ApplicationsListPage.qml:273
+#: discover/qml/ApplicationsListPage.qml:272
 #, fuzzy, kde-format
 #| msgid "Search..."
 msgid "Search"
@@ -659,24 +663,24 @@ msgstr "<b>جەمئىي چوڭلۇقى:</b> %1<br/>"
 msgid "Release date"
 msgstr ""
 
-#: discover/qml/ApplicationsListPage.qml:219
+#: discover/qml/ApplicationsListPage.qml:218
 #, kde-format
 msgid "Nothing found"
 msgstr ""
 
-#: discover/qml/ApplicationsListPage.qml:227
+#: discover/qml/ApplicationsListPage.qml:226
 #, kde-format
 msgctxt "@action:button"
 msgid "Search in All Categories"
 msgstr ""
 
-#: discover/qml/ApplicationsListPage.qml:237
+#: discover/qml/ApplicationsListPage.qml:236
 #, kde-format
 msgctxt "@action:button %1 is the name of an application"
 msgid "Search the Web for \"%1\""
 msgstr ""
 
-#: discover/qml/ApplicationsListPage.qml:252
+#: discover/qml/ApplicationsListPage.qml:251
 #, kde-format
 msgctxt ""
 "@info:placeholder %1 is the name of an application; %2 is the name of a "
@@ -684,13 +688,13 @@ msgctxt ""
 msgid "\"%1\" was not found in the \"%2\" category"
 msgstr ""
 
-#: discover/qml/ApplicationsListPage.qml:254
+#: discover/qml/ApplicationsListPage.qml:253
 #, kde-format
 msgctxt "@info:placeholder %1 is the name of an application"
 msgid "\"%1\" was not found in the available sources"
 msgstr ""
 
-#: discover/qml/ApplicationsListPage.qml:255
+#: discover/qml/ApplicationsListPage.qml:254
 #, kde-format
 msgctxt "@info:placeholder %1 is the name of an application"
 msgid ""
@@ -699,7 +703,7 @@ msgid ""
 "caution."
 msgstr ""
 
-#: discover/qml/ApplicationsListPage.qml:288
+#: discover/qml/ApplicationsListPage.qml:287
 #, fuzzy, kde-format
 #| msgid "Install"
 msgid "Still looking…"

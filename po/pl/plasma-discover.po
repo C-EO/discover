@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-11 00:48+0000\n"
-"PO-Revision-Date: 2026-04-04 19:16+0200\n"
+"POT-Creation-Date: 2026-04-12 00:45+0000\n"
+"PO-Revision-Date: 2026-04-11 10:00+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: pl\n"
 "Language: pl\n"
@@ -261,7 +261,7 @@ msgstr "Dodatki do %1"
 #: discover/qml/AddonsView.qml:80
 #, kde-format
 msgid "More…"
-msgstr "Więcej..."
+msgstr "Więcej…"
 
 #: discover/qml/AddonsView.qml:89
 #, kde-format
@@ -291,19 +291,10 @@ msgstr "Dodaj"
 msgid "Cancel"
 msgstr "Anuluj"
 
-#: discover/qml/ApplicationDelegate.qml:177
-#: discover/qml/ApplicationPage.qml:373
-#, kde-format
-msgid "%1 rating"
-msgid_plural "%1 ratings"
-msgstr[0] "%1 ocena"
-msgstr[1] "%1 oceny"
-msgstr[2] "%1 ocen"
-
-#: discover/qml/ApplicationDelegate.qml:177
-#: discover/qml/ApplicationPage.qml:373
-#, kde-format
-msgid "No ratings yet"
+#: discover/qml/ApplicationDelegate.qml:160
+#, fuzzy, kde-format
+#| msgid "No ratings yet"
+msgid "No ratings"
 msgstr "Nie wystawiono jeszcze żadnej oceny"
 
 #: discover/qml/ApplicationPage.qml:69
@@ -490,6 +481,19 @@ msgstr "Sprawdź aplikację %1!"
 msgid "Unknown author"
 msgstr "Nieznany autor"
 
+#: discover/qml/ApplicationPage.qml:373
+#, kde-format
+msgid "%1 rating"
+msgid_plural "%1 ratings"
+msgstr[0] "%1 ocena"
+msgstr[1] "%1 oceny"
+msgstr[2] "%1 ocen"
+
+#: discover/qml/ApplicationPage.qml:373
+#, kde-format
+msgid "No ratings yet"
+msgstr "Nie wystawiono jeszcze żadnej oceny"
+
 #: discover/qml/ApplicationPage.qml:397
 #, kde-format
 msgid "Version:"
@@ -542,7 +546,7 @@ msgstr "Wiek:"
 #, kde-format
 msgctxt "@item As in, the app is suitable for everyone"
 msgid "Everyone"
-msgstr "Wszyscy"
+msgstr "Bez ograniczeń"
 
 #: discover/qml/ApplicationPage.qml:540
 #, kde-format
@@ -692,7 +696,7 @@ msgstr[1] "Szukaj - %1 rzeczy"
 msgstr[2] "Szukaj - %1 rzeczy"
 
 #: discover/qml/ApplicationsListPage.qml:68
-#: discover/qml/ApplicationsListPage.qml:273
+#: discover/qml/ApplicationsListPage.qml:272
 #, kde-format
 msgid "Search"
 msgstr "Szukaj"
@@ -734,24 +738,24 @@ msgstr "Rozmiarze"
 msgid "Release date"
 msgstr "Daty wydania"
 
-#: discover/qml/ApplicationsListPage.qml:219
+#: discover/qml/ApplicationsListPage.qml:218
 #, kde-format
 msgid "Nothing found"
 msgstr "Nie znaleziono niczego"
 
-#: discover/qml/ApplicationsListPage.qml:227
+#: discover/qml/ApplicationsListPage.qml:226
 #, kde-format
 msgctxt "@action:button"
 msgid "Search in All Categories"
 msgstr "Poszukaj we wszystkich kategoriach"
 
-#: discover/qml/ApplicationsListPage.qml:237
+#: discover/qml/ApplicationsListPage.qml:236
 #, kde-format
 msgctxt "@action:button %1 is the name of an application"
 msgid "Search the Web for \"%1\""
 msgstr "Poszukaj \"%1\" w sieci"
 
-#: discover/qml/ApplicationsListPage.qml:252
+#: discover/qml/ApplicationsListPage.qml:251
 #, kde-format
 msgctxt ""
 "@info:placeholder %1 is the name of an application; %2 is the name of a "
@@ -759,13 +763,13 @@ msgctxt ""
 msgid "\"%1\" was not found in the \"%2\" category"
 msgstr "Nie znaleziono \"%1\" w kategorii \"%2\""
 
-#: discover/qml/ApplicationsListPage.qml:254
+#: discover/qml/ApplicationsListPage.qml:253
 #, kde-format
 msgctxt "@info:placeholder %1 is the name of an application"
 msgid "\"%1\" was not found in the available sources"
 msgstr "\"%1\" nie został znaleziony w dostępnych źródłach"
 
-#: discover/qml/ApplicationsListPage.qml:255
+#: discover/qml/ApplicationsListPage.qml:254
 #, kde-format
 msgctxt "@info:placeholder %1 is the name of an application"
 msgid ""
@@ -777,7 +781,7 @@ msgstr ""
 "sprawdzane przez twoją dystrybucję pod kątem funkcjonalności i stabilności. "
 "Zachowaj ostrożność."
 
-#: discover/qml/ApplicationsListPage.qml:288
+#: discover/qml/ApplicationsListPage.qml:287
 #, kde-format
 msgid "Still looking…"
 msgstr "Nadal szukam..."
@@ -896,7 +900,7 @@ msgstr "&Strona domowa"
 #: discover/qml/DiscoverWindow.qml:76
 #, kde-format
 msgid "&Search"
-msgstr "&Szukaj"
+msgstr "Po&szukaj"
 
 #: discover/qml/DiscoverWindow.qml:84
 #, kde-format
@@ -1048,7 +1052,7 @@ msgstr "Weź udział..."
 #, kde-format
 msgctxt "State being fetched"
 msgid "Loading…"
-msgstr "Wczytywanie..."
+msgstr "Wczytywanie…"
 
 #: discover/qml/InstallApplicationButton.qml:33
 #, kde-format
@@ -1363,7 +1367,7 @@ msgstr "„"
 #: discover/qml/SearchField.qml:26
 #, kde-format
 msgid "Search…"
-msgstr "Szukaj..."
+msgstr "Poszukaj…"
 
 #: discover/qml/SearchField.qml:26
 #, kde-format
@@ -1495,35 +1499,25 @@ msgid "Select None"
 msgstr "Odznacz wszystkie"
 
 #: discover/qml/UpdatesPage.qml:279
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "@info on the completion of updates, the action that automatically happens "
-#| "after (e.g shut down)"
-#| msgid "After completing:"
+#, kde-format
 msgctxt "@info After updates complete, shut down/restart/quit"
 msgid "After updates complete:"
-msgstr "Po ukończeniu:"
+msgstr "Po ukończeniu uaktualniania:"
 
 #: discover/qml/UpdatesPage.qml:285
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox"
-#| msgid "Do nothing"
+#, kde-format
 msgctxt "@item:inlistbox after updates complete, do nothing"
 msgid "Do nothing"
 msgstr "Nic nie rób"
 
 #: discover/qml/UpdatesPage.qml:286
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox"
-#| msgid "Restart"
+#, kde-format
 msgctxt "@item:inlistbox after updates complete, restart"
 msgid "Restart"
 msgstr "Uruchom ponownie"
 
 #: discover/qml/UpdatesPage.qml:287
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox"
-#| msgid "Shut down"
+#, kde-format
 msgctxt "@item:inlistbox after updates complete, shut down"
 msgid "Shut down"
 msgstr "Wyłącz"
