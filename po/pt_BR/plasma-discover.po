@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-12 00:45+0000\n"
-"PO-Revision-Date: 2026-04-11 08:05-0300\n"
+"PO-Revision-Date: 2026-04-12 09:33-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -299,10 +299,9 @@ msgid "Cancel"
 msgstr "Cancelar"
 
 #: discover/qml/ApplicationDelegate.qml:160
-#, fuzzy, kde-format
-#| msgid "No ratings yet"
+#, kde-format
 msgid "No ratings"
-msgstr "Sem avaliações ainda"
+msgstr "Sem avaliações"
 
 #: discover/qml/ApplicationPage.qml:69
 #, kde-kuit-format

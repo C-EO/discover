@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: muon-discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-12 00:45+0000\n"
-"PO-Revision-Date: 2023-12-05 17:21+0100\n"
+"PO-Revision-Date: 2026-04-12 12:00+0200\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
 "Language: sk\n"
@@ -295,10 +295,9 @@ msgid "Cancel"
 msgstr "Zrušiť"
 
 #: discover/qml/ApplicationDelegate.qml:160
-#, fuzzy, kde-format
-#| msgid "No ratings yet"
+#, kde-format
 msgid "No ratings"
-msgstr "Zatiaľ bez hodnotení"
+msgstr "Bez hodnotení"
 
 #: discover/qml/ApplicationPage.qml:69
 #, kde-kuit-format
@@ -1523,7 +1522,7 @@ msgstr "Vypnúť"
 #, kde-format
 msgctxt "@item:inlistbox after updates complete, quit"
 msgid "Quit"
-msgstr ""
+msgstr "Ukončiť"
 
 #: discover/qml/UpdatesPage.qml:298
 #, kde-format
