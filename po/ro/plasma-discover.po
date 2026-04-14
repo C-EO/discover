@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-12 00:45+0000\n"
-"PO-Revision-Date: 2026-03-31 13:02+0100\n"
+"PO-Revision-Date: 2026-04-13 13:23+0100\n"
 "Last-Translator: Sergiu Bivol <sergiu@cip.md>\n"
 "Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
 "Language: ro\n"
@@ -293,10 +293,9 @@ msgid "Cancel"
 msgstr "Renunță"
 
 #: discover/qml/ApplicationDelegate.qml:160
-#, fuzzy, kde-format
-#| msgid "No ratings yet"
+#, kde-format
 msgid "No ratings"
-msgstr "Nicio evaluare deocamdată"
+msgstr "Nicio evaluare"
 
 #: discover/qml/ApplicationPage.qml:69
 #, kde-kuit-format
@@ -1503,35 +1502,25 @@ msgid "Select None"
 msgstr "Nu selecta nimic"
 
 #: discover/qml/UpdatesPage.qml:279
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "@info on the completion of updates, the action that automatically happens "
-#| "after (e.g shut down)"
-#| msgid "After completing:"
+#, kde-format
 msgctxt "@info After updates complete, shut down/restart/quit"
 msgid "After updates complete:"
-msgstr "După finalizare:"
+msgstr "După finalizarea actualizărilor:"
 
 #: discover/qml/UpdatesPage.qml:285
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox"
-#| msgid "Do nothing"
+#, kde-format
 msgctxt "@item:inlistbox after updates complete, do nothing"
 msgid "Do nothing"
 msgstr "Nu fă nimic"
 
 #: discover/qml/UpdatesPage.qml:286
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox"
-#| msgid "Restart"
+#, kde-format
 msgctxt "@item:inlistbox after updates complete, restart"
 msgid "Restart"
 msgstr "Repornește"
 
 #: discover/qml/UpdatesPage.qml:287
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox"
-#| msgid "Shut down"
+#, kde-format
 msgctxt "@item:inlistbox after updates complete, shut down"
 msgid "Shut down"
 msgstr "Oprește"
@@ -1540,7 +1529,7 @@ msgstr "Oprește"
 #, kde-format
 msgctxt "@item:inlistbox after updates complete, quit"
 msgid "Quit"
-msgstr ""
+msgstr "Termină"
 
 #: discover/qml/UpdatesPage.qml:298
 #, kde-format

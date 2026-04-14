@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-08 00:47+0000\n"
-"PO-Revision-Date: 2026-02-02 13:23+0000\n"
+"PO-Revision-Date: 2026-04-13 18:39+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic\n"
 "Language: is\n"
@@ -2466,7 +2466,7 @@ msgstr ""
 #, kde-format
 msgctxt "@label OS vendor"
 msgid "Fedora Project"
-msgstr ""
+msgstr "Fedora-verkefnið"
 
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:400
 #, kde-format
@@ -2621,16 +2621,13 @@ msgid "Starred Publisher on snapcraft.io"
 msgstr "Stjörnumerktur útgefandi á snapcraft.io"
 
 #: libdiscover/backends/SnapBackend/SnapTransaction.cpp:57
-#, fuzzy, kde-format
-#| msgid ""
-#| "This Snap application is not compatible with security sandboxing and will "
-#| "have full access to this computer. Install it anyway?"
+#, kde-format
 msgid ""
 "This Snap application is not compatible with security sandboxing and will "
 "have full access to this system. Install it anyway?"
 msgstr ""
 "Þetta Snap-forrit er ekki samhæft við öryggissandkassa og mun hafa fullan "
-"aðgang að tölvunni. Viltu samt setja það upp?"
+"aðgang að kerfinu. Viltu samt setja það upp?"
 
 #: libdiscover/backends/SystemdSysupdateBackend/SystemdSysupdateBackend.cpp:149
 #, kde-kuit-format

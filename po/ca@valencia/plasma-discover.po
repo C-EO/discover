@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-12 00:45+0000\n"
-"PO-Revision-Date: 2026-04-05 11:25+0200\n"
+"PO-Revision-Date: 2026-04-12 11:26+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -298,10 +298,9 @@ msgid "Cancel"
 msgstr "Cancel·la"
 
 #: discover/qml/ApplicationDelegate.qml:160
-#, fuzzy, kde-format
-#| msgid "No ratings yet"
+#, kde-format
 msgid "No ratings"
-msgstr "Encara no hi ha cap valoració"
+msgstr "Cap valoració"
 
 #: discover/qml/ApplicationPage.qml:69
 #, kde-kuit-format
@@ -1529,7 +1528,7 @@ msgstr "Para"
 #, kde-format
 msgctxt "@item:inlistbox after updates complete, quit"
 msgid "Quit"
-msgstr ""
+msgstr "Ix"
 
 #: discover/qml/UpdatesPage.qml:298
 #, kde-format

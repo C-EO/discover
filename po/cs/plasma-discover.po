@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-12 00:45+0000\n"
-"PO-Revision-Date: 2026-04-11 21:44+0200\n"
+"PO-Revision-Date: 2026-04-12 22:10+0200\n"
 "Last-Translator: Libor Filípek <filipek.libor@protonmail.com>\n"
 "Language-Team: \n"
 "Language: cs\n"
@@ -294,10 +294,9 @@ msgid "Cancel"
 msgstr "Zrušit"
 
 #: discover/qml/ApplicationDelegate.qml:160
-#, fuzzy, kde-format
-#| msgid "No ratings yet"
+#, kde-format
 msgid "No ratings"
-msgstr "Zatím žádná hodnocení"
+msgstr "Žádné hodnocení"
 
 #: discover/qml/ApplicationPage.qml:69
 #, kde-kuit-format

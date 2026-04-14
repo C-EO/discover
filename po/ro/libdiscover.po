@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-08 00:47+0000\n"
-"PO-Revision-Date: 2026-02-09 15:02+0000\n"
+"PO-Revision-Date: 2026-04-13 13:23+0100\n"
 "Last-Translator: Sergiu Bivol <sergiu@cip.md>\n"
 "Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
 "Language: ro\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Lokalize 25.08.1\n"
+"X-Generator: Lokalize 25.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -2475,6 +2475,7 @@ msgctxt "@label OS updater message"
 msgid ""
 "<br/>This version is pinned and won't be automatically removed on updates."
 msgstr ""
+"<br/>Această versiune e fixată și nu va fi eliminată automat la actualizări."
 
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:360
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:373
@@ -2482,7 +2483,7 @@ msgstr ""
 #, kde-format
 msgctxt "@label OS vendor"
 msgid "Fedora Project"
-msgstr ""
+msgstr "Proiectul Fedora"
 
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:400
 #, kde-format
@@ -2643,16 +2644,13 @@ msgid "Starred Publisher on snapcraft.io"
 msgstr "Editor apreciat pe snapcraft.io"
 
 #: libdiscover/backends/SnapBackend/SnapTransaction.cpp:57
-#, fuzzy, kde-format
-#| msgid ""
-#| "This Snap application is not compatible with security sandboxing and will "
-#| "have full access to this computer. Install it anyway?"
+#, kde-format
 msgid ""
 "This Snap application is not compatible with security sandboxing and will "
 "have full access to this system. Install it anyway?"
 msgstr ""
 "Această aplicație Snap nu e compatibilă cu îngrădirea de securitate și va "
-"avea acces deplin la acest calculator. O instalați oricum?"
+"avea acces deplin la acest sistem. O instalați oricum?"
 
 #: libdiscover/backends/SystemdSysupdateBackend/SystemdSysupdateBackend.cpp:149
 #, kde-kuit-format

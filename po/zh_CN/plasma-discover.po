@@ -280,10 +280,9 @@ msgid "Cancel"
 msgstr "取消"
 
 #: discover/qml/ApplicationDelegate.qml:160
-#, fuzzy, kde-format
-#| msgid "No ratings yet"
+#, kde-format
 msgid "No ratings"
-msgstr "尚无评分"
+msgstr ""
 
 #: discover/qml/ApplicationPage.qml:69
 #, kde-kuit-format
