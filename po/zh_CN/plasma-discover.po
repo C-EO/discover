@@ -282,7 +282,7 @@ msgstr "取消"
 #: discover/qml/ApplicationDelegate.qml:160
 #, kde-format
 msgid "No ratings"
-msgstr ""
+msgstr "沒有评分"
 
 #: discover/qml/ApplicationPage.qml:69
 #, kde-kuit-format
@@ -1472,7 +1472,7 @@ msgstr "关机"
 #, kde-format
 msgctxt "@item:inlistbox after updates complete, quit"
 msgid "Quit"
-msgstr ""
+msgstr "退出"
 
 #: discover/qml/UpdatesPage.qml:298
 #, kde-format
