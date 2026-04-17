@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: plasma-discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-12 00:45+0000\n"
-"PO-Revision-Date: 2026-04-11 16:33+0200\n"
+"PO-Revision-Date: 2026-04-15 19:26+0200\n"
 "Last-Translator: Alexander Becker <alex-at-kde-l10n-de@freenet.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -298,10 +298,9 @@ msgid "Cancel"
 msgstr "Abbrechen"
 
 #: discover/qml/ApplicationDelegate.qml:160
-#, fuzzy, kde-format
-#| msgid "No ratings yet"
+#, kde-format
 msgid "No ratings"
-msgstr "Noch keine Bewertungen"
+msgstr "Keine Bewertungen"
 
 #: discover/qml/ApplicationPage.qml:69
 #, kde-kuit-format
