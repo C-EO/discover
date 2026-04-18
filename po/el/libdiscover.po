@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libmuon\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-08 00:47+0000\n"
+"POT-Creation-Date: 2026-04-18 00:46+0000\n"
 "PO-Revision-Date: 2024-09-19 14:31+0300\n"
 "Last-Translator: Antonis Geralis <capoiosct@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
@@ -633,11 +633,6 @@ msgstr ""
 "Άλλα λογισμικά σε αυτό το αποθετήριο, θα είναι επίσης διαθέσιμα, στο "
 "Discover όταν εγκατασταθεί αυτή η εφαρμογή.</para>"
 
-#: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:470
-#, kde-format
-msgid "Retrieving size information"
-msgstr "Ανάκτηση πληροφοριών μεγέθους"
-
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:472
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:419
 #, kde-format
@@ -646,7 +641,7 @@ msgid "Unknown"
 msgstr "Άγνωστο"
 
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:528
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:495
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:467
 #: libdiscover/backends/PackageKitBackend/PackageKitSourcesBackend.cpp:70
 #, kde-format
 msgid "Failed to start '%1': %2"
@@ -2218,13 +2213,6 @@ msgstr "Επανεκκίνηση:"
 msgid "Vendor:"
 msgstr "Προμηθευτής:"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:448
-#, kde-format
-msgid "%2 (plus %1 dependency)"
-msgid_plural "%2 (plus %1 dependencies)"
-msgstr[0] "%2 (συν %1 εξάρτηση)"
-msgstr[1] "%2 (συν %1 εξαρτήσεις)"
-
 #: libdiscover/backends/PackageKitBackend/PackageKitSourcesBackend.cpp:105
 #, kde-format
 msgid "Repository URL:"
@@ -2890,6 +2878,14 @@ msgstr "Λογισμικό συστήματος"
 msgctxt "@item:inlistbox"
 msgid "Addons"
 msgstr "Πρόσθετα"
+
+#~ msgid "Retrieving size information"
+#~ msgstr "Ανάκτηση πληροφοριών μεγέθους"
+
+#~ msgid "%2 (plus %1 dependency)"
+#~ msgid_plural "%2 (plus %1 dependencies)"
+#~ msgstr[0] "%2 (συν %1 εξάρτηση)"
+#~ msgstr[1] "%2 (συν %1 εξαρτήσεις)"
 
 #~ msgid "ostree remotes"
 #~ msgstr "ostree απομακρυσμένα"

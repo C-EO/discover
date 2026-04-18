@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-08 00:47+0000\n"
+"POT-Creation-Date: 2026-04-18 00:46+0000\n"
 "PO-Revision-Date: 2021-11-06 11:11+0100\n"
 "Last-Translator: Edward Wornar <edi.werner@gmx.de>\n"
 "Language-Team: Upper Sorbian <kde-i18n-doc@kde.org>\n"
@@ -613,11 +613,6 @@ msgid ""
 "the application is installed.</para>"
 msgstr ""
 
-#: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:470
-#, kde-format
-msgid "Retrieving size information"
-msgstr "Wobstaram informaciju wo wulkosći"
-
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:472
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:419
 #, fuzzy, kde-format
@@ -627,7 +622,7 @@ msgid "Unknown"
 msgstr "Njeznate"
 
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:528
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:495
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:467
 #: libdiscover/backends/PackageKitBackend/PackageKitSourcesBackend.cpp:70
 #, kde-format
 msgid "Failed to start '%1': %2"
@@ -2133,15 +2128,6 @@ msgstr "Znowa startować:"
 msgid "Vendor:"
 msgstr "Fabrikat:"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:448
-#, kde-format
-msgid "%2 (plus %1 dependency)"
-msgid_plural "%2 (plus %1 dependencies)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-
 #: libdiscover/backends/PackageKitBackend/PackageKitSourcesBackend.cpp:105
 #, kde-format
 msgid "Repository URL:"
@@ -2733,6 +2719,9 @@ msgstr "Zlěpšenje systema"
 msgctxt "@item:inlistbox"
 msgid "Addons"
 msgstr "Dodawki"
+
+#~ msgid "Retrieving size information"
+#~ msgstr "Wobstaram informaciju wo wulkosći"
 
 #~ msgctxt "Category"
 #~ msgid "Accessories"

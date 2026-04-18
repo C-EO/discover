@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libdiscover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-08 00:47+0000\n"
+"POT-Creation-Date: 2026-04-18 00:46+0000\n"
 "PO-Revision-Date: 2026-04-09 08:46+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -614,11 +614,6 @@ msgstr ""
 "<para>מקור היישומון הוא „%1” (מתארח אצל <link>%2</link>). תוכנות נוספות "
 "שבמאגר הזה תהיינה זמינות גם כן ב־Discover עם התקנת היישום.</para>"
 
-#: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:470
-#, kde-format
-msgid "Retrieving size information"
-msgstr "המידע על הגודל מתקבל"
-
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:472
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:419
 #, kde-format
@@ -627,7 +622,7 @@ msgid "Unknown"
 msgstr "לא ידוע"
 
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:528
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:495
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:467
 #: libdiscover/backends/PackageKitBackend/PackageKitSourcesBackend.cpp:70
 #, kde-format
 msgid "Failed to start '%1': %2"
@@ -2163,15 +2158,6 @@ msgstr "הפעלה מחדש:"
 msgid "Vendor:"
 msgstr "יצרן:"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:448
-#, kde-format
-msgid "%2 (plus %1 dependency)"
-msgid_plural "%2 (plus %1 dependencies)"
-msgstr[0] "%2 (ועוד תלות)"
-msgstr[1] "%2 (ועוד שתי תלויות)"
-msgstr[2] "%2 (ועוד %1 תלויות)"
-msgstr[3] "%2 (ועוד %1 תלויות)"
-
 #: libdiscover/backends/PackageKitBackend/PackageKitSourcesBackend.cpp:105
 #, kde-format
 msgid "Repository URL:"
@@ -2793,6 +2779,16 @@ msgstr "תוכנת מערכת"
 msgctxt "@item:inlistbox"
 msgid "Addons"
 msgstr "תוספים"
+
+#~ msgid "Retrieving size information"
+#~ msgstr "המידע על הגודל מתקבל"
+
+#~ msgid "%2 (plus %1 dependency)"
+#~ msgid_plural "%2 (plus %1 dependencies)"
+#~ msgstr[0] "%2 (ועוד תלות)"
+#~ msgstr[1] "%2 (ועוד שתי תלויות)"
+#~ msgstr[2] "%2 (ועוד %1 תלויות)"
+#~ msgstr[3] "%2 (ועוד %1 תלויות)"
 
 #~ msgid "ostree remotes"
 #~ msgstr "מקורות מרוחקים של ostree"

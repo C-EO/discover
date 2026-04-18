@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-08 00:47+0000\n"
+"POT-Creation-Date: 2026-04-18 00:46+0000\n"
 "PO-Revision-Date: 2026-04-03 20:31+0200\n"
 "Last-Translator: Alexander Yavorskiy <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -625,11 +625,6 @@ msgstr ""
 "программное обеспечение в этом репозитории также будет доступно после "
 "установки приложения.</para>"
 
-#: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:470
-#, kde-format
-msgid "Retrieving size information"
-msgstr "Определение размера"
-
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:472
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:419
 #, kde-format
@@ -638,7 +633,7 @@ msgid "Unknown"
 msgstr "неизвестно"
 
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:528
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:495
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:467
 #: libdiscover/backends/PackageKitBackend/PackageKitSourcesBackend.cpp:70
 #, kde-format
 msgid "Failed to start '%1': %2"
@@ -2215,15 +2210,6 @@ msgstr "Перезапуск:"
 msgid "Vendor:"
 msgstr "Поставщик:"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:448
-#, kde-format
-msgid "%2 (plus %1 dependency)"
-msgid_plural "%2 (plus %1 dependencies)"
-msgstr[0] "%2 (и %1 зависимость)"
-msgstr[1] "%2 (и %1 зависимости)"
-msgstr[2] "%2 (и %1 зависимостей)"
-msgstr[3] "%2 (и %1 зависимость)"
-
 #: libdiscover/backends/PackageKitBackend/PackageKitSourcesBackend.cpp:105
 #, kde-format
 msgid "Repository URL:"
@@ -2872,6 +2858,16 @@ msgstr "Системное ПО"
 msgctxt "@item:inlistbox"
 msgid "Addons"
 msgstr "Дополнения"
+
+#~ msgid "Retrieving size information"
+#~ msgstr "Определение размера"
+
+#~ msgid "%2 (plus %1 dependency)"
+#~ msgid_plural "%2 (plus %1 dependencies)"
+#~ msgstr[0] "%2 (и %1 зависимость)"
+#~ msgstr[1] "%2 (и %1 зависимости)"
+#~ msgstr[2] "%2 (и %1 зависимостей)"
+#~ msgstr[3] "%2 (и %1 зависимость)"
 
 #~ msgid "ostree remotes"
 #~ msgstr "удалённые системы ostree"

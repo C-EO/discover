@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-08 00:47+0000\n"
+"POT-Creation-Date: 2026-04-18 00:46+0000\n"
 "PO-Revision-Date: 2026-04-08 07:08+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -615,11 +615,6 @@ msgstr ""
 "programje v tem skladišču bo prav tako na voljo v Discoverju, ko bo program "
 "nameščen.</para>"
 
-#: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:470
-#, kde-format
-msgid "Retrieving size information"
-msgstr "Pridobivanje podatkov o velikosti"
-
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:472
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:419
 #, kde-format
@@ -628,7 +623,7 @@ msgid "Unknown"
 msgstr "Neznano"
 
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:528
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:495
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:467
 #: libdiscover/backends/PackageKitBackend/PackageKitSourcesBackend.cpp:70
 #, kde-format
 msgid "Failed to start '%1': %2"
@@ -2193,15 +2188,6 @@ msgstr "Ponovni zagon:"
 msgid "Vendor:"
 msgstr "Proizvajalec:"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:448
-#, kde-format
-msgid "%2 (plus %1 dependency)"
-msgid_plural "%2 (plus %1 dependencies)"
-msgstr[0] "%2 (in %1 odvisnosti)"
-msgstr[1] "%2 (in %1 odvisnost)"
-msgstr[2] "%2 (in %1 odvisnosti)"
-msgstr[3] "%2 (in %1 odvisnosti)"
-
 #: libdiscover/backends/PackageKitBackend/PackageKitSourcesBackend.cpp:105
 #, kde-format
 msgid "Repository URL:"
@@ -2846,6 +2832,16 @@ msgstr "Sistemsko programje"
 msgctxt "@item:inlistbox"
 msgid "Addons"
 msgstr "Dodatki"
+
+#~ msgid "Retrieving size information"
+#~ msgstr "Pridobivanje podatkov o velikosti"
+
+#~ msgid "%2 (plus %1 dependency)"
+#~ msgid_plural "%2 (plus %1 dependencies)"
+#~ msgstr[0] "%2 (in %1 odvisnosti)"
+#~ msgstr[1] "%2 (in %1 odvisnost)"
+#~ msgstr[2] "%2 (in %1 odvisnosti)"
+#~ msgstr[3] "%2 (in %1 odvisnosti)"
 
 #~ msgid "ostree remotes"
 #~ msgstr "ostree oddaljeni"

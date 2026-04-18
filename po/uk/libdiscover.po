@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libdiscover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-08 00:47+0000\n"
+"POT-Creation-Date: 2026-04-18 00:46+0000\n"
 "PO-Revision-Date: 2026-04-08 08:32+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
@@ -614,11 +614,6 @@ msgstr ""
 "link>). Якщо встановити цю програму, у Discover ви отримаєте доступ до "
 "іншого програмного забезпечення у цьому сховищі.</para>"
 
-#: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:470
-#, kde-format
-msgid "Retrieving size information"
-msgstr "Отримуємо дані щодо розміру"
-
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:472
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:419
 #, kde-format
@@ -627,7 +622,7 @@ msgid "Unknown"
 msgstr "Невідомий"
 
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:528
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:495
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:467
 #: libdiscover/backends/PackageKitBackend/PackageKitSourcesBackend.cpp:70
 #, kde-format
 msgid "Failed to start '%1': %2"
@@ -2203,15 +2198,6 @@ msgstr "Перезапуск:"
 msgid "Vendor:"
 msgstr "Виробник:"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:448
-#, kde-format
-msgid "%2 (plus %1 dependency)"
-msgid_plural "%2 (plus %1 dependencies)"
-msgstr[0] "%2 (і %1 залежність)"
-msgstr[1] "%2 (і %1 залежності)"
-msgstr[2] "%2 (і %1 залежностей)"
-msgstr[3] "%2 (і %1 залежність)"
-
 #: libdiscover/backends/PackageKitBackend/PackageKitSourcesBackend.cpp:105
 #, kde-format
 msgid "Repository URL:"
@@ -2863,6 +2849,16 @@ msgstr "Програмне забезпечення системи"
 msgctxt "@item:inlistbox"
 msgid "Addons"
 msgstr "Додатки"
+
+#~ msgid "Retrieving size information"
+#~ msgstr "Отримуємо дані щодо розміру"
+
+#~ msgid "%2 (plus %1 dependency)"
+#~ msgid_plural "%2 (plus %1 dependencies)"
+#~ msgstr[0] "%2 (і %1 залежність)"
+#~ msgstr[1] "%2 (і %1 залежності)"
+#~ msgstr[2] "%2 (і %1 залежностей)"
+#~ msgstr[3] "%2 (і %1 залежність)"
 
 #~ msgid "ostree remotes"
 #~ msgstr "Сховища ostree"

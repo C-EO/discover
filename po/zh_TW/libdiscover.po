@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-08 00:47+0000\n"
+"POT-Creation-Date: 2026-04-18 00:46+0000\n"
 "PO-Revision-Date: 2026-04-08 23:41+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -618,11 +618,6 @@ msgstr ""
 "<para>本應用程式來自「%1」（連結：<link>%2</link>）。在本應用程式安裝完畢之"
 "後 ，這個軟體庫中的其他軟體也會出現在 Discover 中。</para>"
 
-#: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:470
-#, kde-format
-msgid "Retrieving size information"
-msgstr "正在取得大小資訊"
-
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:472
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:419
 #, kde-format
@@ -631,7 +626,7 @@ msgid "Unknown"
 msgstr "未知"
 
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:528
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:495
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:467
 #: libdiscover/backends/PackageKitBackend/PackageKitSourcesBackend.cpp:70
 #, kde-format
 msgid "Failed to start '%1': %2"
@@ -2141,12 +2136,6 @@ msgstr "重新啟動："
 msgid "Vendor:"
 msgstr "廠商："
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:448
-#, kde-format
-msgid "%2 (plus %1 dependency)"
-msgid_plural "%2 (plus %1 dependencies)"
-msgstr[0] "%2 （加上 %1 個依賴庫）"
-
 #: libdiscover/backends/PackageKitBackend/PackageKitSourcesBackend.cpp:105
 #, kde-format
 msgid "Repository URL:"
@@ -2746,6 +2735,13 @@ msgstr "系統軟體"
 msgctxt "@item:inlistbox"
 msgid "Addons"
 msgstr "附加功能"
+
+#~ msgid "Retrieving size information"
+#~ msgstr "正在取得大小資訊"
+
+#~ msgid "%2 (plus %1 dependency)"
+#~ msgid_plural "%2 (plus %1 dependencies)"
+#~ msgstr[0] "%2 （加上 %1 個依賴庫）"
 
 #~ msgid "ostree remotes"
 #~ msgstr "ostree 遠端"

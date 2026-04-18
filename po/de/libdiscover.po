@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libdiscover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-08 00:47+0000\n"
+"POT-Creation-Date: 2026-04-18 00:46+0000\n"
 "PO-Revision-Date: 2026-04-11 13:59+0200\n"
 "Last-Translator: Alexander Becker <alex-at-kde-l10n-de@freenet.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -617,11 +617,6 @@ msgstr ""
 "link>). Andere Software aus dieser Paketquelle wird ebenfalls in Discover "
 "verfügbar, wenn die Anwendung installiert wird.</para>"
 
-#: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:470
-#, kde-format
-msgid "Retrieving size information"
-msgstr "Größeninformation wird abgeholt"
-
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:472
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:419
 #, kde-format
@@ -630,7 +625,7 @@ msgid "Unknown"
 msgstr "Unbekannt"
 
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:528
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:495
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:467
 #: libdiscover/backends/PackageKitBackend/PackageKitSourcesBackend.cpp:70
 #, kde-format
 msgid "Failed to start '%1': %2"
@@ -2206,13 +2201,6 @@ msgstr "Neustart:"
 msgid "Vendor:"
 msgstr "Hersteller:"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:448
-#, kde-format
-msgid "%2 (plus %1 dependency)"
-msgid_plural "%2 (plus %1 dependencies)"
-msgstr[0] "%2 (und %1 Abhängigkeit)"
-msgstr[1] "%2 (und %1 Abhängigkeiten)"
-
 #: libdiscover/backends/PackageKitBackend/PackageKitSourcesBackend.cpp:105
 #, kde-format
 msgid "Repository URL:"
@@ -2868,6 +2856,14 @@ msgstr "System-Software"
 msgctxt "@item:inlistbox"
 msgid "Addons"
 msgstr "Erweiterungen"
+
+#~ msgid "Retrieving size information"
+#~ msgstr "Größeninformation wird abgeholt"
+
+#~ msgid "%2 (plus %1 dependency)"
+#~ msgid_plural "%2 (plus %1 dependencies)"
+#~ msgstr[0] "%2 (und %1 Abhängigkeit)"
+#~ msgstr[1] "%2 (und %1 Abhängigkeiten)"
 
 #~ msgid "ostree remotes"
 #~ msgstr "ostree-Paketquellen"

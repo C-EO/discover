@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libmuon\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-08 00:47+0000\n"
+"POT-Creation-Date: 2026-04-18 00:46+0000\n"
 "PO-Revision-Date: 2023-11-27 18:34+0100\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
 "Language-Team: Slovak <opensuse-translation@opensuse.org>\n"
@@ -615,11 +615,6 @@ msgstr ""
 "Ďalší softvér v tomto úložisku bude tiež sprístupnený v Discover, keď bude "
 "aplikácia nainštalovaná.</para>"
 
-#: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:470
-#, kde-format
-msgid "Retrieving size information"
-msgstr "Získavajú sa informácie o veľkosti"
-
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:472
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:419
 #, kde-format
@@ -628,7 +623,7 @@ msgid "Unknown"
 msgstr "Neznáme"
 
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:528
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:495
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:467
 #: libdiscover/backends/PackageKitBackend/PackageKitSourcesBackend.cpp:70
 #, kde-format
 msgid "Failed to start '%1': %2"
@@ -2195,14 +2190,6 @@ msgstr "Reštart:"
 msgid "Vendor:"
 msgstr "Dodávateľ:"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:448
-#, kde-format
-msgid "%2 (plus %1 dependency)"
-msgid_plural "%2 (plus %1 dependencies)"
-msgstr[0] "%2 (plus %1 závislosť)"
-msgstr[1] "%2 (plus %1 závislosti)"
-msgstr[2] "%2 (plus %1 závislostí)"
-
 #: libdiscover/backends/PackageKitBackend/PackageKitSourcesBackend.cpp:105
 #, kde-format
 msgid "Repository URL:"
@@ -2842,6 +2829,15 @@ msgstr "Systémový softvér"
 msgctxt "@item:inlistbox"
 msgid "Addons"
 msgstr "Doplnky"
+
+#~ msgid "Retrieving size information"
+#~ msgstr "Získavajú sa informácie o veľkosti"
+
+#~ msgid "%2 (plus %1 dependency)"
+#~ msgid_plural "%2 (plus %1 dependencies)"
+#~ msgstr[0] "%2 (plus %1 závislosť)"
+#~ msgstr[1] "%2 (plus %1 závislosti)"
+#~ msgstr[2] "%2 (plus %1 závislostí)"
 
 #~ msgid "ostree remotes"
 #~ msgstr "ostree vzdialené"

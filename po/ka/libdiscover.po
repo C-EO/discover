@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-08 00:47+0000\n"
+"POT-Creation-Date: 2026-04-18 00:46+0000\n"
 "PO-Revision-Date: 2026-04-08 07:12+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -612,11 +612,6 @@ msgstr ""
 "სხვა პროგრამული უზრუნველყოფა ასევე ხელმისაწვდომი იქნება Discover- ში, "
 "როდესაც პროგრამა დაყენებულია.</para>"
 
-#: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:470
-#, kde-format
-msgid "Retrieving size information"
-msgstr "ზომის ინფორმაციის მიღება"
-
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:472
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:419
 #, kde-format
@@ -625,7 +620,7 @@ msgid "Unknown"
 msgstr "უცნობი"
 
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:528
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:495
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:467
 #: libdiscover/backends/PackageKitBackend/PackageKitSourcesBackend.cpp:70
 #, kde-format
 msgid "Failed to start '%1': %2"
@@ -2177,13 +2172,6 @@ msgstr "გადატვირთვა:"
 msgid "Vendor:"
 msgstr "მომწოდებელი:"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:448
-#, kde-format
-msgid "%2 (plus %1 dependency)"
-msgid_plural "%2 (plus %1 dependencies)"
-msgstr[0] "%2 (და %1 დამოკიდებულება)"
-msgstr[1] "%2 (და %1 დამოკიდებულება)"
-
 #: libdiscover/backends/PackageKitBackend/PackageKitSourcesBackend.cpp:105
 #, kde-format
 msgid "Repository URL:"
@@ -2819,6 +2807,14 @@ msgstr "სისტემური პროგრამები"
 msgctxt "@item:inlistbox"
 msgid "Addons"
 msgstr "დამატებები"
+
+#~ msgid "Retrieving size information"
+#~ msgstr "ზომის ინფორმაციის მიღება"
+
+#~ msgid "%2 (plus %1 dependency)"
+#~ msgid_plural "%2 (plus %1 dependencies)"
+#~ msgstr[0] "%2 (და %1 დამოკიდებულება)"
+#~ msgstr[1] "%2 (და %1 დამოკიდებულება)"
 
 #~ msgid "ostree remotes"
 #~ msgstr "ostree -ის დაშორებულები"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fc57ad16a28d02dea100ceb1c60de14e\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-08 00:47+0000\n"
+"POT-Creation-Date: 2026-04-18 00:46+0000\n"
 "PO-Revision-Date: 2024-10-28 19:13\n"
 "Last-Translator: Zmicier <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian\n"
@@ -621,11 +621,6 @@ msgstr ""
 "Пасля ўсталявання праграмы іншае праграмнае забеспячэнне з гэтага сховішча "
 "таксама стане даступна ў Discover.</para>"
 
-#: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:470
-#, kde-format
-msgid "Retrieving size information"
-msgstr "Атрыманне інфармацыі пра памер"
-
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:472
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:419
 #, kde-format
@@ -634,7 +629,7 @@ msgid "Unknown"
 msgstr "Невядома"
 
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:528
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:495
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:467
 #: libdiscover/backends/PackageKitBackend/PackageKitSourcesBackend.cpp:70
 #, kde-format
 msgid "Failed to start '%1': %2"
@@ -2194,15 +2189,6 @@ msgstr "Перазапуск:"
 msgid "Vendor:"
 msgstr "Вытворца:"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:448
-#, kde-format
-msgid "%2 (plus %1 dependency)"
-msgid_plural "%2 (plus %1 dependencies)"
-msgstr[0] "%2 (плюс %1 залежнасць)"
-msgstr[1] "%2 (плюс %1 залежнасці)"
-msgstr[2] "%2 (плюс %1 залежнасцяў)"
-msgstr[3] "%2 (плюс %1 залежнасці)"
-
 #: libdiscover/backends/PackageKitBackend/PackageKitSourcesBackend.cpp:105
 #, kde-format
 msgid "Repository URL:"
@@ -2861,6 +2847,16 @@ msgstr "Сістэмнае праграмнае забеспячэнне"
 msgctxt "@item:inlistbox"
 msgid "Addons"
 msgstr "Дапаўненні"
+
+#~ msgid "Retrieving size information"
+#~ msgstr "Атрыманне інфармацыі пра памер"
+
+#~ msgid "%2 (plus %1 dependency)"
+#~ msgid_plural "%2 (plus %1 dependencies)"
+#~ msgstr[0] "%2 (плюс %1 залежнасць)"
+#~ msgstr[1] "%2 (плюс %1 залежнасці)"
+#~ msgstr[2] "%2 (плюс %1 залежнасцяў)"
+#~ msgstr[3] "%2 (плюс %1 залежнасці)"
 
 #~ msgid "ostree remotes"
 #~ msgstr "адлеглыя ostree"

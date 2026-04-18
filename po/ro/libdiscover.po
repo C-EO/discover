@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-08 00:47+0000\n"
+"POT-Creation-Date: 2026-04-18 00:46+0000\n"
 "PO-Revision-Date: 2026-04-13 13:23+0100\n"
 "Last-Translator: Sergiu Bivol <sergiu@cip.md>\n"
 "Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
@@ -612,11 +612,6 @@ msgstr ""
 "programe din acest depozit vor deveni, de asemenea, disponibile în Discover "
 "la instalarea acestei aplicații.</para>"
 
-#: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:470
-#, kde-format
-msgid "Retrieving size information"
-msgstr "Se preiau informații despre dimensiune"
-
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:472
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeResource.cpp:419
 #, kde-format
@@ -625,7 +620,7 @@ msgid "Unknown"
 msgstr "Necunoscută"
 
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:528
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:495
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:467
 #: libdiscover/backends/PackageKitBackend/PackageKitSourcesBackend.cpp:70
 #, kde-format
 msgid "Failed to start '%1': %2"
@@ -2187,14 +2182,6 @@ msgstr "Repornește:"
 msgid "Vendor:"
 msgstr "Vânzător:"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:448
-#, kde-format
-msgid "%2 (plus %1 dependency)"
-msgid_plural "%2 (plus %1 dependencies)"
-msgstr[0] "%2 (plus %1 dependență)"
-msgstr[1] "%2 (plus %1 dependențe)"
-msgstr[2] "%2 (plus %1 de dependențe)"
-
 #: libdiscover/backends/PackageKitBackend/PackageKitSourcesBackend.cpp:105
 #, kde-format
 msgid "Repository URL:"
@@ -2839,6 +2826,15 @@ msgstr "Programe de sistem"
 msgctxt "@item:inlistbox"
 msgid "Addons"
 msgstr "Suplimente"
+
+#~ msgid "Retrieving size information"
+#~ msgstr "Se preiau informații despre dimensiune"
+
+#~ msgid "%2 (plus %1 dependency)"
+#~ msgid_plural "%2 (plus %1 dependencies)"
+#~ msgstr[0] "%2 (plus %1 dependență)"
+#~ msgstr[1] "%2 (plus %1 dependențe)"
+#~ msgstr[2] "%2 (plus %1 de dependențe)"
 
 #~ msgid "ostree remotes"
 #~ msgstr "Distante ostree"
