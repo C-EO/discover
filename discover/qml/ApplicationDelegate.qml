@@ -36,7 +36,7 @@ BasicAbstractCard {
     highlighted: focus
 
     Accessible.name: application.name
-    Accessible.role: Accessible.Button
+    Accessible.role: Accessible.ListItem
     Accessible.onPressAction: trigger()
     onClicked: trigger()
 
