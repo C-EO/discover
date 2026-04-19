@@ -2818,11 +2818,3 @@ msgstr "Systemprogram"
 msgctxt "@item:inlistbox"
 msgid "Addons"
 msgstr "Tillegg"
-
-#~ msgid "Retrieving size information"
-#~ msgstr "Hentar storleiksinformasjon"
-
-#~ msgid "%2 (plus %1 dependency)"
-#~ msgid_plural "%2 (plus %1 dependencies)"
-#~ msgstr[0] "%2 (pluss %1 avhengnad)"
-#~ msgstr[1] "%2 (pluss %1 avhengnadar)"

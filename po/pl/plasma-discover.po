@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-12 00:45+0000\n"
-"PO-Revision-Date: 2026-04-11 10:00+0200\n"
+"PO-Revision-Date: 2026-04-18 14:20+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: pl\n"
 "Language: pl\n"
@@ -292,10 +292,9 @@ msgid "Cancel"
 msgstr "Anuluj"
 
 #: discover/qml/ApplicationDelegate.qml:160
-#, fuzzy, kde-format
-#| msgid "No ratings yet"
+#, kde-format
 msgid "No ratings"
-msgstr "Nie wystawiono jeszcze żadnej oceny"
+msgstr "Jeszcze nieoceniona"
 
 #: discover/qml/ApplicationPage.qml:69
 #, kde-kuit-format
@@ -1526,7 +1525,7 @@ msgstr "Wyłącz"
 #, kde-format
 msgctxt "@item:inlistbox after updates complete, quit"
 msgid "Quit"
-msgstr ""
+msgstr "Zakończ"
 
 #: discover/qml/UpdatesPage.qml:298
 #, kde-format
