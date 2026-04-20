@@ -562,7 +562,6 @@ DiscoverPage {
                         id: moreInformationButton
                         Layout.alignment: Qt.AlignRight
                         text: i18nc("@action:button minimize the length of this label", "More Info…")
-                        enabled: !resourcesUpdatesModel.isProgressing
                         onClicked: Navigation.openApplication(listItem.model.resource)
                     }
                 }
