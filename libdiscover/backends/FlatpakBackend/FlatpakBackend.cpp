@@ -192,6 +192,10 @@ public:
     QString title() const
     {
         auto ret = m_remote ? copyAndFree(flatpak_remote_get_title(m_remote)) : QString();
+
+        if (ret.isEmpty()) {
+            ret = name();
+        }
         if (flatpak_installation_get_is_user(m_installation)) {
             ret = i18nc("user denotes this as user-scoped flatpak repo", "%1 (user)", ret);
         }
