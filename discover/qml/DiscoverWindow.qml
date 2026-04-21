@@ -2,6 +2,7 @@ pragma ComponentBehavior: Bound
 
 import QtQml.Models
 import QtQuick
+import QtNetwork
 import QtQuick.Controls as QQC2
 import QtQuick.Layouts
 import org.kde.discover as Discover
@@ -45,6 +46,10 @@ Kirigami.ApplicationWindow {
     Component.onCompleted: {
         if (app.isRoot) {
             messagesSheet.addMessage(i18n("Running as <em>root</em> is discouraged and unnecessary."));
+        }
+
+        if (NetworkInformation.reachability !== NetworkInformation.Reachability.Online) {
+            connectionDialog.open();
         }
     }
 
@@ -335,6 +340,31 @@ Kirigami.ApplicationWindow {
     }
 
     Kirigami.Dialog {
+        id: connectionDialog
+
+        title: i18nc("@title:dialog", "Discover is offline")
+
+        padding: Kirigami.Units.largeSpacing
+
+        contentItem: RowLayout {
+            Kirigami.Icon {
+                source: "dialog-warning"
+                Layout.preferredHeight: Kirigami.Units.iconSizes.large
+                Layout.preferredWidth: Kirigami.Units.iconSizes.large
+            }
+
+            QQC2.Label {
+                text: i18nc("@info", "Please connect to a network to install applications and update your system.")
+                wrapMode: Text.Wrap
+            }
+        }
+
+        footer: QQC2.DialogButtonBox {
+            standardButtons: QQC2.DialogButtonBox.Ok
+        }
+    }
+
+    Kirigami.Dialog {
         id: messagesSheet
 
         padding: Kirigami.Units.largeSpacing
@@ -374,7 +404,7 @@ Kirigami.ApplicationWindow {
                         id: messages
 
                         onCountChanged: {
-                            messagesSheet.visible = (count > 0);
+                            messagesSheet.visible = (count > 0) && !connectionDialog.visible;
                             if (count > 0 && messagesSheetView.currentIndex === -1) {
                                 messagesSheetView.currentIndex = 0;
                             }
