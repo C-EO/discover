@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: muon-discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-12 00:45+0000\n"
+"POT-Creation-Date: 2026-04-22 00:46+0000\n"
 "PO-Revision-Date: 2026-02-03 22:30+0000\n"
 "Last-Translator: César A. P. Cláudio <cesarapclaudio@gmail.com>\n"
 "Language-Team: pt\n"
@@ -1576,25 +1576,25 @@ msgctxt "@action:button minimize the length of this label"
 msgid "More Info…"
 msgstr "Mais informações…"
 
-#: discover/qml/UpdatesPage.qml:638
+#: discover/qml/UpdatesPage.qml:637
 #, kde-format
 msgctxt "@info"
 msgid "Fetching updates…"
 msgstr "A obter atualizações…"
 
-#: discover/qml/UpdatesPage.qml:653
+#: discover/qml/UpdatesPage.qml:652
 #, kde-format
 msgctxt "@info"
 msgid "Updates"
 msgstr "Atualizações"
 
-#: discover/qml/UpdatesPage.qml:663
+#: discover/qml/UpdatesPage.qml:662
 #, kde-format
 msgctxt "@info"
 msgid "Updates will be installed after the system is restarted"
 msgstr "As atualizações serão instaladas após o reinício do sistema"
 
-#: discover/qml/UpdatesPage.qml:665
+#: discover/qml/UpdatesPage.qml:664
 #, kde-format
 msgctxt "@info"
 msgid "You can keep using the system if you're not ready to restart yet."
@@ -1602,20 +1602,20 @@ msgstr ""
 "Pode continuar a utilizar o sistema se ainda não estiver pronto para "
 "reiniciar."
 
-#: discover/qml/UpdatesPage.qml:670 discover/qml/UpdatesPage.qml:677
-#: discover/qml/UpdatesPage.qml:684
+#: discover/qml/UpdatesPage.qml:669 discover/qml/UpdatesPage.qml:676
+#: discover/qml/UpdatesPage.qml:683
 #, kde-format
 msgctxt "@info"
 msgid "Up to date"
 msgstr "Atualizado"
 
-#: discover/qml/UpdatesPage.qml:691
+#: discover/qml/UpdatesPage.qml:690
 #, kde-format
 msgctxt "@info"
 msgid "Should check for updates"
 msgstr "Deve verificar se existem atualizações"
 
-#: discover/qml/UpdatesPage.qml:698
+#: discover/qml/UpdatesPage.qml:697
 #, kde-format
 msgctxt "@info"
 msgid "Time of last update unknown"
