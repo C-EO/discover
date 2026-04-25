@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-22 00:46+0000\n"
+"POT-Creation-Date: 2026-04-25 00:46+0000\n"
 "PO-Revision-Date: 2026-04-13 18:37+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic\n"
@@ -290,7 +290,7 @@ msgstr "Hætta við"
 msgid "No ratings"
 msgstr "Engar einkunnir"
 
-#: discover/qml/ApplicationPage.qml:69
+#: discover/qml/ApplicationPage.qml:67
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -320,7 +320,7 @@ msgstr ""
 "url='%2'>vefsíðu forritsins</link>.<nl/><nl/>Meiri upplýsingar á <link "
 "url='%3'>%3</link>."
 
-#: discover/qml/ApplicationPage.qml:74
+#: discover/qml/ApplicationPage.qml:72
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -347,7 +347,7 @@ msgstr ""
 "traust til höfunda hans. Frekari upplýsingar er að finna á <link url='%2'>"
 "%2</link>."
 
-#: discover/qml/ApplicationPage.qml:81
+#: discover/qml/ApplicationPage.qml:79
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -376,7 +376,7 @@ msgstr ""
 "á <link url='%4'>vefsíðu hugbúnaðarins</link>.<nl/><nl/>Meiri upplýsingar á "
 "<link url='%5'>%5</link>."
 
-#: discover/qml/ApplicationPage.qml:88
+#: discover/qml/ApplicationPage.qml:86
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -402,7 +402,7 @@ msgstr ""
 "þér á einhvern dulinn hátt. <nl/><nl/>Meiri upplýsingar á <link url='%4'>%4</"
 "link>."
 
-#: discover/qml/ApplicationPage.qml:97
+#: discover/qml/ApplicationPage.qml:95
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -416,7 +416,7 @@ msgstr ""
 "þar eða hafðu samband við höfundinn ef þú vilt nota hugbúnaðinn í öðrum til "
 "gangi en til eigin persónulegra nota."
 
-#: discover/qml/ApplicationPage.qml:101
+#: discover/qml/ApplicationPage.qml:99
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -428,19 +428,19 @@ msgstr ""
 "höfundinn ef þú vilt nota hugbúnaðinn í öðrum til gangi en til eigin "
 "persónulegra nota."
 
-#: discover/qml/ApplicationPage.qml:142
+#: discover/qml/ApplicationPage.qml:138
 #, kde-format
 msgctxt "@action:button share a link to this app"
 msgid "Share"
 msgstr "Deila"
 
-#: discover/qml/ApplicationPage.qml:150
+#: discover/qml/ApplicationPage.qml:146
 #, kde-format
 msgctxt "@action:button"
 msgid "Add-ons"
 msgstr "Viðbætur"
 
-#: discover/qml/ApplicationPage.qml:166
+#: discover/qml/ApplicationPage.qml:162
 #, kde-format
 msgctxt ""
 "@item:inlistbox %1 is the name of an app source e.g. \"Flathub\" or \"Ubuntu"
@@ -448,210 +448,230 @@ msgctxt ""
 msgid "From %1"
 msgstr "Frá %1"
 
-#: discover/qml/ApplicationPage.qml:182
+#: discover/qml/ApplicationPage.qml:208
 #, kde-format
 msgid "%1 - %2"
 msgstr "%1 - %2"
 
-#: discover/qml/ApplicationPage.qml:221
+#: discover/qml/ApplicationPage.qml:228
 #, kde-format
 msgctxt "@title:window"
 msgid "Share Link to Application"
 msgstr "Deila tengli á þetta forrit"
 
-#: discover/qml/ApplicationPage.qml:230
+#: discover/qml/ApplicationPage.qml:237
 #, kde-format
 msgctxt "The subject line for an email. %1 is the name of an application"
 msgid "Check out the %1 app!"
 msgstr "Tékkaðu á forritinu %1!"
 
-#: discover/qml/ApplicationPage.qml:337
-#, kde-format
-msgid "Unknown author"
-msgstr "Óþekktur höfundur"
-
-#: discover/qml/ApplicationPage.qml:373
-#, kde-format
-msgid "%1 rating"
-msgid_plural "%1 ratings"
-msgstr[0] "%1 einkunn"
-msgstr[1] "%1 einkunnir"
-
-#: discover/qml/ApplicationPage.qml:373
-#, kde-format
-msgid "No ratings yet"
-msgstr "Engar einkunnir ennþá"
-
-#: discover/qml/ApplicationPage.qml:397
-#, kde-format
-msgid "Version:"
-msgstr "Útgáfa:"
-
-#: discover/qml/ApplicationPage.qml:409
-#, kde-format
-msgid "Size:"
-msgstr "Stærð:"
-
-#: discover/qml/ApplicationPage.qml:430
-#, kde-format
-msgid "License:"
-msgid_plural "Licenses:"
-msgstr[0] "Notandaleyfi:"
-msgstr[1] "Notandaleyfi:"
-
-#: discover/qml/ApplicationPage.qml:437
-#, kde-format
-msgctxt "@info:tooltip for button opening license type description"
-msgid "What does this mean?"
-msgstr "Hvað þýðir þetta?"
-
-#: discover/qml/ApplicationPage.qml:441
-#, kde-format
-msgctxt "The app does not provide any licenses"
-msgid "Unknown"
-msgstr "Óþekkt"
-
-#: discover/qml/ApplicationPage.qml:493
-#, kde-format
-msgctxt "Separator between license labels e.g. 'GPL-3.0, Proprietary'"
-msgid ","
-msgstr ","
-
-#: discover/qml/ApplicationPage.qml:518
-#, kde-format
-msgctxt "Show all licenses of the package"
-msgid "See more…"
-msgstr "Meiri upplýsingar..."
-
-#: discover/qml/ApplicationPage.qml:530
-#, kde-format
-msgctxt "@label The app is suitable for people of the following ages or older"
-msgid "Ages:"
-msgstr "Aldurstakmark:"
-
-#: discover/qml/ApplicationPage.qml:538
-#, kde-format
-msgctxt "@item As in, the app is suitable for everyone"
-msgid "Everyone"
-msgstr "Allir aldurshópar"
-
-#: discover/qml/ApplicationPage.qml:540
-#, kde-format
-msgctxt "@item %1 is a person's age in number of years"
-msgid "%1+"
-msgstr "%1+"
-
-#: discover/qml/ApplicationPage.qml:554
-#, kde-format
-msgid "See details"
-msgstr "Frekari upplýsingar"
-
-#: discover/qml/ApplicationPage.qml:578
+#: discover/qml/ApplicationPage.qml:292
 #, kde-format
 msgctxt "@info placeholder message"
 msgid "Screenshots not available for %1"
 msgstr "Skjáskot ekki í boði fyrir %1"
 
-#: discover/qml/ApplicationPage.qml:722
+#: discover/qml/ApplicationPage.qml:436
 #, kde-format
 msgid "What's New"
 msgstr "Hvað er nýtt"
 
-#: discover/qml/ApplicationPage.qml:755
+#: discover/qml/ApplicationPage.qml:469
 #, kde-format
 msgid "Reviews"
 msgstr "Umsagnir"
 
-#: discover/qml/ApplicationPage.qml:766
+#: discover/qml/ApplicationPage.qml:480
 #, kde-format
 msgid "Loading reviews for %1"
 msgstr "Hleð inn umsögnum fyrir %1"
 
-#: discover/qml/ApplicationPage.qml:775
+#: discover/qml/ApplicationPage.qml:489
 #, kde-format
 msgctxt "@info placeholder message"
 msgid "Reviews for %1 are temporarily unavailable"
 msgstr "Umsagnir fyrir %1 eru tímabundið ekki í boði"
 
-#: discover/qml/ApplicationPage.qml:782
+#: discover/qml/ApplicationPage.qml:496
 #, kde-format
 msgctxt "@Info placeholder message"
 msgid "No reviews posted yet"
 msgstr "Engar umsagnir ennþá"
 
-#: discover/qml/ApplicationPage.qml:783
+#: discover/qml/ApplicationPage.qml:497
 #, kde-format
 msgctxt "@info placeholder explanation"
 msgid "Install to write a review"
 msgstr "Settu forritið upp til að skrifa umsögn"
 
-#: discover/qml/ApplicationPage.qml:787 discover/qml/ApplicationPage.qml:831
+#: discover/qml/ApplicationPage.qml:501 discover/qml/ApplicationPage.qml:545
 #, kde-format
 msgid "Write a Review"
 msgstr "Skrifa umsögn"
 
-#: discover/qml/ApplicationPage.qml:787 discover/qml/ApplicationPage.qml:831
+#: discover/qml/ApplicationPage.qml:501 discover/qml/ApplicationPage.qml:545
 #, kde-format
 msgid "Install to Write a Review"
 msgstr "Settu forritið upp til að skrifa umsögn"
 
-#: discover/qml/ApplicationPage.qml:815
+#: discover/qml/ApplicationPage.qml:529
 #, kde-format
 msgctxt "@action:button"
 msgid "Show All Reviews"
 msgstr "Sýna allar umsagnir"
 
-#: discover/qml/ApplicationPage.qml:853
+#: discover/qml/ApplicationPage.qml:567
 #, kde-format
 msgctxt "@title"
 msgid "External Links"
 msgstr "Ytri tenglar"
 
-#: discover/qml/ApplicationPage.qml:871
+#: discover/qml/ApplicationPage.qml:585
 #, kde-format
 msgctxt "@info text of a web URL"
 msgid "Read the documentation"
 msgstr "Lesa handbækurnar"
 
-#: discover/qml/ApplicationPage.qml:882
+#: discover/qml/ApplicationPage.qml:596
 #, kde-format
 msgctxt "@info text of a web URL"
 msgid "Visit the project's website"
 msgstr "Heimsækja vefsvæði verkefnisins"
 
-#: discover/qml/ApplicationPage.qml:892
+#: discover/qml/ApplicationPage.qml:606
 #, kde-format
 msgctxt "@info text of a web URL"
 msgid "Donate to the project"
 msgstr "Styrkja verkefnið fjárhagslega"
 
-#: discover/qml/ApplicationPage.qml:902
+#: discover/qml/ApplicationPage.qml:616
 #, kde-format
 msgctxt "@info text of a web URL"
 msgid "Report a bug"
 msgstr "Senda villutilkynningu"
 
-#: discover/qml/ApplicationPage.qml:912
+#: discover/qml/ApplicationPage.qml:626
 #, kde-format
 msgctxt "@info text of a web URL"
 msgid "Start contributing"
 msgstr "Byrjaðu að gefa af þér"
 
-#: discover/qml/ApplicationPage.qml:941
+#: discover/qml/ApplicationPage.qml:655
 #, kde-format
 msgid "All Licenses"
 msgstr "Öll notandaleyfi"
 
-#: discover/qml/ApplicationPage.qml:979
+#: discover/qml/ApplicationPage.qml:693
 #, kde-format
 msgid "Content Rating"
 msgstr "Aldurshæfi efnis"
 
-#: discover/qml/ApplicationPage.qml:1002
+#: discover/qml/ApplicationPage.qml:716
 #, kde-format
 msgctxt "@title:window"
 msgid "License Information"
 msgstr "Upplýsingar um notkunarleyfi"
+
+#: discover/qml/ApplicationPageFullComponent.qml:114
+#: discover/qml/ApplicationPageStickyComponent.qml:46
+#, fuzzy, kde-format
+#| msgid "Unknown author"
+msgctxt "As in 'this app is made by an unknown author'"
+msgid "Unknown author"
+msgstr "Óþekktur höfundur"
+
+#: discover/qml/ApplicationPageFullComponent.qml:148
+#, fuzzy, kde-format
+#| msgid "%1 rating"
+#| msgid_plural "%1 ratings"
+msgctxt "@info as in the number of ratings an application has"
+msgid "%1 rating"
+msgid_plural "%1 ratings"
+msgstr[0] "%1 einkunn"
+msgstr[1] "%1 einkunnir"
+
+#: discover/qml/ApplicationPageFullComponent.qml:148
+#, fuzzy, kde-format
+#| msgid "No ratings yet"
+msgctxt "@info"
+msgid "No ratings yet"
+msgstr "Engar einkunnir ennþá"
+
+#: discover/qml/ApplicationPageFullComponent.qml:196
+#, fuzzy, kde-format
+#| msgid "Version:"
+msgctxt "@info"
+msgid "Version:"
+msgstr "Útgáfa:"
+
+#: discover/qml/ApplicationPageFullComponent.qml:212
+#, kde-format
+msgid "Size:"
+msgstr "Stærð:"
+
+#: discover/qml/ApplicationPageFullComponent.qml:239
+#, fuzzy, kde-format
+#| msgid "License:"
+#| msgid_plural "Licenses:"
+msgctxt "@info"
+msgid "License:"
+msgid_plural "Licenses:"
+msgstr[0] "Notandaleyfi:"
+msgstr[1] "Notandaleyfi:"
+
+#: discover/qml/ApplicationPageFullComponent.qml:258
+#, kde-format
+msgctxt "The app does not provide any licenses"
+msgid "Unknown"
+msgstr "Óþekkt"
+
+#: discover/qml/ApplicationPageFullComponent.qml:265
+#: discover/qml/ApplicationPageFullComponent.qml:322
+#, kde-format
+msgctxt "@info:tooltip for button opening license type description"
+msgid "What does this mean?"
+msgstr "Hvað þýðir þetta?"
+
+#: discover/qml/ApplicationPageFullComponent.qml:345
+#, fuzzy, kde-format
+#| msgid "All Licenses"
+msgctxt "Show all licenses of the package"
+msgid "All licenses…"
+msgstr "Öll notandaleyfi"
+
+#: discover/qml/ApplicationPageFullComponent.qml:358
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "@label The app is suitable for people of the following ages or older"
+#| msgid "Ages:"
+msgctxt "@info The app is suitable for people of the following ages or older"
+msgid "Ages:"
+msgstr "Aldurstakmark:"
+
+#: discover/qml/ApplicationPageFullComponent.qml:377
+#, kde-format
+msgctxt "@item As in, the app is suitable for everyone"
+msgid "Everyone"
+msgstr "Allir aldurshópar"
+
+#: discover/qml/ApplicationPageFullComponent.qml:379
+#, kde-format
+msgctxt "@item %1 is a person's age in number of years"
+msgid "%1+"
+msgstr "%1+"
+
+#: discover/qml/ApplicationPageFullComponent.qml:388
+#, fuzzy, kde-format
+#| msgid "See details"
+msgctxt "@action:button See content rating details"
+msgid "See details"
+msgstr "Frekari upplýsingar"
+
+#: discover/qml/ApplicationPageStickyComponent.qml:60
+#, kde-format
+msgctxt "@action:button"
+msgid "Scroll to top"
+msgstr ""
 
 #: discover/qml/ApplicationsListPage.qml:54
 #, kde-format
@@ -1591,6 +1611,14 @@ msgstr "Ættir að athuga með uppfærslur"
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "Tími síðustu uppfærslu óþekktur"
+
+#~ msgctxt "Separator between license labels e.g. 'GPL-3.0, Proprietary'"
+#~ msgid ","
+#~ msgstr ","
+
+#~ msgctxt "Show all licenses of the package"
+#~ msgid "See more…"
+#~ msgstr "Meiri upplýsingar..."
 
 #~ msgctxt ""
 #~ "@info on the completion of updates, the action that automatically happens "
