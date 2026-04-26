@@ -1,23 +1,23 @@
 # Translation of plasma-discover.po to Catalan
-# Copyright (C) 2012-2026 This_file_is_part_of_KDE
+# Copyright (C) 2012-2023 This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
 # SPDX-FileCopyrightText: 2012 Orestes Mas <orestes@tsc.upc.edu>
 # SPDX-FileCopyrightText: 2014, 2015, 2017, 2018, 2019, 2020, 2021, 2022, 2023 Antoni Bella Pérez <antonibella5@yahoo.com>
-# SPDX-FileCopyrightText: 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2022, 2023, 2024, 2025, 2026 Josep M. Ferrer <txemaq@gmail.com>
+# SPDX-FileCopyrightText: 2013-2020, 2022-2026 Josep M. Ferrer <txemaq@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-25 00:46+0000\n"
-"PO-Revision-Date: 2026-04-12 11:26+0200\n"
+"PO-Revision-Date: 2026-04-25 09:07+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 25.04.0\n"
+"X-Generator: Lokalize 26.04.0\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
 
@@ -588,16 +588,13 @@ msgstr "Informació de la llicència"
 
 #: discover/qml/ApplicationPageFullComponent.qml:114
 #: discover/qml/ApplicationPageStickyComponent.qml:46
-#, fuzzy, kde-format
-#| msgid "Unknown author"
+#, kde-format
 msgctxt "As in 'this app is made by an unknown author'"
 msgid "Unknown author"
 msgstr "Autor desconegut"
 
 #: discover/qml/ApplicationPageFullComponent.qml:148
-#, fuzzy, kde-format
-#| msgid "%1 rating"
-#| msgid_plural "%1 ratings"
+#, kde-format
 msgctxt "@info as in the number of ratings an application has"
 msgid "%1 rating"
 msgid_plural "%1 ratings"
@@ -605,15 +602,13 @@ msgstr[0] "%1 valoració"
 msgstr[1] "%1 valoracions"
 
 #: discover/qml/ApplicationPageFullComponent.qml:148
-#, fuzzy, kde-format
-#| msgid "No ratings yet"
+#, kde-format
 msgctxt "@info"
 msgid "No ratings yet"
 msgstr "Encara no hi ha cap valoració"
 
 #: discover/qml/ApplicationPageFullComponent.qml:196
-#, fuzzy, kde-format
-#| msgid "Version:"
+#, kde-format
 msgctxt "@info"
 msgid "Version:"
 msgstr "Versió:"
@@ -624,9 +619,7 @@ msgid "Size:"
 msgstr "Mida:"
 
 #: discover/qml/ApplicationPageFullComponent.qml:239
-#, fuzzy, kde-format
-#| msgid "License:"
-#| msgid_plural "Licenses:"
+#, kde-format
 msgctxt "@info"
 msgid "License:"
 msgid_plural "Licenses:"
@@ -647,17 +640,13 @@ msgid "What does this mean?"
 msgstr "Què vol dir això?"
 
 #: discover/qml/ApplicationPageFullComponent.qml:345
-#, fuzzy, kde-format
-#| msgid "All Licenses"
+#, kde-format
 msgctxt "Show all licenses of the package"
 msgid "All licenses…"
-msgstr "Totes les llicències"
+msgstr "Totes les llicències…"
 
 #: discover/qml/ApplicationPageFullComponent.qml:358
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "@label The app is suitable for people of the following ages or older"
-#| msgid "Ages:"
+#, kde-format
 msgctxt "@info The app is suitable for people of the following ages or older"
 msgid "Ages:"
 msgstr "Edats:"
@@ -675,8 +664,7 @@ msgid "%1+"
 msgstr "%1+"
 
 #: discover/qml/ApplicationPageFullComponent.qml:388
-#, fuzzy, kde-format
-#| msgid "See details"
+#, kde-format
 msgctxt "@action:button See content rating details"
 msgid "See details"
 msgstr "Veure els detalls"
@@ -685,7 +673,7 @@ msgstr "Veure els detalls"
 #, kde-format
 msgctxt "@action:button"
 msgid "Scroll to top"
-msgstr ""
+msgstr "Desplaça a dalt"
 
 #: discover/qml/ApplicationsListPage.qml:54
 #, kde-format

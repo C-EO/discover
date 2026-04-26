@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-25 00:46+0000\n"
-"PO-Revision-Date: 2026-04-12 07:02+0200\n"
+"PO-Revision-Date: 2026-04-25 06:56+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -578,16 +578,13 @@ msgstr "Licenčna informacija"
 
 #: discover/qml/ApplicationPageFullComponent.qml:114
 #: discover/qml/ApplicationPageStickyComponent.qml:46
-#, fuzzy, kde-format
-#| msgid "Unknown author"
+#, kde-format
 msgctxt "As in 'this app is made by an unknown author'"
 msgid "Unknown author"
 msgstr "Neznani avtor"
 
 #: discover/qml/ApplicationPageFullComponent.qml:148
-#, fuzzy, kde-format
-#| msgid "%1 rating"
-#| msgid_plural "%1 ratings"
+#, kde-format
 msgctxt "@info as in the number of ratings an application has"
 msgid "%1 rating"
 msgid_plural "%1 ratings"
@@ -597,15 +594,13 @@ msgstr[2] "%1 oceni"
 msgstr[3] "%1 ocene"
 
 #: discover/qml/ApplicationPageFullComponent.qml:148
-#, fuzzy, kde-format
-#| msgid "No ratings yet"
+#, kde-format
 msgctxt "@info"
 msgid "No ratings yet"
 msgstr "Ni še ocen"
 
 #: discover/qml/ApplicationPageFullComponent.qml:196
-#, fuzzy, kde-format
-#| msgid "Version:"
+#, kde-format
 msgctxt "@info"
 msgid "Version:"
 msgstr "Različica:"
@@ -616,9 +611,7 @@ msgid "Size:"
 msgstr "Velikost:"
 
 #: discover/qml/ApplicationPageFullComponent.qml:239
-#, fuzzy, kde-format
-#| msgid "License:"
-#| msgid_plural "Licenses:"
+#, kde-format
 msgctxt "@info"
 msgid "License:"
 msgid_plural "Licenses:"
@@ -641,17 +634,13 @@ msgid "What does this mean?"
 msgstr "Kaj to pomeni?"
 
 #: discover/qml/ApplicationPageFullComponent.qml:345
-#, fuzzy, kde-format
-#| msgid "All Licenses"
+#, kde-format
 msgctxt "Show all licenses of the package"
 msgid "All licenses…"
-msgstr "Vse licence"
+msgstr "Vse licence…"
 
 #: discover/qml/ApplicationPageFullComponent.qml:358
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "@label The app is suitable for people of the following ages or older"
-#| msgid "Ages:"
+#, kde-format
 msgctxt "@info The app is suitable for people of the following ages or older"
 msgid "Ages:"
 msgstr "Starosti:"
@@ -669,8 +658,7 @@ msgid "%1+"
 msgstr "%1+"
 
 #: discover/qml/ApplicationPageFullComponent.qml:388
-#, fuzzy, kde-format
-#| msgid "See details"
+#, kde-format
 msgctxt "@action:button See content rating details"
 msgid "See details"
 msgstr "Poglejte podrobnosti"
@@ -679,7 +667,7 @@ msgstr "Poglejte podrobnosti"
 #, kde-format
 msgctxt "@action:button"
 msgid "Scroll to top"
-msgstr ""
+msgstr "Pomakni se na vrh"
 
 #: discover/qml/ApplicationsListPage.qml:54
 #, kde-format

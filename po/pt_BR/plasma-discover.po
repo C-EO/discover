@@ -5,7 +5,7 @@
 # SPDX-FileCopyrightText: 2023, 2024, 2025 Geraldo Simiao <geraldosimiao@fedoraproject.org>
 # Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2012, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024.
 # André Marcelo Alvarenga <alvarenga@kde.org>, 2012, 2013, 2014, 2015, 2016, 2018, 2019, 2020.
-# SPDX-FileCopyrightText: 2012, 2025, 2026 Marcus Gama <marcus.gama@gmail.com>
+# SPDX-FileCopyrightText: 2012, 2025-2026 Marcus Gama <marcus.gama@gmail.com>
 # Blumen Herzenschein <herzenschein@gmail.com>, 2020, 2021.
 # SPDX-FileCopyrightText: 2025, 2026 Guilherme Marçal Silva <guimarcalsilva@gmail.com>
 msgid ""
@@ -13,15 +13,15 @@ msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-25 00:46+0000\n"
-"PO-Revision-Date: 2026-04-17 02:55-0300\n"
-"Last-Translator: Guilherme Marçal Silva <guimarcalsilva@gmail.com>\n"
+"PO-Revision-Date: 2026-04-25 06:41-0300\n"
+"Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 25.12.3\n"
+"X-Generator: Lokalize 26.04.0\n"
 
 #: discover/DiscoverObject.cpp:197
 #, kde-format
@@ -585,16 +585,13 @@ msgstr "Informações sobre a licença"
 
 #: discover/qml/ApplicationPageFullComponent.qml:114
 #: discover/qml/ApplicationPageStickyComponent.qml:46
-#, fuzzy, kde-format
-#| msgid "Unknown author"
+#, kde-format
 msgctxt "As in 'this app is made by an unknown author'"
 msgid "Unknown author"
 msgstr "Autor desconhecido"
 
 #: discover/qml/ApplicationPageFullComponent.qml:148
-#, fuzzy, kde-format
-#| msgid "%1 rating"
-#| msgid_plural "%1 ratings"
+#, kde-format
 msgctxt "@info as in the number of ratings an application has"
 msgid "%1 rating"
 msgid_plural "%1 ratings"
@@ -602,15 +599,13 @@ msgstr[0] "%1 avaliação"
 msgstr[1] "%1 avaliações"
 
 #: discover/qml/ApplicationPageFullComponent.qml:148
-#, fuzzy, kde-format
-#| msgid "No ratings yet"
+#, kde-format
 msgctxt "@info"
 msgid "No ratings yet"
 msgstr "Sem avaliações ainda"
 
 #: discover/qml/ApplicationPageFullComponent.qml:196
-#, fuzzy, kde-format
-#| msgid "Version:"
+#, kde-format
 msgctxt "@info"
 msgid "Version:"
 msgstr "Versão:"
@@ -621,9 +616,7 @@ msgid "Size:"
 msgstr "Tamanho:"
 
 #: discover/qml/ApplicationPageFullComponent.qml:239
-#, fuzzy, kde-format
-#| msgid "License:"
-#| msgid_plural "Licenses:"
+#, kde-format
 msgctxt "@info"
 msgid "License:"
 msgid_plural "Licenses:"
@@ -644,17 +637,13 @@ msgid "What does this mean?"
 msgstr "O que isto significa?"
 
 #: discover/qml/ApplicationPageFullComponent.qml:345
-#, fuzzy, kde-format
-#| msgid "All Licenses"
+#, kde-format
 msgctxt "Show all licenses of the package"
 msgid "All licenses…"
-msgstr "Todas as licenças"
+msgstr "Todas as licenças…"
 
 #: discover/qml/ApplicationPageFullComponent.qml:358
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "@label The app is suitable for people of the following ages or older"
-#| msgid "Ages:"
+#, kde-format
 msgctxt "@info The app is suitable for people of the following ages or older"
 msgid "Ages:"
 msgstr "Idades:"
@@ -672,8 +661,7 @@ msgid "%1+"
 msgstr "%1+"
 
 #: discover/qml/ApplicationPageFullComponent.qml:388
-#, fuzzy, kde-format
-#| msgid "See details"
+#, kde-format
 msgctxt "@action:button See content rating details"
 msgid "See details"
 msgstr "Ver detalhes"
@@ -682,7 +670,7 @@ msgstr "Ver detalhes"
 #, kde-format
 msgctxt "@action:button"
 msgid "Scroll to top"
-msgstr ""
+msgstr "Rolar para cima"
 
 #: discover/qml/ApplicationsListPage.qml:54
 #, kde-format

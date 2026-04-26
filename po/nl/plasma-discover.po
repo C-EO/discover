@@ -1,21 +1,21 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# SPDX-FileCopyrightText: 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026 Freek de Kruijf <freekdekruijf@kde.nl>
+# SPDX-FileCopyrightText: 2012-2026 Freek de Kruijf <freekdekruijf@kde.nl>
 # SPDX-FileCopyrightText: 2024 pieter <pieterkristensen@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-25 00:46+0000\n"
-"PO-Revision-Date: 2026-04-12 15:37+0200\n"
+"PO-Revision-Date: 2026-04-25 13:33+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 25.12.3\n"
+"X-Generator: Lokalize 26.04.0\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: discover/DiscoverObject.cpp:197
@@ -583,16 +583,13 @@ msgstr "Licentie-informatie"
 
 #: discover/qml/ApplicationPageFullComponent.qml:114
 #: discover/qml/ApplicationPageStickyComponent.qml:46
-#, fuzzy, kde-format
-#| msgid "Unknown author"
+#, kde-format
 msgctxt "As in 'this app is made by an unknown author'"
 msgid "Unknown author"
 msgstr "Onbekende auteur"
 
 #: discover/qml/ApplicationPageFullComponent.qml:148
-#, fuzzy, kde-format
-#| msgid "%1 rating"
-#| msgid_plural "%1 ratings"
+#, kde-format
 msgctxt "@info as in the number of ratings an application has"
 msgid "%1 rating"
 msgid_plural "%1 ratings"
@@ -600,15 +597,13 @@ msgstr[0] "%1 waardering"
 msgstr[1] "%1 waarderingen"
 
 #: discover/qml/ApplicationPageFullComponent.qml:148
-#, fuzzy, kde-format
-#| msgid "No ratings yet"
+#, kde-format
 msgctxt "@info"
 msgid "No ratings yet"
 msgstr "Nog geen waarderingen"
 
 #: discover/qml/ApplicationPageFullComponent.qml:196
-#, fuzzy, kde-format
-#| msgid "Version:"
+#, kde-format
 msgctxt "@info"
 msgid "Version:"
 msgstr "Versie:"
@@ -619,9 +614,7 @@ msgid "Size:"
 msgstr "Grootte:"
 
 #: discover/qml/ApplicationPageFullComponent.qml:239
-#, fuzzy, kde-format
-#| msgid "License:"
-#| msgid_plural "Licenses:"
+#, kde-format
 msgctxt "@info"
 msgid "License:"
 msgid_plural "Licenses:"
@@ -642,17 +635,13 @@ msgid "What does this mean?"
 msgstr "Wat betekent dit?"
 
 #: discover/qml/ApplicationPageFullComponent.qml:345
-#, fuzzy, kde-format
-#| msgid "All Licenses"
+#, kde-format
 msgctxt "Show all licenses of the package"
 msgid "All licenses…"
-msgstr "Alle licenties"
+msgstr "Alle licenties…"
 
 #: discover/qml/ApplicationPageFullComponent.qml:358
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "@label The app is suitable for people of the following ages or older"
-#| msgid "Ages:"
+#, kde-format
 msgctxt "@info The app is suitable for people of the following ages or older"
 msgid "Ages:"
 msgstr "Leeftijden:"
@@ -670,8 +659,7 @@ msgid "%1+"
 msgstr "%1+"
 
 #: discover/qml/ApplicationPageFullComponent.qml:388
-#, fuzzy, kde-format
-#| msgid "See details"
+#, kde-format
 msgctxt "@action:button See content rating details"
 msgid "See details"
 msgstr "Zie details"
@@ -680,7 +668,7 @@ msgstr "Zie details"
 #, kde-format
 msgctxt "@action:button"
 msgid "Scroll to top"
-msgstr ""
+msgstr "Schuif naar boven"
 
 #: discover/qml/ApplicationsListPage.qml:54
 #, kde-format

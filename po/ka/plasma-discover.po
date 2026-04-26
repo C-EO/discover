@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-25 00:46+0000\n"
-"PO-Revision-Date: 2026-04-12 04:40+0200\n"
+"PO-Revision-Date: 2026-04-25 06:09+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -571,16 +571,13 @@ msgstr "ინფორმაცია ლიცენზიის შესა�
 
 #: discover/qml/ApplicationPageFullComponent.qml:114
 #: discover/qml/ApplicationPageStickyComponent.qml:46
-#, fuzzy, kde-format
-#| msgid "Unknown author"
+#, kde-format
 msgctxt "As in 'this app is made by an unknown author'"
 msgid "Unknown author"
-msgstr "უცნობი შეცდომა"
+msgstr "უცნობი ავტორი"
 
 #: discover/qml/ApplicationPageFullComponent.qml:148
-#, fuzzy, kde-format
-#| msgid "%1 rating"
-#| msgid_plural "%1 ratings"
+#, kde-format
 msgctxt "@info as in the number of ratings an application has"
 msgid "%1 rating"
 msgid_plural "%1 ratings"
@@ -588,15 +585,13 @@ msgstr[0] "%1 შეფასება"
 msgstr[1] "%1 შეფასება"
 
 #: discover/qml/ApplicationPageFullComponent.qml:148
-#, fuzzy, kde-format
-#| msgid "No ratings yet"
+#, kde-format
 msgctxt "@info"
 msgid "No ratings yet"
-msgstr "შეფასების გარეშე"
+msgstr "ჯერჯერობით შეფასების გარეშე"
 
 #: discover/qml/ApplicationPageFullComponent.qml:196
-#, fuzzy, kde-format
-#| msgid "Version:"
+#, kde-format
 msgctxt "@info"
 msgid "Version:"
 msgstr "ვერსია:"
@@ -607,9 +602,7 @@ msgid "Size:"
 msgstr "ზომა:"
 
 #: discover/qml/ApplicationPageFullComponent.qml:239
-#, fuzzy, kde-format
-#| msgid "License:"
-#| msgid_plural "Licenses:"
+#, kde-format
 msgctxt "@info"
 msgid "License:"
 msgid_plural "Licenses:"
@@ -630,17 +623,13 @@ msgid "What does this mean?"
 msgstr "რას ნიშნავს ეს?"
 
 #: discover/qml/ApplicationPageFullComponent.qml:345
-#, fuzzy, kde-format
-#| msgid "All Licenses"
+#, kde-format
 msgctxt "Show all licenses of the package"
 msgid "All licenses…"
-msgstr "ყველა ლიცენზია"
+msgstr "ყველა ლიცენზია…"
 
 #: discover/qml/ApplicationPageFullComponent.qml:358
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "@label The app is suitable for people of the following ages or older"
-#| msgid "Ages:"
+#, kde-format
 msgctxt "@info The app is suitable for people of the following ages or older"
 msgid "Ages:"
 msgstr "ასაკი:"
@@ -658,8 +647,7 @@ msgid "%1+"
 msgstr "%1+"
 
 #: discover/qml/ApplicationPageFullComponent.qml:388
-#, fuzzy, kde-format
-#| msgid "See details"
+#, kde-format
 msgctxt "@action:button See content rating details"
 msgid "See details"
 msgstr "დეტალების ჩვენება"
@@ -668,7 +656,7 @@ msgstr "დეტალების ჩვენება"
 #, kde-format
 msgctxt "@action:button"
 msgid "Scroll to top"
-msgstr ""
+msgstr "ბოლომდე აქაჩვა"
 
 #: discover/qml/ApplicationsListPage.qml:54
 #, kde-format
