@@ -1604,11 +1604,3 @@ msgstr "Skal sjå etter oppdateringar"
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "Tid for siste oppdatering er ukjend"
-
-#~ msgctxt "Separator between license labels e.g. 'GPL-3.0, Proprietary'"
-#~ msgid ","
-#~ msgstr ","
-
-#~ msgctxt "Show all licenses of the package"
-#~ msgid "See more…"
-#~ msgstr "Vis fleire …"

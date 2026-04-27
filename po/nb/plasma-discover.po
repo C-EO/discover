@@ -1552,10 +1552,3 @@ msgstr "Se etter oppdateringer"
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "Tid for sist oppdatering er ukjent"
-
-#, fuzzy
-#~| msgid "See more…"
-#~| msgid_plural "See more…"
-#~ msgctxt "Show all licenses of the package"
-#~ msgid "See more…"
-#~ msgstr "Vis flere …"
