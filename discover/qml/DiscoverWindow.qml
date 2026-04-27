@@ -342,7 +342,7 @@ Kirigami.ApplicationWindow {
     Kirigami.Dialog {
         id: connectionDialog
 
-        title: i18nc("@title:dialog", "Discover is offline")
+        title: i18nc("@title:dialog", "Discover is Offline")
 
         padding: Kirigami.Units.largeSpacing
 
@@ -354,7 +354,7 @@ Kirigami.ApplicationWindow {
             }
 
             QQC2.Label {
-                text: i18nc("@info", "Please connect to a network to install applications and update your system.")
+                text: i18nc("@info", "Please connect to a network to install applications and update the system.")
                 wrapMode: Text.Wrap
             }
         }
