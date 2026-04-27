@@ -339,29 +339,16 @@ Kirigami.ApplicationWindow {
         }
     }
 
-    Kirigami.Dialog {
+    Kirigami.PromptDialog {
         id: connectionDialog
 
+        dialogType: Kirigami.PromptDialog.Warning
+
         title: i18nc("@title:dialog", "Discover is Offline")
+        subtitle: i18nc("@info", "Please connect to a network to install applications and update the system.")
 
-        padding: Kirigami.Units.largeSpacing
+        standardButtons: Kirigami.Dialog.Ok
 
-        contentItem: RowLayout {
-            Kirigami.Icon {
-                source: "dialog-warning"
-                Layout.preferredHeight: Kirigami.Units.iconSizes.large
-                Layout.preferredWidth: Kirigami.Units.iconSizes.large
-            }
-
-            QQC2.Label {
-                text: i18nc("@info", "Please connect to a network to install applications and update the system.")
-                wrapMode: Text.Wrap
-            }
-        }
-
-        footer: QQC2.DialogButtonBox {
-            standardButtons: QQC2.DialogButtonBox.Ok
-        }
     }
 
     Kirigami.Dialog {
