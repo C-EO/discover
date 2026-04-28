@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: muon-discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-25 00:46+0000\n"
+"POT-Creation-Date: 2026-04-28 00:46+0000\n"
 "PO-Revision-Date: 2026-04-12 12:00+0200\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -71,12 +71,12 @@ msgid ""
 "instead using the <command>pacman</command> command-line tool to manage "
 "packages.</para>"
 msgstr ""
-"Support for managing packages from %1 is incomplete; môžete experience any "
-"počet problems. Do not report bugs to KDE. It is highly recommended to "
-"uninstall the <resource>packagekit-qt6</resource> package and use Discover "
-"only to manage Flatpaks, Snaps, and Add-Ons.<para>%1 maintainers recommended "
-"instead using the <command>pacman</command> command-line tool to manage "
-"packages.</para>"
+"Podpora pre správu balíkov zo zdroja %1 je neúplná; môžete naraziť na rôzne "
+"problémy. Nehlásajte chyby tímu KDE. Dôrazne sa odporúča odinštalovať balík "
+"<resource>packagekit-qt6</resource> a používať Discover iba na správu "
+"Flatpaks, Snaps a doplnkov.<para>Správcovia %1 odporúčajú namiesto toho "
+"používať nástroj príkazového riadku <command>pacman</command> na správu "
+"balíkov.</para>"
 
 #: discover/DiscoverObject.cpp:305
 #, kde-format
@@ -286,7 +286,7 @@ msgstr "Pridať nový repozitár %1"
 msgid "Add"
 msgstr "Pridať"
 
-#: discover/qml/AddSourceDialog.qml:50 discover/qml/DiscoverWindow.qml:281
+#: discover/qml/AddSourceDialog.qml:50 discover/qml/DiscoverWindow.qml:286
 #: discover/qml/InstallApplicationButton.qml:51
 #: discover/qml/ProgressView.qml:153 discover/qml/SourcesPage.qml:201
 #: discover/qml/UpdatesPage.qml:308 discover/qml/WebflowDialog.qml:41
@@ -316,18 +316,18 @@ msgid ""
 "url='%2'>the application's website</link>.<nl/><nl/>Learn more at <link "
 "url='%3'>%3</link>."
 msgstr ""
-"Only install %1 ak fully trust its authors because it is <emphasis "
-"strong='true'>proprietary</emphasis>: Your freedom to use, modify, and "
-"redistribute this application is restricted, and its source code is "
-"partially or entirely closed to public inspection and improvement. This "
-"means third parties and users like môžetenot verify its operation, security, "
-"and trustworthiness.<nl/><nl/>The application may be perfectly safe to use, "
-"or it may be acting against you in various ways — ako napríklad harvesting "
-"your personal information, tracking your location, or transmitting the "
-"contents of your data to someone else. Only use it ak fully trust its "
-"authors. More information may be available on <link url='%2'>the "
-"application's website</link>.<nl/><nl/>Learn more at <link url='%3'>%3</"
-"link>."
+"Inštalujte %1 iba vtedy, ak plne dôverujete jeho autorom, pretože ide o "
+"<emphasis strong='true'>proprietárny</emphasis> softvér: Vaša sloboda "
+"používať, upravovať a šíriť túto aplikáciu je obmedzená a jej zdrojový kód "
+"je čiastočne alebo úplne uzavretý pre verejnú kontrolu a vylepšovanie. To "
+"znamená, že tretie strany a používatelia ako vy nemôžu overovať jej "
+"fungovanie, bezpečnosť a dôveryhodnosť.<nl/><nl/>Používanie aplikácie môže "
+"byť úplne bezpečné, alebo môže rôznymi spôsobmi pôsobiť proti vám — "
+"napríklad zbierať vaše osobné údaje, sledovať vašu polohu alebo prenášať "
+"obsah vašich súborov niekomu inému. Používajte ju iba vtedy, ak plne "
+"dôverujete jej autorom. Ďalšie informácie môžu byť dostupné na <link "
+"url='%2'>webovej stránke aplikácie</link>.<nl/><nl/>Viac informácií nájdete "
+"na <link url='%3'>%3</link>."
 
 #: discover/qml/ApplicationPage.qml:72
 #, kde-kuit-format
@@ -416,10 +416,10 @@ msgid ""
 "it there or contact the author if you want to use this application for "
 "anything other than private personal use."
 msgstr ""
-"%1 does not indicate under which license it is distributed. Môžete be "
-"schopný determine this on <link url='%2'>the application's website</link>. "
-"Find it there or contact the author ak want to use this application for "
-"anything other than private personal use."
+"%1 neuvádza, pod akou licenciou je distribuovaný. Možno to zistíte na <link "
+"url='%2'>webovej stránke aplikácie</link>. Nájdite to tam alebo kontaktujte "
+"autora, ak chcete túto aplikáciu používať na čokoľvek iné ako súkromné "
+"osobné použitie."
 
 #: discover/qml/ApplicationPage.qml:99
 #, kde-format
@@ -889,79 +889,92 @@ msgstr "Sú dostupné bezpečnostné aktualizácie"
 msgid "Updates available"
 msgstr "Sú dostupné aktualizácie"
 
-#: discover/qml/DiscoverWindow.qml:47
+#: discover/qml/DiscoverWindow.qml:48
 #, kde-format
 msgid "Running as <em>root</em> is discouraged and unnecessary."
 msgstr "Spustenie s právami <em>správcu</em> nie je odporúčané, ani potrebné."
 
-#: discover/qml/DiscoverWindow.qml:66
+#: discover/qml/DiscoverWindow.qml:71
 #, kde-format
 msgid "&Home"
 msgstr "Domov"
 
-#: discover/qml/DiscoverWindow.qml:76
+#: discover/qml/DiscoverWindow.qml:81
 #, kde-format
 msgid "&Search"
 msgstr "Hľadať"
 
-#: discover/qml/DiscoverWindow.qml:84
+#: discover/qml/DiscoverWindow.qml:89
 #, kde-format
 msgid "&Installed"
 msgstr "Nainštalované"
 
-#: discover/qml/DiscoverWindow.qml:96
+#: discover/qml/DiscoverWindow.qml:101
 #, kde-format
 msgid "&Updates (Fetching…)"
 msgstr "&Updates (Fetching…)"
 
-#: discover/qml/DiscoverWindow.qml:97
+#: discover/qml/DiscoverWindow.qml:102
 #, kde-format
 msgid "&Updates"
 msgstr "Updaty"
 
-#: discover/qml/DiscoverWindow.qml:105
+#: discover/qml/DiscoverWindow.qml:110
 #, kde-format
 msgid "&About"
 msgstr "O aplikácii"
 
-#: discover/qml/DiscoverWindow.qml:113
+#: discover/qml/DiscoverWindow.qml:118
 #, kde-format
 msgid "S&ettings"
 msgstr "Nastavenia"
 
-#: discover/qml/DiscoverWindow.qml:166 discover/qml/DiscoverWindow.qml:348
-#: discover/qml/DiscoverWindow.qml:460
+#: discover/qml/DiscoverWindow.qml:171 discover/qml/DiscoverWindow.qml:365
+#: discover/qml/DiscoverWindow.qml:477
 #, kde-format
 msgid "Error"
 msgstr "Chyba"
 
-#: discover/qml/DiscoverWindow.qml:170
+#: discover/qml/DiscoverWindow.qml:175
 #, kde-format
 msgid "Unable to find resource: %1"
 msgstr "Nie je možné nájsť prostriedok: %1"
 
-#: discover/qml/DiscoverWindow.qml:268 discover/qml/SourcesPage.qml:195
+#: discover/qml/DiscoverWindow.qml:273 discover/qml/SourcesPage.qml:195
 #, kde-format
 msgid "Proceed"
 msgstr "Pokračovať"
 
-#: discover/qml/DiscoverWindow.qml:326
+#: discover/qml/DiscoverWindow.qml:331
 #, kde-format
 msgctxt "@info %1 is the name of the operating system"
 msgid "Report this issue to %1"
 msgstr "Nahlásiť tento problém do %1"
 
+#: discover/qml/DiscoverWindow.qml:347
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Discover is Offline"
+msgstr ""
+
 #: discover/qml/DiscoverWindow.qml:348
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Please connect to a network to install applications and update the system."
+msgstr ""
+
+#: discover/qml/DiscoverWindow.qml:365
 #, kde-format
 msgid "Error %1 of %2"
 msgstr "Chyba %1 z %2"
 
-#: discover/qml/DiscoverWindow.qml:348 discover/qml/UpdatesPage.qml:47
+#: discover/qml/DiscoverWindow.qml:365 discover/qml/UpdatesPage.qml:47
 #, kde-format
 msgid "Update Issue"
 msgstr "Problém s aktualizáciou"
 
-#: discover/qml/DiscoverWindow.qml:359
+#: discover/qml/DiscoverWindow.qml:376
 #, kde-format
 msgid ""
 "There was an issue during the update or installation process. Please try "
@@ -969,24 +982,24 @@ msgid ""
 msgstr ""
 "Pri inštalácii tejto aktualizácie sa vyskytol problém. Skúste neskôr prosím."
 
-#: discover/qml/DiscoverWindow.qml:395
+#: discover/qml/DiscoverWindow.qml:412
 #, kde-format
 msgctxt "@action:button"
 msgid "Show Previous"
 msgstr "Zobraziť predchádzajúce"
 
-#: discover/qml/DiscoverWindow.qml:406
+#: discover/qml/DiscoverWindow.qml:423
 #, kde-format
 msgctxt "@action:button"
 msgid "Show Next"
 msgstr "Zobraziť nasledujúce"
 
-#: discover/qml/DiscoverWindow.qml:418 discover/qml/UpdatesPage.qml:69
+#: discover/qml/DiscoverWindow.qml:435 discover/qml/UpdatesPage.qml:69
 #, kde-format
 msgid "See Technical Details"
 msgstr "Zobraziť technické podrobnosti"
 
-#: discover/qml/DiscoverWindow.qml:426
+#: discover/qml/DiscoverWindow.qml:443
 #, kde-format
 msgid "Copy to Clipboard"
 msgstr "Skopírovať do schránky"
@@ -1590,7 +1603,7 @@ msgstr "Aktualizácie sa nainštalujú pri ďalšom reštarte systému"
 #, kde-format
 msgctxt "@info"
 msgid "You can keep using the system if you're not ready to restart yet."
-msgstr "Môžete keep using the system ak're not ready to restart yet."
+msgstr "Systém môžete naďalej používať, ak ešte nie ste pripravený na reštart."
 
 #: discover/qml/UpdatesPage.qml:669 discover/qml/UpdatesPage.qml:676
 #: discover/qml/UpdatesPage.qml:683
