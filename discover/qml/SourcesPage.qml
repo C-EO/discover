@@ -283,7 +283,7 @@ DiscoverPage {
                     tooltip: i18n("Show contents")
                     visible: delegate.model.sourcesBackend.canFilterSources
                     onTriggered: {
-                        Navigation.openApplicationListSource(delegate.model.sourceId)
+                        Navigation.openApplicationListSource(delegate.model.sourceId, delegate.model.display)
                     }
                 }
             ]
