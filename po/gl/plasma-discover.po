@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-28 00:46+0000\n"
+"POT-Creation-Date: 2026-04-29 00:47+0000\n"
 "PO-Revision-Date: 2025-05-22 13:02+0200\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.gal>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
@@ -297,8 +297,8 @@ msgstr "Engadir"
 
 #: discover/qml/AddSourceDialog.qml:50 discover/qml/DiscoverWindow.qml:286
 #: discover/qml/InstallApplicationButton.qml:51
-#: discover/qml/ProgressView.qml:153 discover/qml/SourcesPage.qml:201
-#: discover/qml/UpdatesPage.qml:308 discover/qml/WebflowDialog.qml:41
+#: discover/qml/ProgressView.qml:152 discover/qml/SourcesPage.qml:201
+#: discover/qml/UpdatesPage.qml:323 discover/qml/WebflowDialog.qml:41
 #, kde-format
 msgid "Cancel"
 msgstr "Cancelar"
@@ -1129,24 +1129,24 @@ msgstr "Recursos de «%1»"
 msgid "Tasks (%1%)"
 msgstr "Tarefas (%1%)"
 
-#: discover/qml/ProgressView.qml:20 discover/qml/ProgressView.qml:50
+#: discover/qml/ProgressView.qml:20 discover/qml/ProgressView.qml:49
 #, kde-format
 msgid "Tasks"
 msgstr "Tarefas"
 
-#: discover/qml/ProgressView.qml:127
+#: discover/qml/ProgressView.qml:126
 #, kde-format
 msgctxt "TransactioName - TransactionStatus: speed, remaining time"
 msgid "%1 - %2: %3, %4 remaining"
 msgstr "%1 — %2: %3, restan %4."
 
-#: discover/qml/ProgressView.qml:135
+#: discover/qml/ProgressView.qml:134
 #, kde-format
 msgctxt "TransactioName - TransactionStatus: speed"
 msgid "%1 - %2: %3"
 msgstr "%1 — %2: %3."
 
-#: discover/qml/ProgressView.qml:142
+#: discover/qml/ProgressView.qml:141
 #, kde-format
 msgctxt "TransactioName - TransactionStatus"
 msgid "%1 - %2"
@@ -1537,35 +1537,51 @@ msgctxt "@action:button as in, 'update all items'"
 msgid "Update All"
 msgstr "Actualizalo todo"
 
-#: discover/qml/UpdatesPage.qml:202
+#: discover/qml/UpdatesPage.qml:189
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid "Updates will be installed after the system is restarted"
+msgctxt "@info"
+msgid "A pending update will be installed when restarting the system."
+msgstr "As actualizacións instalaranse tras reiniciar o sistema."
+
+#: discover/qml/UpdatesPage.qml:193
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid "Reboot"
+msgctxt "@action:button"
+msgid "Reboot now"
+msgstr "Reiniciar"
+
+#: discover/qml/UpdatesPage.qml:217
 #, kde-format
 msgid "Ignore"
 msgstr "Ignorar"
 
-#: discover/qml/UpdatesPage.qml:252
+#: discover/qml/UpdatesPage.qml:267
 #, kde-format
 msgid "Select All"
 msgstr "Seleccionalo todo"
 
-#: discover/qml/UpdatesPage.qml:260
+#: discover/qml/UpdatesPage.qml:275
 #, kde-format
 msgid "Select None"
 msgstr "Non seleccionar nada"
 
-#: discover/qml/UpdatesPage.qml:279
+#: discover/qml/UpdatesPage.qml:294
 #, fuzzy, kde-format
 #| msgid "updates not selected"
 msgctxt "@info After updates complete, shut down/restart/quit"
 msgid "After updates complete:"
 msgstr "actualizacións non seleccionadas"
 
-#: discover/qml/UpdatesPage.qml:285
+#: discover/qml/UpdatesPage.qml:300
 #, kde-format
 msgctxt "@item:inlistbox after updates complete, do nothing"
 msgid "Do nothing"
 msgstr ""
 
-#: discover/qml/UpdatesPage.qml:286
+#: discover/qml/UpdatesPage.qml:301
 #, fuzzy, kde-format
 #| msgctxt "@item:inlistbox"
 #| msgid "Restart"
@@ -1573,7 +1589,7 @@ msgctxt "@item:inlistbox after updates complete, restart"
 msgid "Restart"
 msgstr "Reiniciar"
 
-#: discover/qml/UpdatesPage.qml:287
+#: discover/qml/UpdatesPage.qml:302
 #, fuzzy, kde-format
 #| msgctxt "@item:inlistbox"
 #| msgid "Shut down"
@@ -1581,29 +1597,29 @@ msgctxt "@item:inlistbox after updates complete, shut down"
 msgid "Shut down"
 msgstr "Apagar"
 
-#: discover/qml/UpdatesPage.qml:288
+#: discover/qml/UpdatesPage.qml:303
 #, kde-format
 msgctxt "@item:inlistbox after updates complete, quit"
 msgid "Quit"
 msgstr ""
 
-#: discover/qml/UpdatesPage.qml:298
+#: discover/qml/UpdatesPage.qml:313
 #, kde-format
 msgid "Total size: %1"
 msgstr "Tamaño total: %1"
 
-#: discover/qml/UpdatesPage.qml:328
+#: discover/qml/UpdatesPage.qml:343
 #, kde-format
 msgctxt "@action:button"
 msgid "Restart and Install Updates"
 msgstr "Reiniciar e instalar as actualizacións"
 
-#: discover/qml/UpdatesPage.qml:519
+#: discover/qml/UpdatesPage.qml:534
 #, kde-format
 msgid "Installing"
 msgstr "Instalando"
 
-#: discover/qml/UpdatesPage.qml:535
+#: discover/qml/UpdatesPage.qml:550
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "@item:inlistbox %1 is the name of an app source e.g. \"Flathub\" or "
@@ -1613,7 +1629,7 @@ msgctxt "@info This update is from the following source"
 msgid "From:"
 msgstr "De %1"
 
-#: discover/qml/UpdatesPage.qml:552
+#: discover/qml/UpdatesPage.qml:567
 #, kde-format
 msgctxt ""
 "%1 is the backend that provides this app, %2 is the specific repository or "
@@ -1621,51 +1637,51 @@ msgctxt ""
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: discover/qml/UpdatesPage.qml:564
+#: discover/qml/UpdatesPage.qml:579
 #, fuzzy, kde-format
 #| msgid "More Information…"
 msgctxt "@action:button minimize the length of this label"
 msgid "More Info…"
 msgstr "Máis información…"
 
-#: discover/qml/UpdatesPage.qml:637
+#: discover/qml/UpdatesPage.qml:652
 #, kde-format
 msgctxt "@info"
 msgid "Fetching updates…"
 msgstr "Obtendo as actualizacións…"
 
-#: discover/qml/UpdatesPage.qml:652
+#: discover/qml/UpdatesPage.qml:667
 #, kde-format
 msgctxt "@info"
 msgid "Updates"
 msgstr "Actualizacións"
 
-#: discover/qml/UpdatesPage.qml:662
+#: discover/qml/UpdatesPage.qml:677
 #, kde-format
 msgctxt "@info"
 msgid "Updates will be installed after the system is restarted"
 msgstr "As actualizacións instalaranse tras reiniciar o sistema."
 
-#: discover/qml/UpdatesPage.qml:664
+#: discover/qml/UpdatesPage.qml:679
 #, kde-format
 msgctxt "@info"
 msgid "You can keep using the system if you're not ready to restart yet."
 msgstr "Pode seguir usando o sistema se aínda non quere reiniciar."
 
-#: discover/qml/UpdatesPage.qml:669 discover/qml/UpdatesPage.qml:676
-#: discover/qml/UpdatesPage.qml:683
+#: discover/qml/UpdatesPage.qml:684 discover/qml/UpdatesPage.qml:691
+#: discover/qml/UpdatesPage.qml:698
 #, kde-format
 msgctxt "@info"
 msgid "Up to date"
 msgstr "Actualizado"
 
-#: discover/qml/UpdatesPage.qml:690
+#: discover/qml/UpdatesPage.qml:705
 #, kde-format
 msgctxt "@info"
 msgid "Should check for updates"
 msgstr "Debería comprobar se hai actualizacións."
 
-#: discover/qml/UpdatesPage.qml:697
+#: discover/qml/UpdatesPage.qml:712
 #, kde-format
 msgctxt "@info"
 msgid "Time of last update unknown"
@@ -2061,10 +2077,6 @@ msgstr "Descoñécese a hora da última actualización"
 #~ msgctxt "@info"
 #~ msgid "No updates"
 #~ msgstr "Non hai actualizacións"
-
-#~ msgctxt "@info"
-#~ msgid "Reboot"
-#~ msgstr "Reiniciar"
 
 #~ msgid "%1 ⮕ %2"
 #~ msgstr "%1 ⮕ %2"

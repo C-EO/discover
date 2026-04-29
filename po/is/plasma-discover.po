@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-28 00:46+0000\n"
+"POT-Creation-Date: 2026-04-29 00:47+0000\n"
 "PO-Revision-Date: 2026-04-13 18:37+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic\n"
@@ -279,8 +279,8 @@ msgstr "Bæta við"
 
 #: discover/qml/AddSourceDialog.qml:50 discover/qml/DiscoverWindow.qml:286
 #: discover/qml/InstallApplicationButton.qml:51
-#: discover/qml/ProgressView.qml:153 discover/qml/SourcesPage.qml:201
-#: discover/qml/UpdatesPage.qml:308 discover/qml/WebflowDialog.qml:41
+#: discover/qml/ProgressView.qml:152 discover/qml/SourcesPage.qml:201
+#: discover/qml/UpdatesPage.qml:323 discover/qml/WebflowDialog.qml:41
 #, kde-format
 msgid "Cancel"
 msgstr "Hætta við"
@@ -1103,24 +1103,24 @@ msgstr "Tilföng fyrir '%1'"
 msgid "Tasks (%1%)"
 msgstr "Verk (%1%)"
 
-#: discover/qml/ProgressView.qml:20 discover/qml/ProgressView.qml:50
+#: discover/qml/ProgressView.qml:20 discover/qml/ProgressView.qml:49
 #, kde-format
 msgid "Tasks"
 msgstr "Verk"
 
-#: discover/qml/ProgressView.qml:127
+#: discover/qml/ProgressView.qml:126
 #, kde-format
 msgctxt "TransactioName - TransactionStatus: speed, remaining time"
 msgid "%1 - %2: %3, %4 remaining"
 msgstr "%1 - %2: %3, %4 eftir"
 
-#: discover/qml/ProgressView.qml:135
+#: discover/qml/ProgressView.qml:134
 #, kde-format
 msgctxt "TransactioName - TransactionStatus: speed"
 msgid "%1 - %2: %3"
 msgstr "%1 - %2: %3"
 
-#: discover/qml/ProgressView.qml:142
+#: discover/qml/ProgressView.qml:141
 #, kde-format
 msgctxt "TransactioName - TransactionStatus"
 msgid "%1 - %2"
@@ -1501,74 +1501,88 @@ msgctxt "@action:button as in, 'update all items'"
 msgid "Update All"
 msgstr "Uppfæra allt"
 
-#: discover/qml/UpdatesPage.qml:202
+#: discover/qml/UpdatesPage.qml:189
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid "Updates will be installed after the system is restarted"
+msgctxt "@info"
+msgid "A pending update will be installed when restarting the system."
+msgstr "Uppfærslur verða settar upp þegar tölvan hefur verið endurræst"
+
+#: discover/qml/UpdatesPage.qml:193
+#, kde-format
+msgctxt "@action:button"
+msgid "Reboot now"
+msgstr ""
+
+#: discover/qml/UpdatesPage.qml:217
 #, kde-format
 msgid "Ignore"
 msgstr "Hunsa"
 
-#: discover/qml/UpdatesPage.qml:252
+#: discover/qml/UpdatesPage.qml:267
 #, kde-format
 msgid "Select All"
 msgstr "Velja allt"
 
-#: discover/qml/UpdatesPage.qml:260
+#: discover/qml/UpdatesPage.qml:275
 #, kde-format
 msgid "Select None"
 msgstr "Velja ekkert"
 
-#: discover/qml/UpdatesPage.qml:279
+#: discover/qml/UpdatesPage.qml:294
 #, kde-format
 msgctxt "@info After updates complete, shut down/restart/quit"
 msgid "After updates complete:"
 msgstr "Eftir að uppfærslum er lokið:"
 
-#: discover/qml/UpdatesPage.qml:285
+#: discover/qml/UpdatesPage.qml:300
 #, kde-format
 msgctxt "@item:inlistbox after updates complete, do nothing"
 msgid "Do nothing"
 msgstr "Gera ekkert"
 
-#: discover/qml/UpdatesPage.qml:286
+#: discover/qml/UpdatesPage.qml:301
 #, kde-format
 msgctxt "@item:inlistbox after updates complete, restart"
 msgid "Restart"
 msgstr "Endurræsa"
 
-#: discover/qml/UpdatesPage.qml:287
+#: discover/qml/UpdatesPage.qml:302
 #, kde-format
 msgctxt "@item:inlistbox after updates complete, shut down"
 msgid "Shut down"
 msgstr "Slökkva á tölvunni"
 
-#: discover/qml/UpdatesPage.qml:288
+#: discover/qml/UpdatesPage.qml:303
 #, kde-format
 msgctxt "@item:inlistbox after updates complete, quit"
 msgid "Quit"
 msgstr "Hætta"
 
-#: discover/qml/UpdatesPage.qml:298
+#: discover/qml/UpdatesPage.qml:313
 #, kde-format
 msgid "Total size: %1"
 msgstr "Heildarstærð: %1"
 
-#: discover/qml/UpdatesPage.qml:328
+#: discover/qml/UpdatesPage.qml:343
 #, kde-format
 msgctxt "@action:button"
 msgid "Restart and Install Updates"
 msgstr "Endurræsa og setja inn uppfærslur"
 
-#: discover/qml/UpdatesPage.qml:519
+#: discover/qml/UpdatesPage.qml:534
 #, kde-format
 msgid "Installing"
 msgstr "Set upp"
 
-#: discover/qml/UpdatesPage.qml:535
+#: discover/qml/UpdatesPage.qml:550
 #, kde-format
 msgctxt "@info This update is from the following source"
 msgid "From:"
 msgstr "Frá:"
 
-#: discover/qml/UpdatesPage.qml:552
+#: discover/qml/UpdatesPage.qml:567
 #, kde-format
 msgctxt ""
 "%1 is the backend that provides this app, %2 is the specific repository or "
@@ -1576,50 +1590,50 @@ msgctxt ""
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: discover/qml/UpdatesPage.qml:564
+#: discover/qml/UpdatesPage.qml:579
 #, kde-format
 msgctxt "@action:button minimize the length of this label"
 msgid "More Info…"
 msgstr "Nánari upplýsingar…"
 
-#: discover/qml/UpdatesPage.qml:637
+#: discover/qml/UpdatesPage.qml:652
 #, kde-format
 msgctxt "@info"
 msgid "Fetching updates…"
 msgstr "Sæki uppfærslur..."
 
-#: discover/qml/UpdatesPage.qml:652
+#: discover/qml/UpdatesPage.qml:667
 #, kde-format
 msgctxt "@info"
 msgid "Updates"
 msgstr "Uppfærslur"
 
-#: discover/qml/UpdatesPage.qml:662
+#: discover/qml/UpdatesPage.qml:677
 #, kde-format
 msgctxt "@info"
 msgid "Updates will be installed after the system is restarted"
 msgstr "Uppfærslur verða settar upp þegar tölvan hefur verið endurræst"
 
-#: discover/qml/UpdatesPage.qml:664
+#: discover/qml/UpdatesPage.qml:679
 #, kde-format
 msgctxt "@info"
 msgid "You can keep using the system if you're not ready to restart yet."
 msgstr "Þú getur haldið áfram að nota tölvuna ef þú vilt ekki endurræsa strax."
 
-#: discover/qml/UpdatesPage.qml:669 discover/qml/UpdatesPage.qml:676
-#: discover/qml/UpdatesPage.qml:683
+#: discover/qml/UpdatesPage.qml:684 discover/qml/UpdatesPage.qml:691
+#: discover/qml/UpdatesPage.qml:698
 #, kde-format
 msgctxt "@info"
 msgid "Up to date"
 msgstr "Allt uppfært"
 
-#: discover/qml/UpdatesPage.qml:690
+#: discover/qml/UpdatesPage.qml:705
 #, kde-format
 msgctxt "@info"
 msgid "Should check for updates"
 msgstr "Ættir að athuga með uppfærslur"
 
-#: discover/qml/UpdatesPage.qml:697
+#: discover/qml/UpdatesPage.qml:712
 #, kde-format
 msgctxt "@info"
 msgid "Time of last update unknown"
