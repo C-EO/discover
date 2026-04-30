@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-29 00:47+0000\n"
-"PO-Revision-Date: 2026-04-28 12:10+0200\n"
+"PO-Revision-Date: 2026-04-29 10:24+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -1506,21 +1506,18 @@ msgid "Update All"
 msgstr "Alles bijwerken"
 
 #: discover/qml/UpdatesPage.qml:189
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid "Updates will be installed after the system is restarted"
+#, kde-format
 msgctxt "@info"
 msgid "A pending update will be installed when restarting the system."
 msgstr ""
-"Het bijgewerkte zal geïnstalleerd worden nadat het systeem wordt herstart"
+"Een openstaand element voor bijwerken wordt geïnstalleerd wanneer het "
+"systeem opnieuw wordt opgestart."
 
 #: discover/qml/UpdatesPage.qml:193
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid "Reboot"
+#, kde-format
 msgctxt "@action:button"
 msgid "Reboot now"
-msgstr "Herstarten"
+msgstr "Nu herstarten"
 
 #: discover/qml/UpdatesPage.qml:217
 #, kde-format

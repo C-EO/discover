@@ -1503,20 +1503,16 @@ msgid "Update All"
 msgstr "Aktualizovať všetko"
 
 #: discover/qml/UpdatesPage.qml:189
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid "Updates will be installed after the system is restarted"
+#, kde-format
 msgctxt "@info"
 msgid "A pending update will be installed when restarting the system."
-msgstr "Aktualizácie sa nainštalujú pri ďalšom reštarte systému"
+msgstr "Čakajúca aktualizácia sa nainštaluje pri ďalšom reštarte systému."
 
 #: discover/qml/UpdatesPage.qml:193
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid "Reboot"
+#, kde-format
 msgctxt "@action:button"
 msgid "Reboot now"
-msgstr "Reštartovať"
+msgstr "Reštartovať teraz"
 
 #: discover/qml/UpdatesPage.qml:217
 #, kde-format

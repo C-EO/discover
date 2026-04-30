@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-29 00:47+0000\n"
-"PO-Revision-Date: 2026-04-28 16:17+0200\n"
+"PO-Revision-Date: 2026-04-29 11:39+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -1499,18 +1499,17 @@ msgid "Update All"
 msgstr "Actualisa omne"
 
 #: discover/qml/UpdatesPage.qml:189
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid "Updates will be installed after the system is restarted"
+#, kde-format
 msgctxt "@info"
 msgid "A pending update will be installed when restarting the system."
-msgstr "Le actualisationes essera installate post que le systema es restartate"
+msgstr ""
+"Un actualisation pendente essera installate quando on restarta le systema"
 
 #: discover/qml/UpdatesPage.qml:193
 #, kde-format
 msgctxt "@action:button"
 msgid "Reboot now"
-msgstr ""
+msgstr "Reboot (re-initia) nunc"
 
 #: discover/qml/UpdatesPage.qml:217
 #, kde-format

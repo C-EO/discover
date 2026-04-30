@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: plasma-discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-29 00:47+0000\n"
-"PO-Revision-Date: 2026-04-28 07:56+0300\n"
+"PO-Revision-Date: 2026-04-29 08:34+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -1521,20 +1521,16 @@ msgid "Update All"
 msgstr "Оновити всі"
 
 #: discover/qml/UpdatesPage.qml:189
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid "Updates will be installed after the system is restarted"
+#, kde-format
 msgctxt "@info"
 msgid "A pending update will be installed when restarting the system."
-msgstr "Оновлення буде встановлено після перезапуску системи"
+msgstr "Оновлення з черги буде встановлено після перезавантаження системи."
 
 #: discover/qml/UpdatesPage.qml:193
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid "Reboot"
+#, kde-format
 msgctxt "@action:button"
 msgid "Reboot now"
-msgstr "Перезавантаження"
+msgstr "Перезавантажити зараз"
 
 #: discover/qml/UpdatesPage.qml:217
 #, kde-format

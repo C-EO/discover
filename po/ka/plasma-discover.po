@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-29 00:47+0000\n"
-"PO-Revision-Date: 2026-04-28 05:57+0200\n"
+"PO-Revision-Date: 2026-04-29 05:45+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -1486,18 +1486,16 @@ msgid "Update All"
 msgstr "ყველას განახლება"
 
 #: discover/qml/UpdatesPage.qml:189
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid "Updates will be installed after the system is restarted"
+#, kde-format
 msgctxt "@info"
 msgid "A pending update will be installed when restarting the system."
-msgstr "განახლებების დაყენება სისტემის გადატვირთვის შემდეგ მოხდება"
+msgstr "განახლებების დაყენება სისტემის გადატვირთვის დროს მოხდება."
 
 #: discover/qml/UpdatesPage.qml:193
 #, kde-format
 msgctxt "@action:button"
 msgid "Reboot now"
-msgstr ""
+msgstr "ახლა გადატვირთვა"
 
 #: discover/qml/UpdatesPage.qml:217
 #, kde-format

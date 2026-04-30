@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: plasma-discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-29 00:47+0000\n"
-"PO-Revision-Date: 2026-04-29 00:10+0100\n"
+"PO-Revision-Date: 2026-04-29 12:08+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -1504,18 +1504,16 @@ msgid "Update All"
 msgstr "Actualizar todo"
 
 #: discover/qml/UpdatesPage.qml:189
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid "Updates will be installed after the system is restarted"
+#, kde-format
 msgctxt "@info"
 msgid "A pending update will be installed when restarting the system."
-msgstr "Las actualizaciones se instalarán tras reiniciar el sistema"
+msgstr "Una actualización pendiente se instalará al reiniciar el sistema."
 
 #: discover/qml/UpdatesPage.qml:193
 #, kde-format
 msgctxt "@action:button"
 msgid "Reboot now"
-msgstr ""
+msgstr "Reiniciar ahora"
 
 #: discover/qml/UpdatesPage.qml:217
 #, kde-format

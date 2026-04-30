@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-29 00:47+0000\n"
-"PO-Revision-Date: 2026-04-28 06:54-0300\n"
+"PO-Revision-Date: 2026-04-29 07:00-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -1507,18 +1507,17 @@ msgid "Update All"
 msgstr "Atualizar tudo"
 
 #: discover/qml/UpdatesPage.qml:189
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid "Updates will be installed after the system is restarted"
+#, kde-format
 msgctxt "@info"
 msgid "A pending update will be installed when restarting the system."
-msgstr "As atualizações serão instaladas depois que o sistema for reiniciado"
+msgstr ""
+"Uma atualização pendente será instalada quando o sistema for reiniciado."
 
 #: discover/qml/UpdatesPage.qml:193
 #, kde-format
 msgctxt "@action:button"
 msgid "Reboot now"
-msgstr ""
+msgstr "Reiniciar agora"
 
 #: discover/qml/UpdatesPage.qml:217
 #, kde-format
