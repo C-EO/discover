@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: muon-discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-29 00:47+0000\n"
-"PO-Revision-Date: 2026-04-26 09:06+0200\n"
+"PO-Revision-Date: 2026-04-29 17:16+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: fr\n"
 "Language: fr\n"
@@ -981,7 +981,7 @@ msgstr "Signaler ce problème à %1"
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Discover is Offline"
-msgstr ""
+msgstr "Discover est hors ligne"
 
 #: discover/qml/DiscoverWindow.qml:348
 #, kde-format
@@ -989,6 +989,8 @@ msgctxt "@info"
 msgid ""
 "Please connect to a network to install applications and update the system."
 msgstr ""
+"Veuillez vous connecter à un réseau pour l'installation d'applications et de "
+"mise à jour du système."
 
 #: discover/qml/DiscoverWindow.qml:365
 #, kde-format

@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: l 10n\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-29 00:47+0000\n"
-"PO-Revision-Date: 2026-04-18 18:54+0300\n"
+"PO-Revision-Date: 2026-04-30 20:42+0300\n"
 "Last-Translator: Moo\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
 "Language: lt\n"
@@ -586,16 +586,13 @@ msgstr "Informacija apie licenciją"
 
 #: discover/qml/ApplicationPageFullComponent.qml:114
 #: discover/qml/ApplicationPageStickyComponent.qml:46
-#, fuzzy, kde-format
-#| msgid "Unknown author"
+#, kde-format
 msgctxt "As in 'this app is made by an unknown author'"
 msgid "Unknown author"
 msgstr "Nežinomas autorius"
 
 #: discover/qml/ApplicationPageFullComponent.qml:148
-#, fuzzy, kde-format
-#| msgid "%1 rating"
-#| msgid_plural "%1 ratings"
+#, kde-format
 msgctxt "@info as in the number of ratings an application has"
 msgid "%1 rating"
 msgid_plural "%1 ratings"
@@ -605,15 +602,13 @@ msgstr[2] "%1 įvertinimų"
 msgstr[3] "%1 įvertinimas"
 
 #: discover/qml/ApplicationPageFullComponent.qml:148
-#, fuzzy, kde-format
-#| msgid "No ratings yet"
+#, kde-format
 msgctxt "@info"
 msgid "No ratings yet"
 msgstr "Kol kas įvertinimų nėra"
 
 #: discover/qml/ApplicationPageFullComponent.qml:196
-#, fuzzy, kde-format
-#| msgid "Version:"
+#, kde-format
 msgctxt "@info"
 msgid "Version:"
 msgstr "Versija:"
@@ -624,9 +619,7 @@ msgid "Size:"
 msgstr "Dydis:"
 
 #: discover/qml/ApplicationPageFullComponent.qml:239
-#, fuzzy, kde-format
-#| msgid "License:"
-#| msgid_plural "Licenses:"
+#, kde-format
 msgctxt "@info"
 msgid "License:"
 msgid_plural "Licenses:"
@@ -649,17 +642,13 @@ msgid "What does this mean?"
 msgstr "Ką tai reiškia?"
 
 #: discover/qml/ApplicationPageFullComponent.qml:345
-#, fuzzy, kde-format
-#| msgid "All Licenses"
+#, kde-format
 msgctxt "Show all licenses of the package"
 msgid "All licenses…"
-msgstr "Visos licencijos"
+msgstr "Visos licencijos…"
 
 #: discover/qml/ApplicationPageFullComponent.qml:358
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "@label The app is suitable for people of the following ages or older"
-#| msgid "Ages:"
+#, kde-format
 msgctxt "@info The app is suitable for people of the following ages or older"
 msgid "Ages:"
 msgstr "Amžius:"
@@ -677,8 +666,7 @@ msgid "%1+"
 msgstr "%1+"
 
 #: discover/qml/ApplicationPageFullComponent.qml:388
-#, fuzzy, kde-format
-#| msgid "See details"
+#, kde-format
 msgctxt "@action:button See content rating details"
 msgid "See details"
 msgstr "Rodyti išsamiau"
@@ -687,7 +675,7 @@ msgstr "Rodyti išsamiau"
 #, kde-format
 msgctxt "@action:button"
 msgid "Scroll to top"
-msgstr ""
+msgstr "Slinkti į viršų"
 
 #: discover/qml/ApplicationsListPage.qml:54
 #, kde-format
@@ -981,7 +969,7 @@ msgstr "Pranešti apie šią problemą %1"
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Discover is Offline"
-msgstr ""
+msgstr "Discover neturi prieigos prie interneto"
 
 #: discover/qml/DiscoverWindow.qml:348
 #, kde-format
@@ -989,6 +977,7 @@ msgctxt "@info"
 msgid ""
 "Please connect to a network to install applications and update the system."
 msgstr ""
+"Prisijunkite prie interneto norėdami įdiegti programas ir atnaujinti sistemą."
 
 #: discover/qml/DiscoverWindow.qml:365
 #, kde-format
@@ -1531,18 +1520,16 @@ msgid "Update All"
 msgstr "Atnaujinti visus"
 
 #: discover/qml/UpdatesPage.qml:189
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid "Updates will be installed after the system is restarted"
+#, kde-format
 msgctxt "@info"
 msgid "A pending update will be installed when restarting the system."
-msgstr "Atnaujinimai bus įdiegti po to, kai sistema bus paleista iš naujo"
+msgstr "Laukiantis atnaujinimas bus įdiegtas paleidus sistemą iš naujo."
 
 #: discover/qml/UpdatesPage.qml:193
 #, kde-format
 msgctxt "@action:button"
 msgid "Reboot now"
-msgstr ""
+msgstr "Paleisti iš naujo dabar"
 
 #: discover/qml/UpdatesPage.qml:217
 #, kde-format

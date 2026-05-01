@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-29 00:47+0000\n"
-"PO-Revision-Date: 2026-04-16 09:27+0400\n"
+"PO-Revision-Date: 2026-04-30 09:31+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -560,36 +560,31 @@ msgstr "معلومات الرخصة"
 
 #: discover/qml/ApplicationPageFullComponent.qml:114
 #: discover/qml/ApplicationPageStickyComponent.qml:46
-#, fuzzy, kde-format
-#| msgid "Unknown author"
+#, kde-format
 msgctxt "As in 'this app is made by an unknown author'"
 msgid "Unknown author"
 msgstr "مؤلف مجهول"
 
 #: discover/qml/ApplicationPageFullComponent.qml:148
-#, fuzzy, kde-format
-#| msgid "%1 rating"
-#| msgid_plural "%1 ratings"
+#, kde-format
 msgctxt "@info as in the number of ratings an application has"
 msgid "%1 rating"
 msgid_plural "%1 ratings"
 msgstr[0] "%1 تقييم"
 msgstr[1] "تقييم واحد"
-msgstr[2] "تقيمين"
+msgstr[2] "تقيمان"
 msgstr[3] "%1 تقييمات"
-msgstr[4] "%1 تقييما"
+msgstr[4] "%1 تقييمًا"
 msgstr[5] "%1 تقييم"
 
 #: discover/qml/ApplicationPageFullComponent.qml:148
-#, fuzzy, kde-format
-#| msgid "No ratings yet"
+#, kde-format
 msgctxt "@info"
 msgid "No ratings yet"
 msgstr "لم يقيم بعد"
 
 #: discover/qml/ApplicationPageFullComponent.qml:196
-#, fuzzy, kde-format
-#| msgid "Version:"
+#, kde-format
 msgctxt "@info"
 msgid "Version:"
 msgstr "الإصدارة:"
@@ -600,9 +595,7 @@ msgid "Size:"
 msgstr "الحجم:"
 
 #: discover/qml/ApplicationPageFullComponent.qml:239
-#, fuzzy, kde-format
-#| msgid "License:"
-#| msgid_plural "Licenses:"
+#, kde-format
 msgctxt "@info"
 msgid "License:"
 msgid_plural "Licenses:"
@@ -627,17 +620,13 @@ msgid "What does this mean?"
 msgstr "ماذا يعني هذا؟"
 
 #: discover/qml/ApplicationPageFullComponent.qml:345
-#, fuzzy, kde-format
-#| msgid "All Licenses"
+#, kde-format
 msgctxt "Show all licenses of the package"
 msgid "All licenses…"
-msgstr "جميع الرخص"
+msgstr "جميع الرخص…"
 
 #: discover/qml/ApplicationPageFullComponent.qml:358
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "@label The app is suitable for people of the following ages or older"
-#| msgid "Ages:"
+#, kde-format
 msgctxt "@info The app is suitable for people of the following ages or older"
 msgid "Ages:"
 msgstr "العمر:"
@@ -655,8 +644,7 @@ msgid "%1+"
 msgstr "%1+"
 
 #: discover/qml/ApplicationPageFullComponent.qml:388
-#, fuzzy, kde-format
-#| msgid "See details"
+#, kde-format
 msgctxt "@action:button See content rating details"
 msgid "See details"
 msgstr "أظهر التفاصيل"
@@ -665,7 +653,7 @@ msgstr "أظهر التفاصيل"
 #, kde-format
 msgctxt "@action:button"
 msgid "Scroll to top"
-msgstr ""
+msgstr "مرر للأعلى"
 
 #: discover/qml/ApplicationsListPage.qml:54
 #, kde-format
@@ -962,14 +950,14 @@ msgstr "أبلغ عن هذه المشكلة إلى %1"
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Discover is Offline"
-msgstr ""
+msgstr "المستكشف دون اتصال"
 
 #: discover/qml/DiscoverWindow.qml:348
 #, kde-format
 msgctxt "@info"
 msgid ""
 "Please connect to a network to install applications and update the system."
-msgstr ""
+msgstr "يرجى الاتصال بشبكة لتثبيت التطبيقات وتحديث النظام."
 
 #: discover/qml/DiscoverWindow.qml:365
 #, kde-format
@@ -1506,18 +1494,16 @@ msgid "Update All"
 msgstr "حدّث الكلّ"
 
 #: discover/qml/UpdatesPage.qml:189
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid "Updates will be installed after the system is restarted"
+#, kde-format
 msgctxt "@info"
 msgid "A pending update will be installed when restarting the system."
-msgstr "ستُثبت التحديثات بعد إعادة تشغيل النظام"
+msgstr "ستُثبت التحديثات المعلقة بعد إعادة تشغيل النظام"
 
 #: discover/qml/UpdatesPage.qml:193
 #, kde-format
 msgctxt "@action:button"
 msgid "Reboot now"
-msgstr ""
+msgstr "أعِد التشغيل الآن"
 
 #: discover/qml/UpdatesPage.qml:217
 #, kde-format
