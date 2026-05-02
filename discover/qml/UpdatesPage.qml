@@ -188,13 +188,6 @@ DiscoverPage {
             visible: resourcesUpdatesModel.needsReboot && page.state !== "fetching" && page.state !== "reboot"
             text: i18nc("@info", "A pending update will be installed when restarting the system.")
             icon.name: "system-reboot-update"
-            actions: [
-                Kirigami.Action {
-                    text: i18nc("@action:button", "Reboot now")
-                    icon.name: "system-reboot-update"
-                    onTriggered: app.promptReboot()
-                }
-            ]
         }
 
         Repeater {
