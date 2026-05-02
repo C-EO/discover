@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bosnianuniversetranslation\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-29 00:47+0000\n"
+"POT-Creation-Date: 2026-05-02 00:45+0000\n"
 "PO-Revision-Date: 2015-02-04 16:18+0000\n"
 "Last-Translator: Nermina Ahmić <nahmic1@etf.unsa.ba>\n"
 "Language-Team: Bosnian <bs@li.org>\n"
@@ -973,46 +973,46 @@ msgid ""
 "users. For more information see https://kde.org/privacypolicy-apps.php."
 msgstr ""
 
-#: discover/qml/Feedback.qml:19
+#: discover/qml/Feedback.qml:20
 #, kde-format
 msgid "Submitting usage information…"
 msgstr ""
 
-#: discover/qml/Feedback.qml:19
+#: discover/qml/Feedback.qml:20
 #, kde-format
 msgid "Configure"
 msgstr ""
 
-#: discover/qml/Feedback.qml:23
+#: discover/qml/Feedback.qml:24
 #, fuzzy, kde-format
 #| msgid "Update"
 msgid "Configure Feedback…"
 msgstr "Ažuriraj"
 
-#: discover/qml/Feedback.qml:30 discover/qml/SourcesPage.qml:22
+#: discover/qml/Feedback.qml:31 discover/qml/SourcesPage.qml:22
 #, fuzzy, kde-format
 #| msgid "Update"
 msgid "Configure Updates…"
 msgstr "Ažuriraj"
 
-#: discover/qml/Feedback.qml:58
+#: discover/qml/Feedback.qml:60
 #, kde-format
 msgid ""
 "You can help us improving this application by sharing statistics and "
 "participate in surveys."
 msgstr ""
 
-#: discover/qml/Feedback.qml:58
+#: discover/qml/Feedback.qml:60
 #, kde-format
 msgid "Contribute…"
 msgstr ""
 
-#: discover/qml/Feedback.qml:63
+#: discover/qml/Feedback.qml:65
 #, kde-format
 msgid "We are looking for your feedback!"
 msgstr ""
 
-#: discover/qml/Feedback.qml:63
+#: discover/qml/Feedback.qml:65
 #, kde-format
 msgid "Participate…"
 msgstr ""

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-29 00:47+0000\n"
+"POT-Creation-Date: 2026-05-02 00:45+0000\n"
 "PO-Revision-Date: 2024-04-22 15:58\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -988,44 +988,44 @@ msgstr ""
 "发送匿名使用数据到 KDE，帮助我们理解用户需求。更多信息请访问：https://kde."
 "org/privacypolicy-apps.php 。"
 
-#: discover/qml/Feedback.qml:19
+#: discover/qml/Feedback.qml:20
 #, kde-format
 msgid "Submitting usage information…"
 msgstr "提交使用信息…"
 
-#: discover/qml/Feedback.qml:19
+#: discover/qml/Feedback.qml:20
 #, kde-format
 msgid "Configure"
 msgstr "配置"
 
-#: discover/qml/Feedback.qml:23
+#: discover/qml/Feedback.qml:24
 #, kde-format
 msgid "Configure Feedback…"
 msgstr "配置反馈…"
 
-#: discover/qml/Feedback.qml:30 discover/qml/SourcesPage.qml:22
+#: discover/qml/Feedback.qml:31 discover/qml/SourcesPage.qml:22
 #, kde-format
 msgid "Configure Updates…"
 msgstr "配置更新…"
 
-#: discover/qml/Feedback.qml:58
+#: discover/qml/Feedback.qml:60
 #, kde-format
 msgid ""
 "You can help us improving this application by sharing statistics and "
 "participate in surveys."
 msgstr "您可以分享统计数据和填写问卷，帮助我们完善这款应用程序。"
 
-#: discover/qml/Feedback.qml:58
+#: discover/qml/Feedback.qml:60
 #, kde-format
 msgid "Contribute…"
 msgstr "贡献…"
 
-#: discover/qml/Feedback.qml:63
+#: discover/qml/Feedback.qml:65
 #, kde-format
 msgid "We are looking for your feedback!"
 msgstr "我们期待您的反馈！"
 
-#: discover/qml/Feedback.qml:63
+#: discover/qml/Feedback.qml:65
 #, kde-format
 msgid "Participate…"
 msgstr "参与…"

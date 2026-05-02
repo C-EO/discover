@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-29 00:47+0000\n"
+"POT-Creation-Date: 2026-05-02 00:45+0000\n"
 "PO-Revision-Date: 2026-04-29 12:08+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -1020,27 +1020,27 @@ msgstr ""
 "nuestros usuarios. Para más información, consulte https://kde.org/"
 "privacypolicy-apps.php."
 
-#: discover/qml/Feedback.qml:19
+#: discover/qml/Feedback.qml:20
 #, kde-format
 msgid "Submitting usage information…"
 msgstr "Enviando información de uso…"
 
-#: discover/qml/Feedback.qml:19
+#: discover/qml/Feedback.qml:20
 #, kde-format
 msgid "Configure"
 msgstr "Configurar"
 
-#: discover/qml/Feedback.qml:23
+#: discover/qml/Feedback.qml:24
 #, kde-format
 msgid "Configure Feedback…"
 msgstr "Configurar los comentarios del usuario…"
 
-#: discover/qml/Feedback.qml:30 discover/qml/SourcesPage.qml:22
+#: discover/qml/Feedback.qml:31 discover/qml/SourcesPage.qml:22
 #, kde-format
 msgid "Configure Updates…"
 msgstr "Configurar actualizaciones…"
 
-#: discover/qml/Feedback.qml:58
+#: discover/qml/Feedback.qml:60
 #, kde-format
 msgid ""
 "You can help us improving this application by sharing statistics and "
@@ -1049,17 +1049,17 @@ msgstr ""
 "Puede ayudarnos a mejorar esta aplicación compartiendo estadísticas y "
 "participando en sondeos."
 
-#: discover/qml/Feedback.qml:58
+#: discover/qml/Feedback.qml:60
 #, kde-format
 msgid "Contribute…"
 msgstr "Colaborar…"
 
-#: discover/qml/Feedback.qml:63
+#: discover/qml/Feedback.qml:65
 #, kde-format
 msgid "We are looking for your feedback!"
 msgstr "¡Estamos esperando sus comentarios!"
 
-#: discover/qml/Feedback.qml:63
+#: discover/qml/Feedback.qml:65
 #, kde-format
 msgid "Participate…"
 msgstr "Participar…"

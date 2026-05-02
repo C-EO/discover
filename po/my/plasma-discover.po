@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-29 00:47+0000\n"
+"POT-Creation-Date: 2026-05-02 00:45+0000\n"
 "PO-Revision-Date: 2021-09-19 20:01+0630\n"
 "Last-Translator: ဇေယျာလွင် <lw1nzayar@yandex.com>\n"
 "Language-Team: Burmese <kde-i18n-doc@kde.org>\n"
@@ -965,29 +965,29 @@ msgstr ""
 "ကျွန်ုပ်တို့အနေဖြင့် အသုံးပြုသူများ၏လိုလားချက်များကို သိရှိရန် အမည်ဖျောက်ထားသော အသုံးပြုအချက်အလက်များကို "
 "ကေဒီအီးသို့ ပေးပို့ပါ။ ပိုမိုသိလိုပါက https://kde.org/privacypolicy-apps.php သို့သွားပါ။"
 
-#: discover/qml/Feedback.qml:19
+#: discover/qml/Feedback.qml:20
 #, kde-format
 msgid "Submitting usage information…"
 msgstr "အသုံးပြုအချက်အလက််များ ပေးပို့နေသည်"
 
-#: discover/qml/Feedback.qml:19
+#: discover/qml/Feedback.qml:20
 #, kde-format
 msgid "Configure"
 msgstr "ပြင်ဆင်မည်"
 
-#: discover/qml/Feedback.qml:23
+#: discover/qml/Feedback.qml:24
 #, fuzzy, kde-format
 #| msgid "Configure feedback…"
 msgid "Configure Feedback…"
 msgstr "တုံ့ပြန်ချက်ပြင်ဆင်မည်…"
 
-#: discover/qml/Feedback.qml:30 discover/qml/SourcesPage.qml:22
+#: discover/qml/Feedback.qml:31 discover/qml/SourcesPage.qml:22
 #, fuzzy, kde-format
 #| msgid "Configure feedback…"
 msgid "Configure Updates…"
 msgstr "တုံ့ပြန်ချက်ပြင်ဆင်မည်…"
 
-#: discover/qml/Feedback.qml:58
+#: discover/qml/Feedback.qml:60
 #, kde-format
 msgid ""
 "You can help us improving this application by sharing statistics and "
@@ -996,17 +996,17 @@ msgstr ""
 "ဤအပ္ပလီကေးရှင်း တိုးတက်စေရန် ဆောင်ရွက်ရာတွင် အသုံးပြုစာရင်းအင်းများ မျှဝေ၍ စစ်တမ်းကောက်ချက်များတွင် "
 "ဖြေဆို၍ ပါဝင်ကူညီနိုင်သည်။"
 
-#: discover/qml/Feedback.qml:58
+#: discover/qml/Feedback.qml:60
 #, kde-format
 msgid "Contribute…"
 msgstr "ပါဝင်ကူညီမည်…"
 
-#: discover/qml/Feedback.qml:63
+#: discover/qml/Feedback.qml:65
 #, kde-format
 msgid "We are looking for your feedback!"
 msgstr "သင့်တုံ့ပြန်ချက်များကို ကြိုဆိုပါသည်။"
 
-#: discover/qml/Feedback.qml:63
+#: discover/qml/Feedback.qml:65
 #, kde-format
 msgid "Participate…"
 msgstr "ပါဝင်ကူညီမည်…"

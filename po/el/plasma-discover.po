@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: muon-discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-29 00:47+0000\n"
+"POT-Creation-Date: 2026-05-02 00:45+0000\n"
 "PO-Revision-Date: 2024-09-19 14:33+0300\n"
 "Last-Translator: Antonis Geralis <capoiosct@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
@@ -1050,27 +1050,27 @@ msgstr ""
 "καταλάβουμε καλύτερα τους χρήστες. Για περισσότερες πληροφορίες δείτε "
 "https://kde.org/privacypolicy-apps.php."
 
-#: discover/qml/Feedback.qml:19
+#: discover/qml/Feedback.qml:20
 #, kde-format
 msgid "Submitting usage information…"
 msgstr "Υποβολή πληροφοριών χρήσης..."
 
-#: discover/qml/Feedback.qml:19
+#: discover/qml/Feedback.qml:20
 #, kde-format
 msgid "Configure"
 msgstr "Διαμόρφωση"
 
-#: discover/qml/Feedback.qml:23
+#: discover/qml/Feedback.qml:24
 #, kde-format
 msgid "Configure Feedback…"
 msgstr "Διαμόρφωση σχολίων..."
 
-#: discover/qml/Feedback.qml:30 discover/qml/SourcesPage.qml:22
+#: discover/qml/Feedback.qml:31 discover/qml/SourcesPage.qml:22
 #, kde-format
 msgid "Configure Updates…"
 msgstr "Ρύθμιση ενημερώσεων..."
 
-#: discover/qml/Feedback.qml:58
+#: discover/qml/Feedback.qml:60
 #, kde-format
 msgid ""
 "You can help us improving this application by sharing statistics and "
@@ -1079,17 +1079,17 @@ msgstr ""
 "Μπορείτε να μας βοηθήσετε να βελτιώσουμε αυτή την εφαρμογή  με το "
 "διαμοιρασμό στατιστικών και συμμετοχή σε έρευνες."
 
-#: discover/qml/Feedback.qml:58
+#: discover/qml/Feedback.qml:60
 #, kde-format
 msgid "Contribute…"
 msgstr "Συνεισφορά…"
 
-#: discover/qml/Feedback.qml:63
+#: discover/qml/Feedback.qml:65
 #, kde-format
 msgid "We are looking for your feedback!"
 msgstr "Περιμένουμε τα σχόλιά σας!"
 
-#: discover/qml/Feedback.qml:63
+#: discover/qml/Feedback.qml:65
 #, kde-format
 msgid "Participate…"
 msgstr "Συμμετοχή..."

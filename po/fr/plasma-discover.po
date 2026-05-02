@@ -15,8 +15,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: muon-discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-29 00:47+0000\n"
-"PO-Revision-Date: 2026-04-29 17:16+0200\n"
+"POT-Creation-Date: 2026-05-02 00:45+0000\n"
+"PO-Revision-Date: 2026-04-30 07:55+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: fr\n"
 "Language: fr\n"
@@ -1048,27 +1048,27 @@ msgstr ""
 "mieux comprendre nos utilisateurs. Consultez https://kde.org/privacypolicy-"
 "apps.php pour davantage d'informations."
 
-#: discover/qml/Feedback.qml:19
+#: discover/qml/Feedback.qml:20
 #, kde-format
 msgid "Submitting usage information…"
 msgstr "Envoi en cours des informations d'utilisation…"
 
-#: discover/qml/Feedback.qml:19
+#: discover/qml/Feedback.qml:20
 #, kde-format
 msgid "Configure"
 msgstr "Configurer"
 
-#: discover/qml/Feedback.qml:23
+#: discover/qml/Feedback.qml:24
 #, kde-format
 msgid "Configure Feedback…"
 msgstr "Configurer le retour d'utilisateur…"
 
-#: discover/qml/Feedback.qml:30 discover/qml/SourcesPage.qml:22
+#: discover/qml/Feedback.qml:31 discover/qml/SourcesPage.qml:22
 #, kde-format
 msgid "Configure Updates…"
 msgstr "Configurer les mises à jour…"
 
-#: discover/qml/Feedback.qml:58
+#: discover/qml/Feedback.qml:60
 #, kde-format
 msgid ""
 "You can help us improving this application by sharing statistics and "
@@ -1077,17 +1077,17 @@ msgstr ""
 "Vous pouvez nous aider à améliorer cette application en partageant des "
 "statistiques et en participant à des enquêtes."
 
-#: discover/qml/Feedback.qml:58
+#: discover/qml/Feedback.qml:60
 #, kde-format
 msgid "Contribute…"
 msgstr "Contribuer…"
 
-#: discover/qml/Feedback.qml:63
+#: discover/qml/Feedback.qml:65
 #, kde-format
 msgid "We are looking for your feedback!"
 msgstr "Nous attendons vos retours d'expérience avec impatience !"
 
-#: discover/qml/Feedback.qml:63
+#: discover/qml/Feedback.qml:65
 #, kde-format
 msgid "Participate…"
 msgstr "Participer…"
@@ -1540,20 +1540,17 @@ msgid "Update All"
 msgstr "Tout mettre à jour"
 
 #: discover/qml/UpdatesPage.qml:189
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid "Updates will be installed after the system is restarted"
+#, kde-format
 msgctxt "@info"
 msgid "A pending update will be installed when restarting the system."
-msgstr "Ces mises à jour seront installées après un redémarrage du système."
+msgstr ""
+"Une mise à jour en attente sera installée après un redémarrage du système."
 
 #: discover/qml/UpdatesPage.qml:193
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid "Reboot"
+#, kde-format
 msgctxt "@action:button"
 msgid "Reboot now"
-msgstr "Redémarrer"
+msgstr "Redémarrer maintenant"
 
 #: discover/qml/UpdatesPage.qml:217
 #, kde-format

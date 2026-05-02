@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-29 00:47+0000\n"
+"POT-Creation-Date: 2026-05-02 00:45+0000\n"
 "PO-Revision-Date: 2020-10-11 01:25+0200\n"
 "Last-Translator: Mihkel Tõnnov <mihhkel@gmail.com>\n"
 "Language-Team: Estonian <>\n"
@@ -988,30 +988,30 @@ msgstr ""
 "paremini oma kasutajaid. Täpsemat teavet leiab aadressilt https://kde.org/"
 "privacypolicy-apps.php."
 
-#: discover/qml/Feedback.qml:19
+#: discover/qml/Feedback.qml:20
 #, fuzzy, kde-format
 #| msgid "Submitting usage information..."
 msgid "Submitting usage information…"
 msgstr "Kasutusteabe edastamine ..."
 
-#: discover/qml/Feedback.qml:19
+#: discover/qml/Feedback.qml:20
 #, kde-format
 msgid "Configure"
 msgstr "Seadista "
 
-#: discover/qml/Feedback.qml:23
+#: discover/qml/Feedback.qml:24
 #, fuzzy, kde-format
 #| msgid "Configure feedback..."
 msgid "Configure Feedback…"
 msgstr "Seadista tagasisidet ..."
 
-#: discover/qml/Feedback.qml:30 discover/qml/SourcesPage.qml:22
+#: discover/qml/Feedback.qml:31 discover/qml/SourcesPage.qml:22
 #, fuzzy, kde-format
 #| msgid "Configure feedback..."
 msgid "Configure Updates…"
 msgstr "Seadista tagasisidet ..."
 
-#: discover/qml/Feedback.qml:58
+#: discover/qml/Feedback.qml:60
 #, kde-format
 msgid ""
 "You can help us improving this application by sharing statistics and "
@@ -1020,18 +1020,18 @@ msgstr ""
 "Sa võid aidata meil rakendust paremaks muuta, kui jagad meiega statistikat "
 "ja osaled uuringutes."
 
-#: discover/qml/Feedback.qml:58
+#: discover/qml/Feedback.qml:60
 #, fuzzy, kde-format
 #| msgid "Contribute..."
 msgid "Contribute…"
 msgstr "Panusta ..."
 
-#: discover/qml/Feedback.qml:63
+#: discover/qml/Feedback.qml:65
 #, kde-format
 msgid "We are looking for your feedback!"
 msgstr "Me ootame sinu tagasisidet!"
 
-#: discover/qml/Feedback.qml:63
+#: discover/qml/Feedback.qml:65
 #, fuzzy, kde-format
 #| msgid "Participate..."
 msgid "Participate…"

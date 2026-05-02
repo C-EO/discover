@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-29 00:47+0000\n"
+"POT-Creation-Date: 2026-05-02 00:45+0000\n"
 "PO-Revision-Date: 2024-12-24 20:39+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -1030,27 +1030,27 @@ msgstr ""
 "अनामिकाप्रयोगसूचनाः KDE प्रति प्रेषयन्तु येन वयं अस्माकं उपयोक्तृन् अधिकतया अवगन्तुं शक्नुमः। "
 "अधिकविवरणार्थं https://kde.org/privacypolicy-apps.php पश्यन्तु ।."
 
-#: discover/qml/Feedback.qml:19
+#: discover/qml/Feedback.qml:20
 #, kde-format
 msgid "Submitting usage information…"
 msgstr "उपयोगसूचनाः प्रस्तूय…"
 
-#: discover/qml/Feedback.qml:19
+#: discover/qml/Feedback.qml:20
 #, kde-format
 msgid "Configure"
 msgstr "विन्यस्यताम्"
 
-#: discover/qml/Feedback.qml:23
+#: discover/qml/Feedback.qml:24
 #, kde-format
 msgid "Configure Feedback…"
 msgstr "प्रतिक्रियां विन्यस्यताम्…"
 
-#: discover/qml/Feedback.qml:30 discover/qml/SourcesPage.qml:22
+#: discover/qml/Feedback.qml:31 discover/qml/SourcesPage.qml:22
 #, kde-format
 msgid "Configure Updates…"
 msgstr "अद्यतनं विन्यस्यताम्…"
 
-#: discover/qml/Feedback.qml:58
+#: discover/qml/Feedback.qml:60
 #, kde-format
 msgid ""
 "You can help us improving this application by sharing statistics and "
@@ -1059,17 +1059,17 @@ msgstr ""
 "आँकडानां साझेदारी कृत्वा सर्वेक्षणेषु भागं ग्रहीतुं च भवान् अस्मान् अस्य अनुप्रयोगस्य उन्नयनार्थं "
 "साहाय्यं कर्तुं शक्नोति।."
 
-#: discover/qml/Feedback.qml:58
+#: discover/qml/Feedback.qml:60
 #, kde-format
 msgid "Contribute…"
 msgstr "योगदानं ददातुम्…"
 
-#: discover/qml/Feedback.qml:63
+#: discover/qml/Feedback.qml:65
 #, kde-format
 msgid "We are looking for your feedback!"
 msgstr "भवतः प्रतिक्रियायाः प्रतीक्षामहे!"
 
-#: discover/qml/Feedback.qml:63
+#: discover/qml/Feedback.qml:65
 #, kde-format
 msgid "Participate…"
 msgstr "अनुभुज्…"
