@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-02 00:45+0000\n"
+"POT-Creation-Date: 2026-05-03 00:45+0000\n"
 "PO-Revision-Date: 2023-02-24 14:56+0100\n"
 "Last-Translator: John Ivar Eriksen <jieriksen@runbox.com>\n"
 "Language-Team: Norwegian Bokmål <l10n-no@lister.huftis.org>\n"
@@ -269,7 +269,7 @@ msgstr "Legg til"
 #: discover/qml/AddSourceDialog.qml:50 discover/qml/DiscoverWindow.qml:286
 #: discover/qml/InstallApplicationButton.qml:51
 #: discover/qml/ProgressView.qml:152 discover/qml/SourcesPage.qml:201
-#: discover/qml/UpdatesPage.qml:323 discover/qml/WebflowDialog.qml:41
+#: discover/qml/UpdatesPage.qml:316 discover/qml/WebflowDialog.qml:41
 #, kde-format
 msgid "Cancel"
 msgstr "Avbryt"
@@ -1447,80 +1447,74 @@ msgctxt "@info"
 msgid "A pending update will be installed when restarting the system."
 msgstr ""
 
-#: discover/qml/UpdatesPage.qml:193
-#, kde-format
-msgctxt "@action:button"
-msgid "Reboot now"
-msgstr ""
-
-#: discover/qml/UpdatesPage.qml:217
+#: discover/qml/UpdatesPage.qml:210
 #, kde-format
 msgid "Ignore"
 msgstr "Ignorer"
 
-#: discover/qml/UpdatesPage.qml:267
+#: discover/qml/UpdatesPage.qml:260
 #, kde-format
 msgid "Select All"
 msgstr "Velg alt"
 
-#: discover/qml/UpdatesPage.qml:275
+#: discover/qml/UpdatesPage.qml:268
 #, kde-format
 msgid "Select None"
 msgstr "Fjern valg"
 
-#: discover/qml/UpdatesPage.qml:294
+#: discover/qml/UpdatesPage.qml:287
 #, kde-format
 msgctxt "@info After updates complete, shut down/restart/quit"
 msgid "After updates complete:"
 msgstr ""
 
-#: discover/qml/UpdatesPage.qml:300
+#: discover/qml/UpdatesPage.qml:293
 #, kde-format
 msgctxt "@item:inlistbox after updates complete, do nothing"
 msgid "Do nothing"
 msgstr ""
 
-#: discover/qml/UpdatesPage.qml:301
+#: discover/qml/UpdatesPage.qml:294
 #, fuzzy, kde-format
 msgctxt "@item:inlistbox after updates complete, restart"
 msgid "Restart"
 msgstr "Start på nytt"
 
-#: discover/qml/UpdatesPage.qml:302
+#: discover/qml/UpdatesPage.qml:295
 #, kde-format
 msgctxt "@item:inlistbox after updates complete, shut down"
 msgid "Shut down"
 msgstr ""
 
-#: discover/qml/UpdatesPage.qml:303
+#: discover/qml/UpdatesPage.qml:296
 #, kde-format
 msgctxt "@item:inlistbox after updates complete, quit"
 msgid "Quit"
 msgstr ""
 
-#: discover/qml/UpdatesPage.qml:313
+#: discover/qml/UpdatesPage.qml:306
 #, kde-format
 msgid "Total size: %1"
 msgstr "Total størrelse: %1"
 
-#: discover/qml/UpdatesPage.qml:343
+#: discover/qml/UpdatesPage.qml:336
 #, kde-format
 msgctxt "@action:button"
 msgid "Restart and Install Updates"
 msgstr ""
 
-#: discover/qml/UpdatesPage.qml:534
+#: discover/qml/UpdatesPage.qml:527
 #, kde-format
 msgid "Installing"
 msgstr "Installerer"
 
-#: discover/qml/UpdatesPage.qml:550
+#: discover/qml/UpdatesPage.qml:543
 #, kde-format
 msgctxt "@info This update is from the following source"
 msgid "From:"
 msgstr ""
 
-#: discover/qml/UpdatesPage.qml:567
+#: discover/qml/UpdatesPage.qml:560
 #, kde-format
 msgctxt ""
 "%1 is the backend that provides this app, %2 is the specific repository or "
@@ -1528,51 +1522,51 @@ msgctxt ""
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: discover/qml/UpdatesPage.qml:579
+#: discover/qml/UpdatesPage.qml:572
 #, fuzzy, kde-format
 #| msgid "More Information…"
 msgctxt "@action:button minimize the length of this label"
 msgid "More Info…"
 msgstr "Mer informasjon …"
 
-#: discover/qml/UpdatesPage.qml:652
+#: discover/qml/UpdatesPage.qml:645
 #, kde-format
 msgctxt "@info"
 msgid "Fetching updates…"
 msgstr "Henter oppdateringer …"
 
-#: discover/qml/UpdatesPage.qml:667
+#: discover/qml/UpdatesPage.qml:660
 #, kde-format
 msgctxt "@info"
 msgid "Updates"
 msgstr "Oppdateringer"
 
-#: discover/qml/UpdatesPage.qml:677
+#: discover/qml/UpdatesPage.qml:670
 #, kde-format
 msgctxt "@info"
 msgid "Updates will be installed after the system is restarted"
 msgstr ""
 
-#: discover/qml/UpdatesPage.qml:679
+#: discover/qml/UpdatesPage.qml:672
 #, kde-format
 msgctxt "@info"
 msgid "You can keep using the system if you're not ready to restart yet."
 msgstr ""
 
-#: discover/qml/UpdatesPage.qml:684 discover/qml/UpdatesPage.qml:691
-#: discover/qml/UpdatesPage.qml:698
+#: discover/qml/UpdatesPage.qml:677 discover/qml/UpdatesPage.qml:684
+#: discover/qml/UpdatesPage.qml:691
 #, kde-format
 msgctxt "@info"
 msgid "Up to date"
 msgstr "Oppdatert"
 
-#: discover/qml/UpdatesPage.qml:705
+#: discover/qml/UpdatesPage.qml:698
 #, kde-format
 msgctxt "@info"
 msgid "Should check for updates"
 msgstr "Se etter oppdateringer"
 
-#: discover/qml/UpdatesPage.qml:712
+#: discover/qml/UpdatesPage.qml:705
 #, kde-format
 msgctxt "@info"
 msgid "Time of last update unknown"

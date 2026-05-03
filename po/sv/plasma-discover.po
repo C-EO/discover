@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-02 00:45+0000\n"
+"POT-Creation-Date: 2026-05-03 00:45+0000\n"
 "PO-Revision-Date: 2026-01-22 17:09+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -285,7 +285,7 @@ msgstr "Lägg till"
 #: discover/qml/AddSourceDialog.qml:50 discover/qml/DiscoverWindow.qml:286
 #: discover/qml/InstallApplicationButton.qml:51
 #: discover/qml/ProgressView.qml:152 discover/qml/SourcesPage.qml:201
-#: discover/qml/UpdatesPage.qml:323 discover/qml/WebflowDialog.qml:41
+#: discover/qml/UpdatesPage.qml:316 discover/qml/WebflowDialog.qml:41
 #, kde-format
 msgid "Cancel"
 msgstr "Avbryt"
@@ -1517,43 +1517,35 @@ msgctxt "@info"
 msgid "A pending update will be installed when restarting the system."
 msgstr "Uppdateringarna installeras efter systemet har startats om"
 
-#: discover/qml/UpdatesPage.qml:193
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid "Reboot"
-msgctxt "@action:button"
-msgid "Reboot now"
-msgstr "Starta om"
-
-#: discover/qml/UpdatesPage.qml:217
+#: discover/qml/UpdatesPage.qml:210
 #, kde-format
 msgid "Ignore"
 msgstr "Ignorera"
 
-#: discover/qml/UpdatesPage.qml:267
+#: discover/qml/UpdatesPage.qml:260
 #, kde-format
 msgid "Select All"
 msgstr "Markera alla"
 
-#: discover/qml/UpdatesPage.qml:275
+#: discover/qml/UpdatesPage.qml:268
 #, kde-format
 msgid "Select None"
 msgstr "Avmarkera alla"
 
-#: discover/qml/UpdatesPage.qml:294
+#: discover/qml/UpdatesPage.qml:287
 #, fuzzy, kde-format
 #| msgid "updates not selected"
 msgctxt "@info After updates complete, shut down/restart/quit"
 msgid "After updates complete:"
 msgstr "uppdateringar ej markerade"
 
-#: discover/qml/UpdatesPage.qml:300
+#: discover/qml/UpdatesPage.qml:293
 #, kde-format
 msgctxt "@item:inlistbox after updates complete, do nothing"
 msgid "Do nothing"
 msgstr ""
 
-#: discover/qml/UpdatesPage.qml:301
+#: discover/qml/UpdatesPage.qml:294
 #, fuzzy, kde-format
 #| msgctxt "@item:inlistbox"
 #| msgid "Restart"
@@ -1561,7 +1553,7 @@ msgctxt "@item:inlistbox after updates complete, restart"
 msgid "Restart"
 msgstr "Starta om"
 
-#: discover/qml/UpdatesPage.qml:302
+#: discover/qml/UpdatesPage.qml:295
 #, fuzzy, kde-format
 #| msgctxt "@item:inlistbox"
 #| msgid "Shut down"
@@ -1569,29 +1561,29 @@ msgctxt "@item:inlistbox after updates complete, shut down"
 msgid "Shut down"
 msgstr "Stäng av"
 
-#: discover/qml/UpdatesPage.qml:303
+#: discover/qml/UpdatesPage.qml:296
 #, kde-format
 msgctxt "@item:inlistbox after updates complete, quit"
 msgid "Quit"
 msgstr ""
 
-#: discover/qml/UpdatesPage.qml:313
+#: discover/qml/UpdatesPage.qml:306
 #, kde-format
 msgid "Total size: %1"
 msgstr "Total storlek: %1"
 
-#: discover/qml/UpdatesPage.qml:343
+#: discover/qml/UpdatesPage.qml:336
 #, kde-format
 msgctxt "@action:button"
 msgid "Restart and Install Updates"
 msgstr "Starta om och installera uppdateringar"
 
-#: discover/qml/UpdatesPage.qml:534
+#: discover/qml/UpdatesPage.qml:527
 #, kde-format
 msgid "Installing"
 msgstr "Installerar"
 
-#: discover/qml/UpdatesPage.qml:550
+#: discover/qml/UpdatesPage.qml:543
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "@item:inlistbox %1 is the name of an app source e.g. \"Flathub\" or "
@@ -1601,7 +1593,7 @@ msgctxt "@info This update is from the following source"
 msgid "From:"
 msgstr "Från %1"
 
-#: discover/qml/UpdatesPage.qml:567
+#: discover/qml/UpdatesPage.qml:560
 #, kde-format
 msgctxt ""
 "%1 is the backend that provides this app, %2 is the specific repository or "
@@ -1609,56 +1601,63 @@ msgctxt ""
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: discover/qml/UpdatesPage.qml:579
+#: discover/qml/UpdatesPage.qml:572
 #, fuzzy, kde-format
 #| msgid "More Information…"
 msgctxt "@action:button minimize the length of this label"
 msgid "More Info…"
 msgstr "Mer information…"
 
-#: discover/qml/UpdatesPage.qml:652
+#: discover/qml/UpdatesPage.qml:645
 #, kde-format
 msgctxt "@info"
 msgid "Fetching updates…"
 msgstr "Hämtar uppdateringar…"
 
-#: discover/qml/UpdatesPage.qml:667
+#: discover/qml/UpdatesPage.qml:660
 #, kde-format
 msgctxt "@info"
 msgid "Updates"
 msgstr "Uppdateringar"
 
-#: discover/qml/UpdatesPage.qml:677
+#: discover/qml/UpdatesPage.qml:670
 #, kde-format
 msgctxt "@info"
 msgid "Updates will be installed after the system is restarted"
 msgstr "Uppdateringarna installeras efter systemet har startats om"
 
-#: discover/qml/UpdatesPage.qml:679
+#: discover/qml/UpdatesPage.qml:672
 #, kde-format
 msgctxt "@info"
 msgid "You can keep using the system if you're not ready to restart yet."
 msgstr ""
 "Du kan fortsätta använda systemet om du inte är redo att starta om ännu."
 
-#: discover/qml/UpdatesPage.qml:684 discover/qml/UpdatesPage.qml:691
-#: discover/qml/UpdatesPage.qml:698
+#: discover/qml/UpdatesPage.qml:677 discover/qml/UpdatesPage.qml:684
+#: discover/qml/UpdatesPage.qml:691
 #, kde-format
 msgctxt "@info"
 msgid "Up to date"
 msgstr "Uppdaterad"
 
-#: discover/qml/UpdatesPage.qml:705
+#: discover/qml/UpdatesPage.qml:698
 #, kde-format
 msgctxt "@info"
 msgid "Should check for updates"
 msgstr "Bör kontrollera uppdateringar"
 
-#: discover/qml/UpdatesPage.qml:712
+#: discover/qml/UpdatesPage.qml:705
 #, kde-format
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "Tid för senaste uppdatering okänd"
+
+#, fuzzy
+#~| msgctxt "@info"
+#~| msgid "Reboot"
+#~ msgctxt "@action:button"
+#~ msgid "Reboot now"
+#~ msgstr "Starta om"
 
 #~ msgctxt "Separator between license labels e.g. 'GPL-3.0, Proprietary'"
 #~ msgid ","

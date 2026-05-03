@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extragear-sysadmin-kde4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-02 00:45+0000\n"
-"PO-Revision-Date: 2026-04-29 14:42+0300\n"
+"POT-Creation-Date: 2026-05-03 00:45+0000\n"
+"PO-Revision-Date: 2026-05-02 18:54+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -286,7 +286,7 @@ msgstr "Ekle"
 #: discover/qml/AddSourceDialog.qml:50 discover/qml/DiscoverWindow.qml:286
 #: discover/qml/InstallApplicationButton.qml:51
 #: discover/qml/ProgressView.qml:152 discover/qml/SourcesPage.qml:201
-#: discover/qml/UpdatesPage.qml:323 discover/qml/WebflowDialog.qml:41
+#: discover/qml/UpdatesPage.qml:316 discover/qml/WebflowDialog.qml:41
 #, kde-format
 msgid "Cancel"
 msgstr "İptal"
@@ -885,7 +885,7 @@ msgstr "Güvenlik güncellemeleri kullanılabilir"
 #: discover/qml/DiscoverDrawer.qml:162
 #, kde-format
 msgid "Updates available"
-msgstr "Güncellemeler kullanılabilir"
+msgstr "Kullanılabilir güncelleştirmeler var"
 
 #: discover/qml/DiscoverWindow.qml:48
 #, kde-format
@@ -1507,80 +1507,74 @@ msgctxt "@info"
 msgid "A pending update will be installed when restarting the system."
 msgstr "Sistem yeniden başlatılırken, bekleyen bir güncelleme de kurulacak."
 
-#: discover/qml/UpdatesPage.qml:193
-#, kde-format
-msgctxt "@action:button"
-msgid "Reboot now"
-msgstr "Şimdi Yeniden Başlat"
-
-#: discover/qml/UpdatesPage.qml:217
+#: discover/qml/UpdatesPage.qml:210
 #, kde-format
 msgid "Ignore"
 msgstr "Yok Say"
 
-#: discover/qml/UpdatesPage.qml:267
+#: discover/qml/UpdatesPage.qml:260
 #, kde-format
 msgid "Select All"
 msgstr "Tümünü Seç"
 
-#: discover/qml/UpdatesPage.qml:275
+#: discover/qml/UpdatesPage.qml:268
 #, kde-format
 msgid "Select None"
 msgstr "Seçimleri Kaldır"
 
-#: discover/qml/UpdatesPage.qml:294
+#: discover/qml/UpdatesPage.qml:287
 #, kde-format
 msgctxt "@info After updates complete, shut down/restart/quit"
 msgid "After updates complete:"
 msgstr "Güncellemeler tamamlandıktan sonra:"
 
-#: discover/qml/UpdatesPage.qml:300
+#: discover/qml/UpdatesPage.qml:293
 #, kde-format
 msgctxt "@item:inlistbox after updates complete, do nothing"
 msgid "Do nothing"
 msgstr "Bir şey yapma"
 
-#: discover/qml/UpdatesPage.qml:301
+#: discover/qml/UpdatesPage.qml:294
 #, kde-format
 msgctxt "@item:inlistbox after updates complete, restart"
 msgid "Restart"
 msgstr "Yeniden başlat"
 
-#: discover/qml/UpdatesPage.qml:302
+#: discover/qml/UpdatesPage.qml:295
 #, kde-format
 msgctxt "@item:inlistbox after updates complete, shut down"
 msgid "Shut down"
 msgstr "Kapat"
 
-#: discover/qml/UpdatesPage.qml:303
+#: discover/qml/UpdatesPage.qml:296
 #, kde-format
 msgctxt "@item:inlistbox after updates complete, quit"
 msgid "Quit"
 msgstr "Çık"
 
-#: discover/qml/UpdatesPage.qml:313
+#: discover/qml/UpdatesPage.qml:306
 #, kde-format
 msgid "Total size: %1"
 msgstr "Toplam boyut: %1"
 
-#: discover/qml/UpdatesPage.qml:343
+#: discover/qml/UpdatesPage.qml:336
 #, kde-format
 msgctxt "@action:button"
 msgid "Restart and Install Updates"
 msgstr "Yeniden Başlat ve Kur"
 
-#: discover/qml/UpdatesPage.qml:534
+#: discover/qml/UpdatesPage.qml:527
 #, kde-format
 msgid "Installing"
 msgstr "Kuruluyor"
 
-#: discover/qml/UpdatesPage.qml:550
+#: discover/qml/UpdatesPage.qml:543
 #, kde-format
 msgctxt "@info This update is from the following source"
 msgid "From:"
 msgstr "Kaynak:"
 
-#: discover/qml/UpdatesPage.qml:567
+#: discover/qml/UpdatesPage.qml:560
 #, kde-format
 msgctxt ""
 "%1 is the backend that provides this app, %2 is the specific repository or "
@@ -1588,31 +1582,31 @@ msgctxt ""
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: discover/qml/UpdatesPage.qml:579
+#: discover/qml/UpdatesPage.qml:572
 #, kde-format
 msgctxt "@action:button minimize the length of this label"
 msgid "More Info…"
 msgstr "Ek Bilgi…"
 
-#: discover/qml/UpdatesPage.qml:652
+#: discover/qml/UpdatesPage.qml:645
 #, kde-format
 msgctxt "@info"
 msgid "Fetching updates…"
 msgstr "Güncellemeler alınıyor…"
 
-#: discover/qml/UpdatesPage.qml:667
+#: discover/qml/UpdatesPage.qml:660
 #, kde-format
 msgctxt "@info"
 msgid "Updates"
 msgstr "Güncellemeler"
 
-#: discover/qml/UpdatesPage.qml:677
+#: discover/qml/UpdatesPage.qml:670
 #, kde-format
 msgctxt "@info"
 msgid "Updates will be installed after the system is restarted"
-msgstr "Güncellemeler sistem yeniden başlatıldıktan sonra kurulacak."
+msgstr "Güncellemeler sistem yeniden başlatıldıktan sonra kurulacak"
 
-#: discover/qml/UpdatesPage.qml:679
+#: discover/qml/UpdatesPage.qml:672
 #, kde-format
 msgctxt "@info"
 msgid "You can keep using the system if you're not ready to restart yet."
@@ -1620,24 +1614,28 @@ msgstr ""
 "Henüz yeniden başlatmaya hazır değilseniz sisteminizi kullanmayı "
 "sürdürebilirsiniz."
 
-#: discover/qml/UpdatesPage.qml:684 discover/qml/UpdatesPage.qml:691
-#: discover/qml/UpdatesPage.qml:698
+#: discover/qml/UpdatesPage.qml:677 discover/qml/UpdatesPage.qml:684
+#: discover/qml/UpdatesPage.qml:691
 #, kde-format
 msgctxt "@info"
 msgid "Up to date"
 msgstr "Sisteminiz güncel"
 
-#: discover/qml/UpdatesPage.qml:705
+#: discover/qml/UpdatesPage.qml:698
 #, kde-format
 msgctxt "@info"
 msgid "Should check for updates"
 msgstr "Güncellemeler denetlenmeli"
 
-#: discover/qml/UpdatesPage.qml:712
+#: discover/qml/UpdatesPage.qml:705
 #, kde-format
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "Son güncelleme zamanı bilinmiyor"
+
+#~ msgctxt "@action:button"
+#~ msgid "Reboot now"
+#~ msgstr "Şimdi Yeniden Başlat"
 
 #~ msgctxt "Separator between license labels e.g. 'GPL-3.0, Proprietary'"
 #~ msgid ","
