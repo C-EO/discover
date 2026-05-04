@@ -57,7 +57,7 @@ UserFeedback.Provider {
     }
 
     onShowEncouragementMessage: {
-        showPassiveNotification(i18n("You can help us improving this application by sharing statistics and participate in surveys."), 5000, i18n("Contribute…"), encouraged)
+        showPassiveNotification(i18n("You can help KDE improve Discover by sharing anonymous information on how you use it."), 5000, i18n("Contribute…"), encouraged)
     }
 
     onSurveyAvailable: {
