@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extragear-sysadmin-kde4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-03 00:45+0000\n"
+"POT-Creation-Date: 2026-05-05 00:45+0000\n"
 "PO-Revision-Date: 2026-05-02 18:54+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -1041,11 +1041,9 @@ msgstr "Güncellemeleri Yapılandır…"
 #: discover/qml/Feedback.qml:60
 #, kde-format
 msgid ""
-"You can help us improving this application by sharing statistics and "
-"participate in surveys."
+"You can help KDE improve Discover by sharing anonymous information on how "
+"you use it."
 msgstr ""
-"İstatistikleri paylaşarak ve anketlere katılarak bu uygulamayı "
-"geliştirmemize yardımcı olabilirsiniz."
 
 #: discover/qml/Feedback.qml:60
 #, kde-format
@@ -1632,6 +1630,13 @@ msgstr "Güncellemeler denetlenmeli"
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "Son güncelleme zamanı bilinmiyor"
+
+#~ msgid ""
+#~ "You can help us improving this application by sharing statistics and "
+#~ "participate in surveys."
+#~ msgstr ""
+#~ "İstatistikleri paylaşarak ve anketlere katılarak bu uygulamayı "
+#~ "geliştirmemize yardımcı olabilirsiniz."
 
 #~ msgctxt "@action:button"
 #~ msgid "Reboot now"

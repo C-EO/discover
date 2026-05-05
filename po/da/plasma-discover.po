@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-03 00:45+0000\n"
+"POT-Creation-Date: 2026-05-05 00:45+0000\n"
 "PO-Revision-Date: 2025-08-20 23:07+0200\n"
 "Last-Translator: Rasmus Rosendahl-Kaa <Rasmus@Rosendahl-kaa.name>\n"
 "Language-Team: Danish <kde-i18n-doc@kde.org>\n"
@@ -1003,11 +1003,9 @@ msgstr "Indstil opdateringer…"
 #: discover/qml/Feedback.qml:60
 #, kde-format
 msgid ""
-"You can help us improving this application by sharing statistics and "
-"participate in surveys."
+"You can help KDE improve Discover by sharing anonymous information on how "
+"you use it."
 msgstr ""
-"Du kan hjælpe os med at forbedre dette program ved at dele statistik og "
-"deltage i undersøgelser."
 
 #: discover/qml/Feedback.qml:60
 #, kde-format
@@ -1588,6 +1586,13 @@ msgstr "Skal søge efter opdateringer"
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "Tidspunkt for sidste opdatering ukendt"
+
+#~ msgid ""
+#~ "You can help us improving this application by sharing statistics and "
+#~ "participate in surveys."
+#~ msgstr ""
+#~ "Du kan hjælpe os med at forbedre dette program ved at dele statistik og "
+#~ "deltage i undersøgelser."
 
 #, fuzzy
 #~| msgctxt "@info"

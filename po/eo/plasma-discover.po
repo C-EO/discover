@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-03 00:45+0000\n"
+"POT-Creation-Date: 2026-05-05 00:45+0000\n"
 "PO-Revision-Date: 2025-03-15 10:38+0100\n"
 "Last-Translator: Oliver Kellogg <olivermkellogg@gmail.com>\n"
 "Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
@@ -1034,11 +1034,9 @@ msgstr "Agordi Ĝisdatigojn…"
 #: discover/qml/Feedback.qml:60
 #, kde-format
 msgid ""
-"You can help us improving this application by sharing statistics and "
-"participate in surveys."
+"You can help KDE improve Discover by sharing anonymous information on how "
+"you use it."
 msgstr ""
-"Vi povas helpi nin plibonigi ĉi tiun aplikaĵon dividante statistikojn kaj "
-"partoprenante enketojn."
 
 #: discover/qml/Feedback.qml:60
 #, kde-format
@@ -1617,6 +1615,13 @@ msgstr "Devus kontroli ĝisdatigojn"
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "Tempo de lasta ĝisdatigo nekonata"
+
+#~ msgid ""
+#~ "You can help us improving this application by sharing statistics and "
+#~ "participate in surveys."
+#~ msgstr ""
+#~ "Vi povas helpi nin plibonigi ĉi tiun aplikaĵon dividante statistikojn kaj "
+#~ "partoprenante enketojn."
 
 #~ msgctxt "Separator between license labels e.g. 'GPL-3.0, Proprietary'"
 #~ msgid ","

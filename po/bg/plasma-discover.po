@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-03 00:45+0000\n"
+"POT-Creation-Date: 2026-05-05 00:45+0000\n"
 "PO-Revision-Date: 2026-04-03 01:25+0200\n"
 "Last-Translator: Mincho Kondarev <mkondarev@yahoo.de>\n"
 "Language-Team: Bulgarian <kde-i18n-doc@kde.org>\n"
@@ -1050,11 +1050,9 @@ msgstr "Конфигуриране на актуализациите…"
 #: discover/qml/Feedback.qml:60
 #, kde-format
 msgid ""
-"You can help us improving this application by sharing statistics and "
-"participate in surveys."
+"You can help KDE improve Discover by sharing anonymous information on how "
+"you use it."
 msgstr ""
-"Можете да ни помогнете да подобрим това приложение, като споделяте "
-"статистически данни и участвате в анкети."
 
 #: discover/qml/Feedback.qml:60
 #, kde-format
@@ -1653,6 +1651,13 @@ msgstr "Трябва да проверите за актуализации"
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "Неизвестно време от последното актуализиране"
+
+#~ msgid ""
+#~ "You can help us improving this application by sharing statistics and "
+#~ "participate in surveys."
+#~ msgstr ""
+#~ "Можете да ни помогнете да подобрим това приложение, като споделяте "
+#~ "статистически данни и участвате в анкети."
 
 #~ msgctxt "Separator between license labels e.g. 'GPL-3.0, Proprietary'"
 #~ msgid ","

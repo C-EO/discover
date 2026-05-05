@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-03 00:45+0000\n"
+"POT-Creation-Date: 2026-05-05 00:45+0000\n"
 "PO-Revision-Date: 2026-04-29 09:39+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -1046,11 +1046,9 @@ msgstr "Nastavi posodobitve …"
 #: discover/qml/Feedback.qml:60
 #, kde-format
 msgid ""
-"You can help us improving this application by sharing statistics and "
-"participate in surveys."
+"You can help KDE improve Discover by sharing anonymous information on how "
+"you use it."
 msgstr ""
-"Lahko nam pomagate izboljšati ta program z deljenjem statistik in "
-"sodelovanjem pri anketah."
 
 #: discover/qml/Feedback.qml:60
 #, kde-format
@@ -1635,6 +1633,13 @@ msgstr "Preveriti bi morali za posodobitvami"
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "Čas zadnje posodobitve je neznan"
+
+#~ msgid ""
+#~ "You can help us improving this application by sharing statistics and "
+#~ "participate in surveys."
+#~ msgstr ""
+#~ "Lahko nam pomagate izboljšati ta program z deljenjem statistik in "
+#~ "sodelovanjem pri anketah."
 
 #~ msgctxt "@action:button"
 #~ msgid "Reboot now"

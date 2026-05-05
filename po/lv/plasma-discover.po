@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-03 00:45+0000\n"
+"POT-Creation-Date: 2026-05-05 00:45+0000\n"
 "PO-Revision-Date: 2026-02-06 14:30+0200\n"
 "Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
 "Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
@@ -1056,11 +1056,9 @@ msgstr "Konfigurēt atjauninājumus…"
 #: discover/qml/Feedback.qml:60
 #, kde-format
 msgid ""
-"You can help us improving this application by sharing statistics and "
-"participate in surveys."
+"You can help KDE improve Discover by sharing anonymous information on how "
+"you use it."
 msgstr ""
-"Varat palīdzēt uzlabot šo programmu, daloties ar statistiku un piedaloties "
-"aptaujās."
 
 #: discover/qml/Feedback.qml:60
 #, kde-format
@@ -1651,6 +1649,13 @@ msgstr "Jāpārbauda atjauninājumi"
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "Pēdējās atjaunināšanas laiks nav zināms"
+
+#~ msgid ""
+#~ "You can help us improving this application by sharing statistics and "
+#~ "participate in surveys."
+#~ msgstr ""
+#~ "Varat palīdzēt uzlabot šo programmu, daloties ar statistiku un "
+#~ "piedaloties aptaujās."
 
 #~ msgctxt "Separator between license labels e.g. 'GPL-3.0, Proprietary'"
 #~ msgid ","

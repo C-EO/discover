@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-03 00:45+0000\n"
+"POT-Creation-Date: 2026-05-05 00:45+0000\n"
 "PO-Revision-Date: 2026-04-26 23:04+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -1013,11 +1013,9 @@ msgstr "업데이트 설정…"
 #: discover/qml/Feedback.qml:60
 #, kde-format
 msgid ""
-"You can help us improving this application by sharing statistics and "
-"participate in surveys."
+"You can help KDE improve Discover by sharing anonymous information on how "
+"you use it."
 msgstr ""
-"통계를 공유하고 설문 조사에 참여하여 이 앱을 개선하는 데 도움을 줄 수 있습니"
-"다."
 
 #: discover/qml/Feedback.qml:60
 #, kde-format
@@ -1600,6 +1598,13 @@ msgstr "업데이트 확인 여부"
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "마지막 업데이트 시간 알 수 없음"
+
+#~ msgid ""
+#~ "You can help us improving this application by sharing statistics and "
+#~ "participate in surveys."
+#~ msgstr ""
+#~ "통계를 공유하고 설문 조사에 참여하여 이 앱을 개선하는 데 도움을 줄 수 있습"
+#~ "니다."
 
 #~ msgctxt "Separator between license labels e.g. 'GPL-3.0, Proprietary'"
 #~ msgid ","

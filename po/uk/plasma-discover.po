@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-03 00:45+0000\n"
+"POT-Creation-Date: 2026-05-05 00:45+0000\n"
 "PO-Revision-Date: 2026-04-29 08:34+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
@@ -1057,11 +1057,9 @@ msgstr "Налаштувати оновлення…"
 #: discover/qml/Feedback.qml:60
 #, kde-format
 msgid ""
-"You can help us improving this application by sharing statistics and "
-"participate in surveys."
+"You can help KDE improve Discover by sharing anonymous information on how "
+"you use it."
 msgstr ""
-"Ви можете допомогти у поліпшенні цієї програми, поділившись статистичними "
-"даними та взявши участь у опитуванні."
 
 #: discover/qml/Feedback.qml:60
 #, kde-format
@@ -1650,6 +1648,13 @@ msgstr "Слід перевірити на оновлення"
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "Момент останнього оновлення є невідомим"
+
+#~ msgid ""
+#~ "You can help us improving this application by sharing statistics and "
+#~ "participate in surveys."
+#~ msgstr ""
+#~ "Ви можете допомогти у поліпшенні цієї програми, поділившись статистичними "
+#~ "даними та взявши участь у опитуванні."
 
 #~ msgctxt "@action:button"
 #~ msgid "Reboot now"

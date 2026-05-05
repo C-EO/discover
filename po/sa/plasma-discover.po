@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-03 00:45+0000\n"
+"POT-Creation-Date: 2026-05-05 00:45+0000\n"
 "PO-Revision-Date: 2024-12-24 20:39+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -1053,11 +1053,9 @@ msgstr "अद्यतनं विन्यस्यताम्…"
 #: discover/qml/Feedback.qml:60
 #, kde-format
 msgid ""
-"You can help us improving this application by sharing statistics and "
-"participate in surveys."
+"You can help KDE improve Discover by sharing anonymous information on how "
+"you use it."
 msgstr ""
-"आँकडानां साझेदारी कृत्वा सर्वेक्षणेषु भागं ग्रहीतुं च भवान् अस्मान् अस्य अनुप्रयोगस्य उन्नयनार्थं "
-"साहाय्यं कर्तुं शक्नोति।."
 
 #: discover/qml/Feedback.qml:60
 #, kde-format
@@ -1649,6 +1647,13 @@ msgstr "अद्यतनं अन्वेष्टव्यम्"
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "अन्तिम-अद्यतनस्य समयः अज्ञातः"
+
+#~ msgid ""
+#~ "You can help us improving this application by sharing statistics and "
+#~ "participate in surveys."
+#~ msgstr ""
+#~ "आँकडानां साझेदारी कृत्वा सर्वेक्षणेषु भागं ग्रहीतुं च भवान् अस्मान् अस्य अनुप्रयोगस्य उन्नयनार्थं "
+#~ "साहाय्यं कर्तुं शक्नोति।."
 
 #~ msgctxt "Separator between license labels e.g. 'GPL-3.0, Proprietary'"
 #~ msgid ","

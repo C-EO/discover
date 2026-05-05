@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: muon-discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-03 00:45+0000\n"
+"POT-Creation-Date: 2026-05-05 00:45+0000\n"
 "PO-Revision-Date: 2026-02-03 22:30+0000\n"
 "Last-Translator: César A. P. Cláudio <cesarapclaudio@gmail.com>\n"
 "Language-Team: pt\n"
@@ -1064,11 +1064,9 @@ msgstr "Configurar atualizações…"
 #: discover/qml/Feedback.qml:60
 #, kde-format
 msgid ""
-"You can help us improving this application by sharing statistics and "
-"participate in surveys."
+"You can help KDE improve Discover by sharing anonymous information on how "
+"you use it."
 msgstr ""
-"Pode ajudar-nos a melhorar esta aplicação ao partilhar estatísticas e "
-"participar em inquéritos."
 
 #: discover/qml/Feedback.qml:60
 #, kde-format
@@ -1661,6 +1659,13 @@ msgstr "Deve verificar se existem atualizações"
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "Altura da última atualização desconhecida"
+
+#~ msgid ""
+#~ "You can help us improving this application by sharing statistics and "
+#~ "participate in surveys."
+#~ msgstr ""
+#~ "Pode ajudar-nos a melhorar esta aplicação ao partilhar estatísticas e "
+#~ "participar em inquéritos."
 
 #~ msgctxt "Separator between license labels e.g. 'GPL-3.0, Proprietary'"
 #~ msgid ","

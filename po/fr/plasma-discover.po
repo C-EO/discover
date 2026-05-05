@@ -15,8 +15,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: muon-discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-03 00:45+0000\n"
-"PO-Revision-Date: 2026-04-30 07:55+0200\n"
+"POT-Creation-Date: 2026-05-05 00:45+0000\n"
+"PO-Revision-Date: 2026-05-03 16:35+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: fr\n"
 "Language: fr\n"
@@ -895,13 +895,13 @@ msgstr "Fermer"
 #, kde-format
 msgctxt "@action:button"
 msgid "Previous Screenshot"
-msgstr "Copie d'écran précédente"
+msgstr "Capture d'écran précédente"
 
 #: discover/qml/CarouselNavigationButton.qml:56
 #, kde-format
 msgctxt "@action:button"
 msgid "Next Screenshot"
-msgstr "Copie d'écran suivante"
+msgstr "Capture d'écran suivante"
 
 #: discover/qml/DiscoverDrawer.qml:161
 #, kde-format
@@ -1071,11 +1071,9 @@ msgstr "Configurer les mises à jour…"
 #: discover/qml/Feedback.qml:60
 #, kde-format
 msgid ""
-"You can help us improving this application by sharing statistics and "
-"participate in surveys."
+"You can help KDE improve Discover by sharing anonymous information on how "
+"you use it."
 msgstr ""
-"Vous pouvez nous aider à améliorer cette application en partageant des "
-"statistiques et en participant à des enquêtes."
 
 #: discover/qml/Feedback.qml:60
 #, kde-format
@@ -1671,6 +1669,13 @@ msgstr "Vous devriez vérifier les mises à jour"
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "Date inconnue de la dernière mise à jour"
+
+#~ msgid ""
+#~ "You can help us improving this application by sharing statistics and "
+#~ "participate in surveys."
+#~ msgstr ""
+#~ "Vous pouvez nous aider à améliorer cette application en partageant des "
+#~ "statistiques et en participant à des enquêtes."
 
 #~ msgctxt "@action:button"
 #~ msgid "Reboot now"

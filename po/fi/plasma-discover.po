@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: muon-discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-03 00:45+0000\n"
+"POT-Creation-Date: 2026-05-05 00:45+0000\n"
 "PO-Revision-Date: 2026-02-26 10:40+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -1052,12 +1052,9 @@ msgstr "Päivitysasetukset…"
 #: discover/qml/Feedback.qml:60
 #, kde-format
 msgid ""
-"You can help us improving this application by sharing statistics and "
-"participate in surveys."
+"You can help KDE improve Discover by sharing anonymous information on how "
+"you use it."
 msgstr ""
-"Voit auttaa meitä parantamaan tätä sovellusta jakamalla tilastoja ja "
-"osallistumalla kyselyihin.Voit auttaa meitä parantamaan tätä sovellusta "
-"jakamalla tilastoja ja osallistumalla kyselyihin."
 
 #: discover/qml/Feedback.qml:60
 #, kde-format
@@ -1651,6 +1648,14 @@ msgstr "Päivitykset tulisi tarkistaa"
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "Viimeisin päivitysaika ei ole tiedossa"
+
+#~ msgid ""
+#~ "You can help us improving this application by sharing statistics and "
+#~ "participate in surveys."
+#~ msgstr ""
+#~ "Voit auttaa meitä parantamaan tätä sovellusta jakamalla tilastoja ja "
+#~ "osallistumalla kyselyihin.Voit auttaa meitä parantamaan tätä sovellusta "
+#~ "jakamalla tilastoja ja osallistumalla kyselyihin."
 
 #, fuzzy
 #~| msgctxt "@info"

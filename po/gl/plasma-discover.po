@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-03 00:45+0000\n"
+"POT-Creation-Date: 2026-05-05 00:45+0000\n"
 "PO-Revision-Date: 2025-05-22 13:02+0200\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.gal>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
@@ -1070,11 +1070,9 @@ msgstr "Configurar as actualizacións…"
 #: discover/qml/Feedback.qml:60
 #, kde-format
 msgid ""
-"You can help us improving this application by sharing statistics and "
-"participate in surveys."
+"You can help KDE improve Discover by sharing anonymous information on how "
+"you use it."
 msgstr ""
-"Pode compartir estatísticas e participar en enquisas para axudarnos a "
-"mellorar a aplicación."
 
 #: discover/qml/Feedback.qml:60
 #, kde-format
@@ -1678,6 +1676,13 @@ msgstr "Debería comprobar se hai actualizacións."
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "Descoñécese a hora da última actualización"
+
+#~ msgid ""
+#~ "You can help us improving this application by sharing statistics and "
+#~ "participate in surveys."
+#~ msgstr ""
+#~ "Pode compartir estatísticas e participar en enquisas para axudarnos a "
+#~ "mellorar a aplicación."
 
 #, fuzzy
 #~| msgctxt "@info"

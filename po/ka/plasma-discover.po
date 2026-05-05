@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-03 00:45+0000\n"
+"POT-Creation-Date: 2026-05-05 00:45+0000\n"
 "PO-Revision-Date: 2026-04-29 05:45+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -1029,11 +1029,9 @@ msgstr "განახლებების მორგება…"
 #: discover/qml/Feedback.qml:60
 #, kde-format
 msgid ""
-"You can help us improving this application by sharing statistics and "
-"participate in surveys."
+"You can help KDE improve Discover by sharing anonymous information on how "
+"you use it."
 msgstr ""
-"თქვენი სტატისტიკის გაზიარებით შეგიძლიათ აპლიკაციების გაუმჯობესებაში "
-"დაგვეხმაროთ."
 
 #: discover/qml/Feedback.qml:60
 #, kde-format
@@ -1615,6 +1613,13 @@ msgstr "უნდა შემოწმდეს განახლებებ�
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "ბოლო განახლების თარიღი უცნობია"
+
+#~ msgid ""
+#~ "You can help us improving this application by sharing statistics and "
+#~ "participate in surveys."
+#~ msgstr ""
+#~ "თქვენი სტატისტიკის გაზიარებით შეგიძლიათ აპლიკაციების გაუმჯობესებაში "
+#~ "დაგვეხმაროთ."
 
 #~ msgctxt "@action:button"
 #~ msgid "Reboot now"

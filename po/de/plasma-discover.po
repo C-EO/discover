@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-03 00:45+0000\n"
+"POT-Creation-Date: 2026-05-05 00:45+0000\n"
 "PO-Revision-Date: 2026-04-15 19:26+0200\n"
 "Last-Translator: Alexander Becker <alex-at-kde-l10n-de@freenet.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -1066,11 +1066,9 @@ msgstr "Aktualisierungen einrichten …"
 #: discover/qml/Feedback.qml:60
 #, kde-format
 msgid ""
-"You can help us improving this application by sharing statistics and "
-"participate in surveys."
+"You can help KDE improve Discover by sharing anonymous information on how "
+"you use it."
 msgstr ""
-"Sie können dabei helfen, diese Anwendung zu verbessern, indem Sie "
-"statistische Daten teilen und an Umfragen teilnehmen."
 
 #: discover/qml/Feedback.qml:60
 #, kde-format
@@ -1665,6 +1663,13 @@ msgstr "Soll auf Aktualisierungen prüfen"
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "Zeit der letzten Aktualisierung unbekannt"
+
+#~ msgid ""
+#~ "You can help us improving this application by sharing statistics and "
+#~ "participate in surveys."
+#~ msgstr ""
+#~ "Sie können dabei helfen, diese Anwendung zu verbessern, indem Sie "
+#~ "statistische Daten teilen und an Umfragen teilnehmen."
 
 #, fuzzy
 #~| msgctxt "@info"

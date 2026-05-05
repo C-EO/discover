@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-03 00:45+0000\n"
+"POT-Creation-Date: 2026-05-05 00:45+0000\n"
 "PO-Revision-Date: 2026-04-03 20:16+0200\n"
 "Last-Translator: Alexander Yavorskiy <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -1081,12 +1081,9 @@ msgstr "Настроить параметры обновлений…"
 #: discover/qml/Feedback.qml:60
 #, kde-format
 msgid ""
-"You can help us improving this application by sharing statistics and "
-"participate in surveys."
+"You can help KDE improve Discover by sharing anonymous information on how "
+"you use it."
 msgstr ""
-"Предоставление доступа к своей статистке использования приложения и участие "
-"в проводимых опросах позволяет разработчикам понять, как возможно улучшить "
-"это приложение."
 
 #: discover/qml/Feedback.qml:60
 #, kde-format
@@ -1686,6 +1683,14 @@ msgstr "Требуется проверка наличия обновлений"
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "Время последнего обновления неизвестно"
+
+#~ msgid ""
+#~ "You can help us improving this application by sharing statistics and "
+#~ "participate in surveys."
+#~ msgstr ""
+#~ "Предоставление доступа к своей статистке использования приложения и "
+#~ "участие в проводимых опросах позволяет разработчикам понять, как возможно "
+#~ "улучшить это приложение."
 
 #, fuzzy
 #~| msgctxt "@info"

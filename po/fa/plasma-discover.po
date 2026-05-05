@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-03 00:45+0000\n"
+"POT-Creation-Date: 2026-05-05 00:45+0000\n"
 "PO-Revision-Date: 2025-09-19 22:14+0330\n"
 "Last-Translator: Sohrab Behdani <behdanisohrab@proton.me>\n"
 "Language-Team: fa\n"
@@ -1040,10 +1040,9 @@ msgstr "پیکربندی به‌روزرسانی‌ها…"
 #: discover/qml/Feedback.qml:60
 #, kde-format
 msgid ""
-"You can help us improving this application by sharing statistics and "
-"participate in surveys."
+"You can help KDE improve Discover by sharing anonymous information on how "
+"you use it."
 msgstr ""
-"می‌توانید با هم‌رسانی آمار و شرکت در همه‌پرسی‌ها به بهبود این برنامه کمک کنید."
 
 #: discover/qml/Feedback.qml:60
 #, kde-format
@@ -1637,6 +1636,12 @@ msgstr "باید برای به‌روزرسانی‌ها بررسی شود"
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "زمان آخرین به‌روزرسانی ناشناخته"
+
+#~ msgid ""
+#~ "You can help us improving this application by sharing statistics and "
+#~ "participate in surveys."
+#~ msgstr ""
+#~ "می‌توانید با هم‌رسانی آمار و شرکت در همه‌پرسی‌ها به بهبود این برنامه کمک کنید."
 
 #~ msgctxt "Separator between license labels e.g. 'GPL-3.0, Proprietary'"
 #~ msgid ","

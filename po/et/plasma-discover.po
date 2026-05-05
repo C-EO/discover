@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-03 00:45+0000\n"
+"POT-Creation-Date: 2026-05-05 00:45+0000\n"
 "PO-Revision-Date: 2020-10-11 01:25+0200\n"
 "Last-Translator: Mihkel Tõnnov <mihhkel@gmail.com>\n"
 "Language-Team: Estonian <>\n"
@@ -1014,11 +1014,9 @@ msgstr "Seadista tagasisidet ..."
 #: discover/qml/Feedback.qml:60
 #, kde-format
 msgid ""
-"You can help us improving this application by sharing statistics and "
-"participate in surveys."
+"You can help KDE improve Discover by sharing anonymous information on how "
+"you use it."
 msgstr ""
-"Sa võid aidata meil rakendust paremaks muuta, kui jagad meiega statistikat "
-"ja osaled uuringutes."
 
 #: discover/qml/Feedback.qml:60
 #, fuzzy, kde-format
@@ -1613,6 +1611,13 @@ msgstr "Tuleks kontrollida uuendusi"
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr ""
+
+#~ msgid ""
+#~ "You can help us improving this application by sharing statistics and "
+#~ "participate in surveys."
+#~ msgstr ""
+#~ "Sa võid aidata meil rakendust paremaks muuta, kui jagad meiega "
+#~ "statistikat ja osaled uuringutes."
 
 #~ msgid "Popularity"
 #~ msgstr "Menu"

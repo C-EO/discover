@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-03 00:45+0000\n"
+"POT-Creation-Date: 2026-05-05 00:45+0000\n"
 "PO-Revision-Date: 2026-04-30 13:43+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -1024,9 +1024,9 @@ msgstr "הגדרת עדכונים…"
 #: discover/qml/Feedback.qml:60
 #, kde-format
 msgid ""
-"You can help us improving this application by sharing statistics and "
-"participate in surveys."
-msgstr "ניתן לסייע לנו לשפר את היישום הזה בשיתוף הסטטיסטיקה והשתתפות בסקרים."
+"You can help KDE improve Discover by sharing anonymous information on how "
+"you use it."
+msgstr ""
 
 #: discover/qml/Feedback.qml:60
 #, kde-format
@@ -1607,6 +1607,12 @@ msgstr "צריך לבדוק אם יש עדכונים"
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "מועד העדכון האחרון לא ידוע"
+
+#~ msgid ""
+#~ "You can help us improving this application by sharing statistics and "
+#~ "participate in surveys."
+#~ msgstr ""
+#~ "ניתן לסייע לנו לשפר את היישום הזה בשיתוף הסטטיסטיקה והשתתפות בסקרים."
 
 #~ msgctxt "@action:button"
 #~ msgid "Reboot now"

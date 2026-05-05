@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: muon-discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-03 00:45+0000\n"
+"POT-Creation-Date: 2026-05-05 00:45+0000\n"
 "PO-Revision-Date: 2026-04-30 09:21+0200\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -1044,11 +1044,9 @@ msgstr "Configura gli aggiornamenti…"
 #: discover/qml/Feedback.qml:60
 #, kde-format
 msgid ""
-"You can help us improving this application by sharing statistics and "
-"participate in surveys."
+"You can help KDE improve Discover by sharing anonymous information on how "
+"you use it."
 msgstr ""
-"Puoi aiutarci a migliorare questa applicazione condividendo le statistiche e "
-"partecipando ai sondaggi."
 
 #: discover/qml/Feedback.qml:60
 #, kde-format
@@ -1637,6 +1635,13 @@ msgstr "Dovresti controllare gli aggiornamenti"
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "Ora dell'ultimo aggiornamento sconosciuta"
+
+#~ msgid ""
+#~ "You can help us improving this application by sharing statistics and "
+#~ "participate in surveys."
+#~ msgstr ""
+#~ "Puoi aiutarci a migliorare questa applicazione condividendo le "
+#~ "statistiche e partecipando ai sondaggi."
 
 #, fuzzy
 #~| msgctxt "@info"

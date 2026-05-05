@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: l 10n\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-03 00:45+0000\n"
+"POT-Creation-Date: 2026-05-05 00:45+0000\n"
 "PO-Revision-Date: 2026-04-30 20:42+0300\n"
 "Last-Translator: Moo\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
@@ -1058,11 +1058,9 @@ msgstr "Konfigūruoti atnaujinimus…"
 #: discover/qml/Feedback.qml:60
 #, kde-format
 msgid ""
-"You can help us improving this application by sharing statistics and "
-"participate in surveys."
+"You can help KDE improve Discover by sharing anonymous information on how "
+"you use it."
 msgstr ""
-"Galite mums padėti tobulinti šią programą, bendrindami statistiką ir "
-"dalyvaudami apklausose."
 
 #: discover/qml/Feedback.qml:60
 #, kde-format
@@ -1650,6 +1648,13 @@ msgstr "Turėtų būti tikrinama ar yra atnaujinimų"
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "Paskutinio atnaujinimo laikas nežinomas"
+
+#~ msgid ""
+#~ "You can help us improving this application by sharing statistics and "
+#~ "participate in surveys."
+#~ msgstr ""
+#~ "Galite mums padėti tobulinti šią programą, bendrindami statistiką ir "
+#~ "dalyvaudami apklausose."
 
 #~ msgctxt "@action:button"
 #~ msgid "Reboot now"

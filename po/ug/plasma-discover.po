@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: muon-discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-03 00:45+0000\n"
+"POT-Creation-Date: 2026-05-05 00:45+0000\n"
 "PO-Revision-Date: 2026-04-15 13:23-0400\n"
 "Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
 "Language-Team: Uyghur <kde-i18n-doc@kde.org>\n"
@@ -1055,11 +1055,9 @@ msgstr "يېڭىلاشنى سەپلە…"
 #: discover/qml/Feedback.qml:60
 #, kde-format
 msgid ""
-"You can help us improving this application by sharing statistics and "
-"participate in surveys."
+"You can help KDE improve Discover by sharing anonymous information on how "
+"you use it."
 msgstr ""
-"ئىستاتىستىكا ئۇچۇرىنى ھەمبەھىرلەش ۋە راي سىناشقا قاتنىشىش ئارقىلىق بۇ "
-"پىروگراممىنى ياخشىلىشىمىزغا ياردەم قىلالايسىز."
 
 #: discover/qml/Feedback.qml:60
 #, kde-format
@@ -1660,6 +1658,13 @@ msgstr "يېڭىلانمىنى تەكشۈرۈش زۆرۈر"
 msgctxt "@info"
 msgid "Time of last update unknown"
 msgstr "ئاخىرقى يېڭىلاش ۋاقتى نامەلۇم"
+
+#~ msgid ""
+#~ "You can help us improving this application by sharing statistics and "
+#~ "participate in surveys."
+#~ msgstr ""
+#~ "ئىستاتىستىكا ئۇچۇرىنى ھەمبەھىرلەش ۋە راي سىناشقا قاتنىشىش ئارقىلىق بۇ "
+#~ "پىروگراممىنى ياخشىلىشىمىزغا ياردەم قىلالايسىز."
 
 #~ msgctxt "Separator between license labels e.g. 'GPL-3.0, Proprietary'"
 #~ msgid ","
